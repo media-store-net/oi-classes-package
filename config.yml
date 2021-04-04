@@ -4,11 +4,11 @@
 
 xsd2php:
   namespaces:
-    '': 'MediaStoreNet\OpenImmo'
+    '': 'MediaStoreNet\OpenImmo\Classes'
   destinations_php:
-    'MediaStoreNet\OpenImmo': src/classes
+    'MediaStoreNet\OpenImmo\Classes': src/Classes
   #    'TestNs\MyApp': soap\src  #  on Windows
 
   destinations_jms:
-    'MediaStoreNet\OpenImmo': src/metadata
+    'MediaStoreNet\OpenImmo\Classes': src/Metadata
   naming_strategy: long

@@ -23,6 +23,7 @@
     "php": ">=7.0"
   },
   "require-dev": {
-    "goetas-webservices/xsd2php": ">=0.3"
+    "goetas-webservices/xsd2php": ">=0.3",
+    "phpunit/phpunit": "9.5.x-dev"
   }
 }
