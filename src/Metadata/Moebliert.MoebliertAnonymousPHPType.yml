@@ -1,0 +1,11 @@
+MediaStoreNet\OpenImmo\Classes\Moebliert\MoebliertAnonymousPHPType:
+    properties:
+        moeb:
+            expose: true
+            access_type: public_method
+            serialized_name: moeb
+            accessor:
+                getter: getMoeb
+                setter: setMoeb
+            xml_attribute: true
+            type: string

@@ -1,0 +1,11 @@
+MediaStoreNet\OpenImmo\Classes\MaxMietdauer\MaxMietdauerAnonymousPHPType:
+    properties:
+        maxDauer:
+            expose: true
+            access_type: public_method
+            serialized_name: max_dauer
+            accessor:
+                getter: getMaxDauer
+                setter: setMaxDauer
+            xml_attribute: true
+            type: string

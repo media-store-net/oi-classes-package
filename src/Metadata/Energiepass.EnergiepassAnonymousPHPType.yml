@@ -1,0 +1,154 @@
+MediaStoreNet\OpenImmo\Classes\Energiepass\EnergiepassAnonymousPHPType:
+    properties:
+        epart:
+            expose: true
+            access_type: public_method
+            serialized_name: epart
+            accessor:
+                getter: getEpart
+                setter: setEpart
+            type: string
+        gueltigBis:
+            expose: true
+            access_type: public_method
+            serialized_name: gueltig_bis
+            accessor:
+                getter: getGueltigBis
+                setter: setGueltigBis
+            type: string
+        energieverbrauchkennwert:
+            expose: true
+            access_type: public_method
+            serialized_name: energieverbrauchkennwert
+            accessor:
+                getter: getEnergieverbrauchkennwert
+                setter: setEnergieverbrauchkennwert
+            type: string
+        mitwarmwasser:
+            expose: true
+            access_type: public_method
+            serialized_name: mitwarmwasser
+            accessor:
+                getter: getMitwarmwasser
+                setter: setMitwarmwasser
+            type: bool
+        endenergiebedarf:
+            expose: true
+            access_type: public_method
+            serialized_name: endenergiebedarf
+            accessor:
+                getter: getEndenergiebedarf
+                setter: setEndenergiebedarf
+            type: string
+        primaerenergietraeger:
+            expose: true
+            access_type: public_method
+            serialized_name: primaerenergietraeger
+            accessor:
+                getter: getPrimaerenergietraeger
+                setter: setPrimaerenergietraeger
+            type: string
+        stromwert:
+            expose: true
+            access_type: public_method
+            serialized_name: stromwert
+            accessor:
+                getter: getStromwert
+                setter: setStromwert
+            type: string
+        waermewert:
+            expose: true
+            access_type: public_method
+            serialized_name: waermewert
+            accessor:
+                getter: getWaermewert
+                setter: setWaermewert
+            type: string
+        wertklasse:
+            expose: true
+            access_type: public_method
+            serialized_name: wertklasse
+            accessor:
+                getter: getWertklasse
+                setter: setWertklasse
+            type: string
+        baujahr:
+            expose: true
+            access_type: public_method
+            serialized_name: baujahr
+            accessor:
+                getter: getBaujahr
+                setter: setBaujahr
+            type: string
+        ausstelldatum:
+            expose: true
+            access_type: public_method
+            serialized_name: ausstelldatum
+            accessor:
+                getter: getAusstelldatum
+                setter: setAusstelldatum
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
+        jahrgang:
+            expose: true
+            access_type: public_method
+            serialized_name: jahrgang
+            accessor:
+                getter: getJahrgang
+                setter: setJahrgang
+            type: string
+        gebaeudeart:
+            expose: true
+            access_type: public_method
+            serialized_name: gebaeudeart
+            accessor:
+                getter: getGebaeudeart
+                setter: setGebaeudeart
+            type: string
+        epasstext:
+            expose: true
+            access_type: public_method
+            serialized_name: epasstext
+            accessor:
+                getter: getEpasstext
+                setter: setEpasstext
+            type: string
+        geg2018:
+            expose: true
+            access_type: public_method
+            serialized_name: geg2018
+            accessor:
+                getter: getGeg2018
+                setter: setGeg2018
+            type: string
+        hwbwert:
+            expose: true
+            access_type: public_method
+            serialized_name: hwbwert
+            accessor:
+                getter: getHwbwert
+                setter: setHwbwert
+            type: string
+        hwbklasse:
+            expose: true
+            access_type: public_method
+            serialized_name: hwbklasse
+            accessor:
+                getter: getHwbklasse
+                setter: setHwbklasse
+            type: string
+        fgeewert:
+            expose: true
+            access_type: public_method
+            serialized_name: fgeewert
+            accessor:
+                getter: getFgeewert
+                setter: setFgeewert
+            type: string
+        fgeeklasse:
+            expose: true
+            access_type: public_method
+            serialized_name: fgeeklasse
+            accessor:
+                getter: getFgeeklasse
+                setter: setFgeeklasse
+            type: string

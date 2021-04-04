@@ -1,0 +1,19 @@
+MediaStoreNet\OpenImmo\Classes\Gesamtmietenetto\GesamtmietenettoAnonymousPHPType:
+    properties:
+        __value:
+            expose: true
+            xml_value: true
+            access_type: public_method
+            accessor:
+                getter: value
+                setter: value
+            type: float
+        gesamtmieteust:
+            expose: true
+            access_type: public_method
+            serialized_name: gesamtmieteust
+            accessor:
+                getter: getGesamtmieteust
+                setter: setGesamtmieteust
+            xml_attribute: true
+            type: float

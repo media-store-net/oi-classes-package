@@ -1,0 +1,11 @@
+MediaStoreNet\OpenImmo\Classes\Gastgewerbe\GastgewerbeAnonymousPHPType:
+    properties:
+        gastgewTyp:
+            expose: true
+            access_type: public_method
+            serialized_name: gastgew_typ
+            accessor:
+                getter: getGastgewTyp
+                setter: setGastgewTyp
+            xml_attribute: true
+            type: string

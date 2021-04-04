@@ -1,0 +1,18 @@
+MediaStoreNet\OpenImmo\Classes\Daten\DatenAnonymousPHPType:
+    properties:
+        pfad:
+            expose: true
+            access_type: public_method
+            serialized_name: pfad
+            accessor:
+                getter: getPfad
+                setter: setPfad
+            type: string
+        anhanginhalt:
+            expose: true
+            access_type: public_method
+            serialized_name: anhanginhalt
+            accessor:
+                getter: getAnhanginhalt
+                setter: setAnhanginhalt
+            type: GoetasWebservices\Xsd\XsdToPhp\Jms\Base64Encoded

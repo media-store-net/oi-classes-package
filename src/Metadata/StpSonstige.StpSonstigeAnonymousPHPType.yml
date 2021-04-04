@@ -1,0 +1,20 @@
+MediaStoreNet\OpenImmo\Classes\StpSonstige\StpSonstigeAnonymousPHPType:
+    properties:
+        platzart:
+            expose: true
+            access_type: public_method
+            serialized_name: platzart
+            accessor:
+                getter: getPlatzart
+                setter: setPlatzart
+            xml_attribute: true
+            type: string
+        bemerkung:
+            expose: true
+            access_type: public_method
+            serialized_name: bemerkung
+            accessor:
+                getter: getBemerkung
+                setter: setBemerkung
+            xml_attribute: true
+            type: string
