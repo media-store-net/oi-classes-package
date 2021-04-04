@@ -11,3 +11,4 @@ xsd2php:
 
   destinations_jms:
     'MediaStoreNet\OpenImmo': src/metadata
+  naming_strategy: long

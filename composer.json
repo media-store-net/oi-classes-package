@@ -19,7 +19,9 @@
     }
   },
   "minimum-stability": "dev",
-  "require": {},
+  "require": {
+    "php": ">=7.0"
+  },
   "require-dev": {
     "goetas-webservices/xsd2php": ">=0.3"
   }
