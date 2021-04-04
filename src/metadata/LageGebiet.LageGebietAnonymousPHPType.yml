@@ -1,0 +1,11 @@
+MediaStoreNet\OpenImmo\LageGebiet\LageGebietAnonymousPHPType:
+    properties:
+        gebiete:
+            expose: true
+            access_type: public_method
+            serialized_name: gebiete
+            accessor:
+                getter: getGebiete
+                setter: setGebiete
+            xml_attribute: true
+            type: string

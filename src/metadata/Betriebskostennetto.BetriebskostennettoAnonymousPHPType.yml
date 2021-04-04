@@ -1,0 +1,19 @@
+MediaStoreNet\OpenImmo\Betriebskostennetto\BetriebskostennettoAnonymousPHPType:
+    properties:
+        __value:
+            expose: true
+            xml_value: true
+            access_type: public_method
+            accessor:
+                getter: value
+                setter: value
+            type: float
+        betriebskostenust:
+            expose: true
+            access_type: public_method
+            serialized_name: betriebskostenust
+            accessor:
+                getter: getBetriebskostenust
+                setter: setBetriebskostenust
+            xml_attribute: true
+            type: float

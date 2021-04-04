@@ -1,0 +1,583 @@
+MediaStoreNet\OpenImmo\Preise\PreiseAnonymousPHPType:
+    properties:
+        kaufpreis:
+            expose: true
+            access_type: public_method
+            serialized_name: kaufpreis
+            accessor:
+                getter: getKaufpreis
+                setter: setKaufpreis
+            type: MediaStoreNet\OpenImmo\Kaufpreis
+        kaufpreisnetto:
+            expose: true
+            access_type: public_method
+            serialized_name: kaufpreisnetto
+            accessor:
+                getter: getKaufpreisnetto
+                setter: setKaufpreisnetto
+            type: MediaStoreNet\OpenImmo\Kaufpreisnetto
+        kaufpreisbrutto:
+            expose: true
+            access_type: public_method
+            serialized_name: kaufpreisbrutto
+            accessor:
+                getter: getKaufpreisbrutto
+                setter: setKaufpreisbrutto
+            type: float
+        nettokaltmiete:
+            expose: true
+            access_type: public_method
+            serialized_name: nettokaltmiete
+            accessor:
+                getter: getNettokaltmiete
+                setter: setNettokaltmiete
+            type: float
+        kaltmiete:
+            expose: true
+            access_type: public_method
+            serialized_name: kaltmiete
+            accessor:
+                getter: getKaltmiete
+                setter: setKaltmiete
+            type: float
+        warmmiete:
+            expose: true
+            access_type: public_method
+            serialized_name: warmmiete
+            accessor:
+                getter: getWarmmiete
+                setter: setWarmmiete
+            type: float
+        nebenkosten:
+            expose: true
+            access_type: public_method
+            serialized_name: nebenkosten
+            accessor:
+                getter: getNebenkosten
+                setter: setNebenkosten
+            type: float
+        heizkostenEnthalten:
+            expose: true
+            access_type: public_method
+            serialized_name: heizkosten_enthalten
+            accessor:
+                getter: getHeizkostenEnthalten
+                setter: setHeizkostenEnthalten
+            type: bool
+        heizkosten:
+            expose: true
+            access_type: public_method
+            serialized_name: heizkosten
+            accessor:
+                getter: getHeizkosten
+                setter: setHeizkosten
+            type: float
+        zzgMehrwertsteuer:
+            expose: true
+            access_type: public_method
+            serialized_name: zzg_mehrwertsteuer
+            accessor:
+                getter: getZzgMehrwertsteuer
+                setter: setZzgMehrwertsteuer
+            type: bool
+        mietzuschlaege:
+            expose: true
+            access_type: public_method
+            serialized_name: mietzuschlaege
+            accessor:
+                getter: getMietzuschlaege
+                setter: setMietzuschlaege
+            type: float
+        hauptmietzinsnetto:
+            expose: true
+            access_type: public_method
+            serialized_name: hauptmietzinsnetto
+            accessor:
+                getter: getHauptmietzinsnetto
+                setter: setHauptmietzinsnetto
+            type: MediaStoreNet\OpenImmo\Hauptmietzinsnetto
+        pauschalmiete:
+            expose: true
+            access_type: public_method
+            serialized_name: pauschalmiete
+            accessor:
+                getter: getPauschalmiete
+                setter: setPauschalmiete
+            type: float
+        betriebskostennetto:
+            expose: true
+            access_type: public_method
+            serialized_name: betriebskostennetto
+            accessor:
+                getter: getBetriebskostennetto
+                setter: setBetriebskostennetto
+            type: MediaStoreNet\OpenImmo\Betriebskostennetto
+        evbnetto:
+            expose: true
+            access_type: public_method
+            serialized_name: evbnetto
+            accessor:
+                getter: getEvbnetto
+                setter: setEvbnetto
+            type: MediaStoreNet\OpenImmo\Evbnetto
+        gesamtmietenetto:
+            expose: true
+            access_type: public_method
+            serialized_name: gesamtmietenetto
+            accessor:
+                getter: getGesamtmietenetto
+                setter: setGesamtmietenetto
+            type: MediaStoreNet\OpenImmo\Gesamtmietenetto
+        gesamtmietebrutto:
+            expose: true
+            access_type: public_method
+            serialized_name: gesamtmietebrutto
+            accessor:
+                getter: getGesamtmietebrutto
+                setter: setGesamtmietebrutto
+            type: float
+        gesamtbelastungnetto:
+            expose: true
+            access_type: public_method
+            serialized_name: gesamtbelastungnetto
+            accessor:
+                getter: getGesamtbelastungnetto
+                setter: setGesamtbelastungnetto
+            type: MediaStoreNet\OpenImmo\Gesamtbelastungnetto
+        gesamtbelastungbrutto:
+            expose: true
+            access_type: public_method
+            serialized_name: gesamtbelastungbrutto
+            accessor:
+                getter: getGesamtbelastungbrutto
+                setter: setGesamtbelastungbrutto
+            type: float
+        gesamtkostenprom2von:
+            expose: true
+            access_type: public_method
+            serialized_name: gesamtkostenprom2von
+            accessor:
+                getter: getGesamtkostenprom2von
+                setter: setGesamtkostenprom2von
+            type: MediaStoreNet\OpenImmo\Gesamtkostenprom2von
+        heizkostennetto:
+            expose: true
+            access_type: public_method
+            serialized_name: heizkostennetto
+            accessor:
+                getter: getHeizkostennetto
+                setter: setHeizkostennetto
+            type: MediaStoreNet\OpenImmo\Heizkostennetto
+        monatlichekostennetto:
+            expose: true
+            access_type: public_method
+            serialized_name: monatlichekostennetto
+            accessor:
+                getter: getMonatlichekostennetto
+                setter: setMonatlichekostennetto
+            type: MediaStoreNet\OpenImmo\Monatlichekostennetto
+        monatlichekostenbrutto:
+            expose: true
+            access_type: public_method
+            serialized_name: monatlichekostenbrutto
+            accessor:
+                getter: getMonatlichekostenbrutto
+                setter: setMonatlichekostenbrutto
+            type: float
+        nebenkostenprom2von:
+            expose: true
+            access_type: public_method
+            serialized_name: nebenkostenprom2von
+            accessor:
+                getter: getNebenkostenprom2von
+                setter: setNebenkostenprom2von
+            type: MediaStoreNet\OpenImmo\Nebenkostenprom2von
+        ruecklagenetto:
+            expose: true
+            access_type: public_method
+            serialized_name: ruecklagenetto
+            accessor:
+                getter: getRuecklagenetto
+                setter: setRuecklagenetto
+            type: MediaStoreNet\OpenImmo\Ruecklagenetto
+        sonstigekostennetto:
+            expose: true
+            access_type: public_method
+            serialized_name: sonstigekostennetto
+            accessor:
+                getter: getSonstigekostennetto
+                setter: setSonstigekostennetto
+            type: MediaStoreNet\OpenImmo\Sonstigekostennetto
+        sonstigemietenetto:
+            expose: true
+            access_type: public_method
+            serialized_name: sonstigemietenetto
+            accessor:
+                getter: getSonstigemietenetto
+                setter: setSonstigemietenetto
+            type: MediaStoreNet\OpenImmo\Sonstigemietenetto
+        summemietenetto:
+            expose: true
+            access_type: public_method
+            serialized_name: summemietenetto
+            accessor:
+                getter: getSummemietenetto
+                setter: setSummemietenetto
+            type: MediaStoreNet\OpenImmo\Summemietenetto
+        nettomieteprom2von:
+            expose: true
+            access_type: public_method
+            serialized_name: nettomieteprom2von
+            accessor:
+                getter: getNettomieteprom2von
+                setter: setNettomieteprom2von
+            type: MediaStoreNet\OpenImmo\Nettomieteprom2von
+        pacht:
+            expose: true
+            access_type: public_method
+            serialized_name: pacht
+            accessor:
+                getter: getPacht
+                setter: setPacht
+            type: float
+        erbpacht:
+            expose: true
+            access_type: public_method
+            serialized_name: erbpacht
+            accessor:
+                getter: getErbpacht
+                setter: setErbpacht
+            type: float
+        hausgeld:
+            expose: true
+            access_type: public_method
+            serialized_name: hausgeld
+            accessor:
+                getter: getHausgeld
+                setter: setHausgeld
+            type: float
+        abstand:
+            expose: true
+            access_type: public_method
+            serialized_name: abstand
+            accessor:
+                getter: getAbstand
+                setter: setAbstand
+            type: float
+        preisZeitraumVon:
+            expose: true
+            access_type: public_method
+            serialized_name: preis_zeitraum_von
+            accessor:
+                getter: getPreisZeitraumVon
+                setter: setPreisZeitraumVon
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
+        preisZeitraumBis:
+            expose: true
+            access_type: public_method
+            serialized_name: preis_zeitraum_bis
+            accessor:
+                getter: getPreisZeitraumBis
+                setter: setPreisZeitraumBis
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
+        preisZeiteinheit:
+            expose: true
+            access_type: public_method
+            serialized_name: preis_zeiteinheit
+            accessor:
+                getter: getPreisZeiteinheit
+                setter: setPreisZeiteinheit
+            type: MediaStoreNet\OpenImmo\PreisZeiteinheit
+        mietpreisProQm:
+            expose: true
+            access_type: public_method
+            serialized_name: mietpreis_pro_qm
+            accessor:
+                getter: getMietpreisProQm
+                setter: setMietpreisProQm
+            type: float
+        kaufpreisProQm:
+            expose: true
+            access_type: public_method
+            serialized_name: kaufpreis_pro_qm
+            accessor:
+                getter: getKaufpreisProQm
+                setter: setKaufpreisProQm
+            type: float
+        provisionspflichtig:
+            expose: true
+            access_type: public_method
+            serialized_name: provisionspflichtig
+            accessor:
+                getter: getProvisionspflichtig
+                setter: setProvisionspflichtig
+            type: bool
+        provisionTeilen:
+            expose: true
+            access_type: public_method
+            serialized_name: provision_teilen
+            accessor:
+                getter: getProvisionTeilen
+                setter: setProvisionTeilen
+            type: MediaStoreNet\OpenImmo\ProvisionTeilen
+        innenCourtage:
+            expose: true
+            access_type: public_method
+            serialized_name: innen_courtage
+            accessor:
+                getter: getInnenCourtage
+                setter: setInnenCourtage
+            type: MediaStoreNet\OpenImmo\InnenCourtage
+        aussenCourtage:
+            expose: true
+            access_type: public_method
+            serialized_name: aussen_courtage
+            accessor:
+                getter: getAussenCourtage
+                setter: setAussenCourtage
+            type: MediaStoreNet\OpenImmo\AussenCourtage
+        courtageHinweis:
+            expose: true
+            access_type: public_method
+            serialized_name: courtage_hinweis
+            accessor:
+                getter: getCourtageHinweis
+                setter: setCourtageHinweis
+            type: string
+        provisionnetto:
+            expose: true
+            access_type: public_method
+            serialized_name: provisionnetto
+            accessor:
+                getter: getProvisionnetto
+                setter: setProvisionnetto
+            type: MediaStoreNet\OpenImmo\Provisionnetto
+        provisionbrutto:
+            expose: true
+            access_type: public_method
+            serialized_name: provisionbrutto
+            accessor:
+                getter: getProvisionbrutto
+                setter: setProvisionbrutto
+            type: float
+        waehrung:
+            expose: true
+            access_type: public_method
+            serialized_name: waehrung
+            accessor:
+                getter: getWaehrung
+                setter: setWaehrung
+            type: MediaStoreNet\OpenImmo\Waehrung
+        mwstSatz:
+            expose: true
+            access_type: public_method
+            serialized_name: mwst_satz
+            accessor:
+                getter: getMwstSatz
+                setter: setMwstSatz
+            type: float
+        mwstGesamt:
+            expose: true
+            access_type: public_method
+            serialized_name: mwst_gesamt
+            accessor:
+                getter: getMwstGesamt
+                setter: setMwstGesamt
+            type: float
+        freitextPreis:
+            expose: true
+            access_type: public_method
+            serialized_name: freitext_preis
+            accessor:
+                getter: getFreitextPreis
+                setter: setFreitextPreis
+            type: string
+        xFache:
+            expose: true
+            access_type: public_method
+            serialized_name: x_fache
+            accessor:
+                getter: getXFache
+                setter: setXFache
+            type: string
+        nettorendite:
+            expose: true
+            access_type: public_method
+            serialized_name: nettorendite
+            accessor:
+                getter: getNettorendite
+                setter: setNettorendite
+            type: float
+        nettorenditeSoll:
+            expose: true
+            access_type: public_method
+            serialized_name: nettorendite_soll
+            accessor:
+                getter: getNettorenditeSoll
+                setter: setNettorenditeSoll
+            type: float
+        nettorenditeIst:
+            expose: true
+            access_type: public_method
+            serialized_name: nettorendite_ist
+            accessor:
+                getter: getNettorenditeIst
+                setter: setNettorenditeIst
+            type: float
+        mieteinnahmenIst:
+            expose: true
+            access_type: public_method
+            serialized_name: mieteinnahmen_ist
+            accessor:
+                getter: getMieteinnahmenIst
+                setter: setMieteinnahmenIst
+            type: MediaStoreNet\OpenImmo\MieteinnahmenIst
+        mieteinnahmenSoll:
+            expose: true
+            access_type: public_method
+            serialized_name: mieteinnahmen_soll
+            accessor:
+                getter: getMieteinnahmenSoll
+                setter: setMieteinnahmenSoll
+            type: MediaStoreNet\OpenImmo\MieteinnahmenSoll
+        erschliessungskosten:
+            expose: true
+            access_type: public_method
+            serialized_name: erschliessungskosten
+            accessor:
+                getter: getErschliessungskosten
+                setter: setErschliessungskosten
+            type: float
+        kaution:
+            expose: true
+            access_type: public_method
+            serialized_name: kaution
+            accessor:
+                getter: getKaution
+                setter: setKaution
+            type: float
+        kautionText:
+            expose: true
+            access_type: public_method
+            serialized_name: kaution_text
+            accessor:
+                getter: getKautionText
+                setter: setKautionText
+            type: string
+        geschaeftsguthaben:
+            expose: true
+            access_type: public_method
+            serialized_name: geschaeftsguthaben
+            accessor:
+                getter: getGeschaeftsguthaben
+                setter: setGeschaeftsguthaben
+            type: float
+        stpCarport:
+            expose: true
+            access_type: public_method
+            serialized_name: stp_carport
+            accessor:
+                getter: getStpCarport
+                setter: setStpCarport
+            type: MediaStoreNet\OpenImmo\StpCarport
+        stpDuplex:
+            expose: true
+            access_type: public_method
+            serialized_name: stp_duplex
+            accessor:
+                getter: getStpDuplex
+                setter: setStpDuplex
+            type: MediaStoreNet\OpenImmo\StpDuplex
+        stpFreiplatz:
+            expose: true
+            access_type: public_method
+            serialized_name: stp_freiplatz
+            accessor:
+                getter: getStpFreiplatz
+                setter: setStpFreiplatz
+            type: MediaStoreNet\OpenImmo\StpFreiplatz
+        stpGarage:
+            expose: true
+            access_type: public_method
+            serialized_name: stp_garage
+            accessor:
+                getter: getStpGarage
+                setter: setStpGarage
+            type: MediaStoreNet\OpenImmo\StpGarage
+        stpParkhaus:
+            expose: true
+            access_type: public_method
+            serialized_name: stp_parkhaus
+            accessor:
+                getter: getStpParkhaus
+                setter: setStpParkhaus
+            type: MediaStoreNet\OpenImmo\StpParkhaus
+        stpTiefgarage:
+            expose: true
+            access_type: public_method
+            serialized_name: stp_tiefgarage
+            accessor:
+                getter: getStpTiefgarage
+                setter: setStpTiefgarage
+            type: MediaStoreNet\OpenImmo\StpTiefgarage
+        stpSonstige:
+            expose: true
+            access_type: public_method
+            serialized_name: stp_sonstige
+            accessor:
+                getter: getStpSonstige
+                setter: setStpSonstige
+            xml_list:
+                inline: true
+                entry_name: stp_sonstige
+            type: array<MediaStoreNet\OpenImmo\StpSonstige>
+        richtpreis:
+            expose: true
+            access_type: public_method
+            serialized_name: richtpreis
+            accessor:
+                getter: getRichtpreis
+                setter: setRichtpreis
+            type: float
+        richtpreisprom2:
+            expose: true
+            access_type: public_method
+            serialized_name: richtpreisprom2
+            accessor:
+                getter: getRichtpreisprom2
+                setter: setRichtpreisprom2
+            type: float
+        userDefinedSimplefield:
+            expose: true
+            access_type: public_method
+            serialized_name: user_defined_simplefield
+            accessor:
+                getter: getUserDefinedSimplefield
+                setter: setUserDefinedSimplefield
+            xml_list:
+                inline: true
+                entry_name: user_defined_simplefield
+            type: array<MediaStoreNet\OpenImmo\UserDefinedSimplefield>
+        userDefinedAnyfield:
+            expose: true
+            access_type: public_method
+            serialized_name: user_defined_anyfield
+            accessor:
+                getter: getUserDefinedAnyfield
+                setter: setUserDefinedAnyfield
+            xml_list:
+                inline: true
+                entry_name: user_defined_anyfield
+            type: array<MediaStoreNet\OpenImmo\UserDefinedAnyfield>
+        userDefinedExtend:
+            expose: true
+            access_type: public_method
+            serialized_name: user_defined_extend
+            accessor:
+                getter: getUserDefinedExtend
+                setter: setUserDefinedExtend
+            type: array<MediaStoreNet\OpenImmo\UserDefinedExtend\UserDefinedExtendAnonymousPHPType\FeldAnonymousPHPType>
+            xml_list:
+                inline: false
+                entry_name: feld
+                skip_when_empty: true

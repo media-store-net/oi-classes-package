@@ -1,0 +1,28 @@
+MediaStoreNet\OpenImmo\EmailSonstige\EmailSonstigeAnonymousPHPType:
+    properties:
+        __value:
+            expose: true
+            xml_value: true
+            access_type: public_method
+            accessor:
+                getter: value
+                setter: value
+            type: string
+        emailart:
+            expose: true
+            access_type: public_method
+            serialized_name: emailart
+            accessor:
+                getter: getEmailart
+                setter: setEmailart
+            xml_attribute: true
+            type: string
+        bemerkung:
+            expose: true
+            access_type: public_method
+            serialized_name: bemerkung
+            accessor:
+                getter: getBemerkung
+                setter: setBemerkung
+            xml_attribute: true
+            type: string

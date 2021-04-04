@@ -1,0 +1,43 @@
+MediaStoreNet\OpenImmo\Openimmo\OpenimmoAnonymousPHPType:
+    properties:
+        uebertragung:
+            expose: true
+            access_type: public_method
+            serialized_name: uebertragung
+            accessor:
+                getter: getUebertragung
+                setter: setUebertragung
+            type: MediaStoreNet\OpenImmo\Uebertragung
+        anbieter:
+            expose: true
+            access_type: public_method
+            serialized_name: anbieter
+            accessor:
+                getter: getAnbieter
+                setter: setAnbieter
+            xml_list:
+                inline: true
+                entry_name: anbieter
+            type: array<MediaStoreNet\OpenImmo\Anbieter>
+        userDefinedSimplefield:
+            expose: true
+            access_type: public_method
+            serialized_name: user_defined_simplefield
+            accessor:
+                getter: getUserDefinedSimplefield
+                setter: setUserDefinedSimplefield
+            xml_list:
+                inline: true
+                entry_name: user_defined_simplefield
+            type: array<MediaStoreNet\OpenImmo\UserDefinedSimplefield>
+        userDefinedAnyfield:
+            expose: true
+            access_type: public_method
+            serialized_name: user_defined_anyfield
+            accessor:
+                getter: getUserDefinedAnyfield
+                setter: setUserDefinedAnyfield
+            xml_list:
+                inline: true
+                entry_name: user_defined_anyfield
+            type: array<MediaStoreNet\OpenImmo\UserDefinedAnyfield>

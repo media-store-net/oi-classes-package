@@ -1,0 +1,11 @@
+MediaStoreNet\OpenImmo\FreizeitimmobilieGewerblich\FreizeitimmobilieGewerblichAnonymousPHPType:
+    properties:
+        freizeitTyp:
+            expose: true
+            access_type: public_method
+            serialized_name: freizeit_typ
+            accessor:
+                getter: getFreizeitTyp
+                setter: setFreizeitTyp
+            xml_attribute: true
+            type: string

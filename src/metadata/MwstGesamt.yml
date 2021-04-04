@@ -1,0 +1,11 @@
+MediaStoreNet\OpenImmo\MwstGesamt:
+    xml_root_name: mwst_gesamt
+    properties:
+        __value:
+            expose: true
+            xml_value: true
+            access_type: public_method
+            accessor:
+                getter: value
+                setter: value
+            type: float

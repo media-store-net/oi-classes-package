@@ -1,0 +1,11 @@
+MediaStoreNet\OpenImmo\Land\LandAnonymousPHPType:
+    properties:
+        isoLand:
+            expose: true
+            access_type: public_method
+            serialized_name: iso_land
+            accessor:
+                getter: getIsoLand
+                setter: setIsoLand
+            xml_attribute: true
+            type: string

@@ -1,0 +1,11 @@
+MediaStoreNet\OpenImmo\UserDefinedSimplefield\UserDefinedSimplefieldAnonymousPHPType:
+    properties:
+        feldname:
+            expose: true
+            access_type: public_method
+            serialized_name: feldname
+            accessor:
+                getter: getFeldname
+                setter: setFeldname
+            xml_attribute: true
+            type: string

@@ -1,0 +1,82 @@
+MediaStoreNet\OpenImmo\ImpressumStrukt\ImpressumStruktAnonymousPHPType:
+    properties:
+        firmenname:
+            expose: true
+            access_type: public_method
+            serialized_name: firmenname
+            accessor:
+                getter: getFirmenname
+                setter: setFirmenname
+            type: string
+        firmenanschrift:
+            expose: true
+            access_type: public_method
+            serialized_name: firmenanschrift
+            accessor:
+                getter: getFirmenanschrift
+                setter: setFirmenanschrift
+            type: string
+        telefon:
+            expose: true
+            access_type: public_method
+            serialized_name: telefon
+            accessor:
+                getter: getTelefon
+                setter: setTelefon
+            type: string
+        vertretungsberechtigter:
+            expose: true
+            access_type: public_method
+            serialized_name: vertretungsberechtigter
+            accessor:
+                getter: getVertretungsberechtigter
+                setter: setVertretungsberechtigter
+            type: string
+        berufsaufsichtsbehoerde:
+            expose: true
+            access_type: public_method
+            serialized_name: berufsaufsichtsbehoerde
+            accessor:
+                getter: getBerufsaufsichtsbehoerde
+                setter: setBerufsaufsichtsbehoerde
+            type: string
+        handelsregister:
+            expose: true
+            access_type: public_method
+            serialized_name: handelsregister
+            accessor:
+                getter: getHandelsregister
+                setter: setHandelsregister
+            type: string
+        handelsregisterNr:
+            expose: true
+            access_type: public_method
+            serialized_name: handelsregister_nr
+            accessor:
+                getter: getHandelsregisterNr
+                setter: setHandelsregisterNr
+            type: string
+        umsstId:
+            expose: true
+            access_type: public_method
+            serialized_name: umsst-id
+            accessor:
+                getter: getUmsstId
+                setter: setUmsstId
+            type: string
+        steuernummer:
+            expose: true
+            access_type: public_method
+            serialized_name: steuernummer
+            accessor:
+                getter: getSteuernummer
+                setter: setSteuernummer
+            type: string
+        weiteres:
+            expose: true
+            access_type: public_method
+            serialized_name: weiteres
+            accessor:
+                getter: getWeiteres
+                setter: setWeiteres
+            type: string

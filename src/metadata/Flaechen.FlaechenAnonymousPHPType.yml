@@ -1,0 +1,404 @@
+MediaStoreNet\OpenImmo\Flaechen\FlaechenAnonymousPHPType:
+    properties:
+        wohnflaeche:
+            expose: true
+            access_type: public_method
+            serialized_name: wohnflaeche
+            accessor:
+                getter: getWohnflaeche
+                setter: setWohnflaeche
+            type: float
+        nutzflaeche:
+            expose: true
+            access_type: public_method
+            serialized_name: nutzflaeche
+            accessor:
+                getter: getNutzflaeche
+                setter: setNutzflaeche
+            type: float
+        gesamtflaeche:
+            expose: true
+            access_type: public_method
+            serialized_name: gesamtflaeche
+            accessor:
+                getter: getGesamtflaeche
+                setter: setGesamtflaeche
+            type: float
+        ladenflaeche:
+            expose: true
+            access_type: public_method
+            serialized_name: ladenflaeche
+            accessor:
+                getter: getLadenflaeche
+                setter: setLadenflaeche
+            type: float
+        lagerflaeche:
+            expose: true
+            access_type: public_method
+            serialized_name: lagerflaeche
+            accessor:
+                getter: getLagerflaeche
+                setter: setLagerflaeche
+            type: float
+        verkaufsflaeche:
+            expose: true
+            access_type: public_method
+            serialized_name: verkaufsflaeche
+            accessor:
+                getter: getVerkaufsflaeche
+                setter: setVerkaufsflaeche
+            type: float
+        freiflaeche:
+            expose: true
+            access_type: public_method
+            serialized_name: freiflaeche
+            accessor:
+                getter: getFreiflaeche
+                setter: setFreiflaeche
+            type: float
+        bueroflaeche:
+            expose: true
+            access_type: public_method
+            serialized_name: bueroflaeche
+            accessor:
+                getter: getBueroflaeche
+                setter: setBueroflaeche
+            type: float
+        bueroteilflaeche:
+            expose: true
+            access_type: public_method
+            serialized_name: bueroteilflaeche
+            accessor:
+                getter: getBueroteilflaeche
+                setter: setBueroteilflaeche
+            type: float
+        fensterfront:
+            expose: true
+            access_type: public_method
+            serialized_name: fensterfront
+            accessor:
+                getter: getFensterfront
+                setter: setFensterfront
+            type: float
+        verwaltungsflaeche:
+            expose: true
+            access_type: public_method
+            serialized_name: verwaltungsflaeche
+            accessor:
+                getter: getVerwaltungsflaeche
+                setter: setVerwaltungsflaeche
+            type: float
+        gastroflaeche:
+            expose: true
+            access_type: public_method
+            serialized_name: gastroflaeche
+            accessor:
+                getter: getGastroflaeche
+                setter: setGastroflaeche
+            type: float
+        grz:
+            expose: true
+            access_type: public_method
+            serialized_name: grz
+            accessor:
+                getter: getGrz
+                setter: setGrz
+            type: string
+        gfz:
+            expose: true
+            access_type: public_method
+            serialized_name: gfz
+            accessor:
+                getter: getGfz
+                setter: setGfz
+            type: string
+        bmz:
+            expose: true
+            access_type: public_method
+            serialized_name: bmz
+            accessor:
+                getter: getBmz
+                setter: setBmz
+            type: string
+        bgf:
+            expose: true
+            access_type: public_method
+            serialized_name: bgf
+            accessor:
+                getter: getBgf
+                setter: setBgf
+            type: string
+        grundstuecksflaeche:
+            expose: true
+            access_type: public_method
+            serialized_name: grundstuecksflaeche
+            accessor:
+                getter: getGrundstuecksflaeche
+                setter: setGrundstuecksflaeche
+            type: float
+        sonstflaeche:
+            expose: true
+            access_type: public_method
+            serialized_name: sonstflaeche
+            accessor:
+                getter: getSonstflaeche
+                setter: setSonstflaeche
+            type: float
+        anzahlZimmer:
+            expose: true
+            access_type: public_method
+            serialized_name: anzahl_zimmer
+            accessor:
+                getter: getAnzahlZimmer
+                setter: setAnzahlZimmer
+            type: float
+        anzahlSchlafzimmer:
+            expose: true
+            access_type: public_method
+            serialized_name: anzahl_schlafzimmer
+            accessor:
+                getter: getAnzahlSchlafzimmer
+                setter: setAnzahlSchlafzimmer
+            type: float
+        anzahlBadezimmer:
+            expose: true
+            access_type: public_method
+            serialized_name: anzahl_badezimmer
+            accessor:
+                getter: getAnzahlBadezimmer
+                setter: setAnzahlBadezimmer
+            type: float
+        anzahlSepWc:
+            expose: true
+            access_type: public_method
+            serialized_name: anzahl_sep_wc
+            accessor:
+                getter: getAnzahlSepWc
+                setter: setAnzahlSepWc
+            type: float
+        anzahlBalkone:
+            expose: true
+            access_type: public_method
+            serialized_name: anzahl_balkone
+            accessor:
+                getter: getAnzahlBalkone
+                setter: setAnzahlBalkone
+            type: float
+        anzahlTerrassen:
+            expose: true
+            access_type: public_method
+            serialized_name: anzahl_terrassen
+            accessor:
+                getter: getAnzahlTerrassen
+                setter: setAnzahlTerrassen
+            type: float
+        anzahlLogia:
+            expose: true
+            access_type: public_method
+            serialized_name: anzahl_logia
+            accessor:
+                getter: getAnzahlLogia
+                setter: setAnzahlLogia
+            type: float
+        balkonTerrasseFlaeche:
+            expose: true
+            access_type: public_method
+            serialized_name: balkon_terrasse_flaeche
+            accessor:
+                getter: getBalkonTerrasseFlaeche
+                setter: setBalkonTerrasseFlaeche
+            type: float
+        anzahlWohnSchlafzimmer:
+            expose: true
+            access_type: public_method
+            serialized_name: anzahl_wohn_schlafzimmer
+            accessor:
+                getter: getAnzahlWohnSchlafzimmer
+                setter: setAnzahlWohnSchlafzimmer
+            type: float
+        gartenflaeche:
+            expose: true
+            access_type: public_method
+            serialized_name: gartenflaeche
+            accessor:
+                getter: getGartenflaeche
+                setter: setGartenflaeche
+            type: float
+        kellerflaeche:
+            expose: true
+            access_type: public_method
+            serialized_name: kellerflaeche
+            accessor:
+                getter: getKellerflaeche
+                setter: setKellerflaeche
+            type: float
+        fensterfrontQm:
+            expose: true
+            access_type: public_method
+            serialized_name: fensterfront_qm
+            accessor:
+                getter: getFensterfrontQm
+                setter: setFensterfrontQm
+            type: float
+        grundstuecksfront:
+            expose: true
+            access_type: public_method
+            serialized_name: grundstuecksfront
+            accessor:
+                getter: getGrundstuecksfront
+                setter: setGrundstuecksfront
+            type: float
+        dachbodenflaeche:
+            expose: true
+            access_type: public_method
+            serialized_name: dachbodenflaeche
+            accessor:
+                getter: getDachbodenflaeche
+                setter: setDachbodenflaeche
+            type: float
+        teilbarAb:
+            expose: true
+            access_type: public_method
+            serialized_name: teilbar_ab
+            accessor:
+                getter: getTeilbarAb
+                setter: setTeilbarAb
+            type: float
+        beheizbareFlaeche:
+            expose: true
+            access_type: public_method
+            serialized_name: beheizbare_flaeche
+            accessor:
+                getter: getBeheizbareFlaeche
+                setter: setBeheizbareFlaeche
+            type: float
+        anzahlStellplaetze:
+            expose: true
+            access_type: public_method
+            serialized_name: anzahl_stellplaetze
+            accessor:
+                getter: getAnzahlStellplaetze
+                setter: setAnzahlStellplaetze
+            type: int
+        plaetzeGastraum:
+            expose: true
+            access_type: public_method
+            serialized_name: plaetze_gastraum
+            accessor:
+                getter: getPlaetzeGastraum
+                setter: setPlaetzeGastraum
+            type: float
+        anzahlBetten:
+            expose: true
+            access_type: public_method
+            serialized_name: anzahl_betten
+            accessor:
+                getter: getAnzahlBetten
+                setter: setAnzahlBetten
+            type: float
+        anzahlTagungsraeume:
+            expose: true
+            access_type: public_method
+            serialized_name: anzahl_tagungsraeume
+            accessor:
+                getter: getAnzahlTagungsraeume
+                setter: setAnzahlTagungsraeume
+            type: float
+        vermietbareFlaeche:
+            expose: true
+            access_type: public_method
+            serialized_name: vermietbare_flaeche
+            accessor:
+                getter: getVermietbareFlaeche
+                setter: setVermietbareFlaeche
+            type: float
+        anzahlWohneinheiten:
+            expose: true
+            access_type: public_method
+            serialized_name: anzahl_wohneinheiten
+            accessor:
+                getter: getAnzahlWohneinheiten
+                setter: setAnzahlWohneinheiten
+            type: float
+        anzahlGewerbeeinheiten:
+            expose: true
+            access_type: public_method
+            serialized_name: anzahl_gewerbeeinheiten
+            accessor:
+                getter: getAnzahlGewerbeeinheiten
+                setter: setAnzahlGewerbeeinheiten
+            type: float
+        einliegerwohnung:
+            expose: true
+            access_type: public_method
+            serialized_name: einliegerwohnung
+            accessor:
+                getter: getEinliegerwohnung
+                setter: setEinliegerwohnung
+            type: bool
+        kubatur:
+            expose: true
+            access_type: public_method
+            serialized_name: kubatur
+            accessor:
+                getter: getKubatur
+                setter: setKubatur
+            type: float
+        ausnuetzungsziffer:
+            expose: true
+            access_type: public_method
+            serialized_name: ausnuetzungsziffer
+            accessor:
+                getter: getAusnuetzungsziffer
+                setter: setAusnuetzungsziffer
+            type: float
+        flaechevon:
+            expose: true
+            access_type: public_method
+            serialized_name: flaechevon
+            accessor:
+                getter: getFlaechevon
+                setter: setFlaechevon
+            type: float
+        flaechebis:
+            expose: true
+            access_type: public_method
+            serialized_name: flaechebis
+            accessor:
+                getter: getFlaechebis
+                setter: setFlaechebis
+            type: float
+        userDefinedSimplefield:
+            expose: true
+            access_type: public_method
+            serialized_name: user_defined_simplefield
+            accessor:
+                getter: getUserDefinedSimplefield
+                setter: setUserDefinedSimplefield
+            xml_list:
+                inline: true
+                entry_name: user_defined_simplefield
+            type: array<MediaStoreNet\OpenImmo\UserDefinedSimplefield>
+        userDefinedAnyfield:
+            expose: true
+            access_type: public_method
+            serialized_name: user_defined_anyfield
+            accessor:
+                getter: getUserDefinedAnyfield
+                setter: setUserDefinedAnyfield
+            xml_list:
+                inline: true
+                entry_name: user_defined_anyfield
+            type: array<MediaStoreNet\OpenImmo\UserDefinedAnyfield>
+        userDefinedExtend:
+            expose: true
+            access_type: public_method
+            serialized_name: user_defined_extend
+            accessor:
+                getter: getUserDefinedExtend
+                setter: setUserDefinedExtend
+            type: array<MediaStoreNet\OpenImmo\UserDefinedExtend\UserDefinedExtendAnonymousPHPType\FeldAnonymousPHPType>
+            xml_list:
+                inline: false
+                entry_name: feld
+                skip_when_empty: true

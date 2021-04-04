@@ -1,0 +1,148 @@
+MediaStoreNet\OpenImmo\VerwaltungTechn\VerwaltungTechnAnonymousPHPType:
+    properties:
+        objektnrIntern:
+            expose: true
+            access_type: public_method
+            serialized_name: objektnr_intern
+            accessor:
+                getter: getObjektnrIntern
+                setter: setObjektnrIntern
+            type: string
+        objektnrExtern:
+            expose: true
+            access_type: public_method
+            serialized_name: objektnr_extern
+            accessor:
+                getter: getObjektnrExtern
+                setter: setObjektnrExtern
+            type: string
+        aktion:
+            expose: true
+            access_type: public_method
+            serialized_name: aktion
+            accessor:
+                getter: getAktion
+                setter: setAktion
+            type: MediaStoreNet\OpenImmo\Aktion
+        aktivVon:
+            expose: true
+            access_type: public_method
+            serialized_name: aktiv_von
+            accessor:
+                getter: getAktivVon
+                setter: setAktivVon
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
+        aktivBis:
+            expose: true
+            access_type: public_method
+            serialized_name: aktiv_bis
+            accessor:
+                getter: getAktivBis
+                setter: setAktivBis
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
+        openimmoObid:
+            expose: true
+            access_type: public_method
+            serialized_name: openimmo_obid
+            accessor:
+                getter: getOpenimmoObid
+                setter: setOpenimmoObid
+            type: string
+        kennungUrsprung:
+            expose: true
+            access_type: public_method
+            serialized_name: kennung_ursprung
+            accessor:
+                getter: getKennungUrsprung
+                setter: setKennungUrsprung
+            type: string
+        standVom:
+            expose: true
+            access_type: public_method
+            serialized_name: stand_vom
+            accessor:
+                getter: getStandVom
+                setter: setStandVom
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
+        weitergabeGenerell:
+            expose: true
+            access_type: public_method
+            serialized_name: weitergabe_generell
+            accessor:
+                getter: getWeitergabeGenerell
+                setter: setWeitergabeGenerell
+            type: bool
+        weitergabePositiv:
+            expose: true
+            access_type: public_method
+            serialized_name: weitergabe_positiv
+            accessor:
+                getter: getWeitergabePositiv
+                setter: setWeitergabePositiv
+            type: string
+        weitergabeNegativ:
+            expose: true
+            access_type: public_method
+            serialized_name: weitergabe_negativ
+            accessor:
+                getter: getWeitergabeNegativ
+                setter: setWeitergabeNegativ
+            type: string
+        gruppenKennung:
+            expose: true
+            access_type: public_method
+            serialized_name: gruppen_kennung
+            accessor:
+                getter: getGruppenKennung
+                setter: setGruppenKennung
+            type: string
+        master:
+            expose: true
+            access_type: public_method
+            serialized_name: master
+            accessor:
+                getter: getMaster
+                setter: setMaster
+            type: MediaStoreNet\OpenImmo\Master
+        sprache:
+            expose: true
+            access_type: public_method
+            serialized_name: sprache
+            accessor:
+                getter: getSprache
+                setter: setSprache
+            type: string
+        userDefinedSimplefield:
+            expose: true
+            access_type: public_method
+            serialized_name: user_defined_simplefield
+            accessor:
+                getter: getUserDefinedSimplefield
+                setter: setUserDefinedSimplefield
+            xml_list:
+                inline: true
+                entry_name: user_defined_simplefield
+            type: array<MediaStoreNet\OpenImmo\UserDefinedSimplefield>
+        userDefinedAnyfield:
+            expose: true
+            access_type: public_method
+            serialized_name: user_defined_anyfield
+            accessor:
+                getter: getUserDefinedAnyfield
+                setter: setUserDefinedAnyfield
+            xml_list:
+                inline: true
+                entry_name: user_defined_anyfield
+            type: array<MediaStoreNet\OpenImmo\UserDefinedAnyfield>
+        userDefinedExtend:
+            expose: true
+            access_type: public_method
+            serialized_name: user_defined_extend
+            accessor:
+                getter: getUserDefinedExtend
+                setter: setUserDefinedExtend
+            type: array<MediaStoreNet\OpenImmo\UserDefinedExtend\UserDefinedExtendAnonymousPHPType\FeldAnonymousPHPType>
+            xml_list:
+                inline: false
+                entry_name: feld
+                skip_when_empty: true

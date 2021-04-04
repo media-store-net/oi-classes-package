@@ -1,0 +1,20 @@
+MediaStoreNet\OpenImmo\Geokoordinaten\GeokoordinatenAnonymousPHPType:
+    properties:
+        breitengrad:
+            expose: true
+            access_type: public_method
+            serialized_name: breitengrad
+            accessor:
+                getter: getBreitengrad
+                setter: setBreitengrad
+            xml_attribute: true
+            type: float
+        laengengrad:
+            expose: true
+            access_type: public_method
+            serialized_name: laengengrad
+            accessor:
+                getter: getLaengengrad
+                setter: setLaengengrad
+            xml_attribute: true
+            type: float

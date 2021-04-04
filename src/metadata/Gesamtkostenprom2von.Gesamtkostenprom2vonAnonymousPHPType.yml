@@ -1,0 +1,19 @@
+MediaStoreNet\OpenImmo\Gesamtkostenprom2von\Gesamtkostenprom2vonAnonymousPHPType:
+    properties:
+        __value:
+            expose: true
+            xml_value: true
+            access_type: public_method
+            accessor:
+                getter: value
+                setter: value
+            type: float
+        gesamtkostenprom2bis:
+            expose: true
+            access_type: public_method
+            serialized_name: gesamtkostenprom2bis
+            accessor:
+                getter: getGesamtkostenprom2bis
+                setter: setGesamtkostenprom2bis
+            xml_attribute: true
+            type: float

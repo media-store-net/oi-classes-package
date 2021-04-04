@@ -1,0 +1,38 @@
+MediaStoreNet\OpenImmo\Nutzungsart\NutzungsartAnonymousPHPType:
+    properties:
+        wOHNEN:
+            expose: true
+            access_type: public_method
+            serialized_name: WOHNEN
+            accessor:
+                getter: getWOHNEN
+                setter: setWOHNEN
+            xml_attribute: true
+            type: bool
+        gEWERBE:
+            expose: true
+            access_type: public_method
+            serialized_name: GEWERBE
+            accessor:
+                getter: getGEWERBE
+                setter: setGEWERBE
+            xml_attribute: true
+            type: bool
+        aNLAGE:
+            expose: true
+            access_type: public_method
+            serialized_name: ANLAGE
+            accessor:
+                getter: getANLAGE
+                setter: setANLAGE
+            xml_attribute: true
+            type: bool
+        wAZ:
+            expose: true
+            access_type: public_method
+            serialized_name: WAZ
+            accessor:
+                getter: getWAZ
+                setter: setWAZ
+            xml_attribute: true
+            type: bool

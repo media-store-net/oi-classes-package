@@ -1,0 +1,11 @@
+MediaStoreNet\OpenImmo\AussenCourtage\AussenCourtageAnonymousPHPType:
+    properties:
+        mitMwst:
+            expose: true
+            access_type: public_method
+            serialized_name: mit_mwst
+            accessor:
+                getter: getMitMwst
+                setter: setMitMwst
+            xml_attribute: true
+            type: bool

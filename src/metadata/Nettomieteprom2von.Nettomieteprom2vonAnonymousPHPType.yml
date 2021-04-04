@@ -1,0 +1,19 @@
+MediaStoreNet\OpenImmo\Nettomieteprom2von\Nettomieteprom2vonAnonymousPHPType:
+    properties:
+        __value:
+            expose: true
+            xml_value: true
+            access_type: public_method
+            accessor:
+                getter: value
+                setter: value
+            type: float
+        nettomieteprom2bis:
+            expose: true
+            access_type: public_method
+            serialized_name: nettomieteprom2bis
+            accessor:
+                getter: getNettomieteprom2bis
+                setter: setNettomieteprom2bis
+            xml_attribute: true
+            type: float

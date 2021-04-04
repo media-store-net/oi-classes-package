@@ -1,0 +1,11 @@
+MediaStoreNet\OpenImmo\HallenLagerProd\HallenLagerProdAnonymousPHPType:
+    properties:
+        hallenTyp:
+            expose: true
+            access_type: public_method
+            serialized_name: hallen_typ
+            accessor:
+                getter: getHallenTyp
+                setter: setHallenTyp
+            xml_attribute: true
+            type: string

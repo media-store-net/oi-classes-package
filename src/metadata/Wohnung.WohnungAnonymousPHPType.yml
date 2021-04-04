@@ -1,0 +1,11 @@
+MediaStoreNet\OpenImmo\Wohnung\WohnungAnonymousPHPType:
+    properties:
+        wohnungtyp:
+            expose: true
+            access_type: public_method
+            serialized_name: wohnungtyp
+            accessor:
+                getter: getWohnungtyp
+                setter: setWohnungtyp
+            xml_attribute: true
+            type: string

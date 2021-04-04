@@ -1,0 +1,74 @@
+MediaStoreNet\OpenImmo\AusrichtBalkonTerrasse\AusrichtBalkonTerrasseAnonymousPHPType:
+    properties:
+        nORD:
+            expose: true
+            access_type: public_method
+            serialized_name: NORD
+            accessor:
+                getter: getNORD
+                setter: setNORD
+            xml_attribute: true
+            type: bool
+        oST:
+            expose: true
+            access_type: public_method
+            serialized_name: OST
+            accessor:
+                getter: getOST
+                setter: setOST
+            xml_attribute: true
+            type: bool
+        sUED:
+            expose: true
+            access_type: public_method
+            serialized_name: SUED
+            accessor:
+                getter: getSUED
+                setter: setSUED
+            xml_attribute: true
+            type: bool
+        wEST:
+            expose: true
+            access_type: public_method
+            serialized_name: WEST
+            accessor:
+                getter: getWEST
+                setter: setWEST
+            xml_attribute: true
+            type: bool
+        nORDOST:
+            expose: true
+            access_type: public_method
+            serialized_name: NORDOST
+            accessor:
+                getter: getNORDOST
+                setter: setNORDOST
+            xml_attribute: true
+            type: bool
+        nORDWEST:
+            expose: true
+            access_type: public_method
+            serialized_name: NORDWEST
+            accessor:
+                getter: getNORDWEST
+                setter: setNORDWEST
+            xml_attribute: true
+            type: bool
+        sUEDOST:
+            expose: true
+            access_type: public_method
+            serialized_name: SUEDOST
+            accessor:
+                getter: getSUEDOST
+                setter: setSUEDOST
+            xml_attribute: true
+            type: bool
+        sUEDWEST:
+            expose: true
+            access_type: public_method
+            serialized_name: SUEDWEST
+            accessor:
+                getter: getSUEDWEST
+                setter: setSUEDWEST
+            xml_attribute: true
+            type: bool

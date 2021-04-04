@@ -1,0 +1,52 @@
+MediaStoreNet\OpenImmo\Anhang\AnhangAnonymousPHPType:
+    properties:
+        location:
+            expose: true
+            access_type: public_method
+            serialized_name: location
+            accessor:
+                getter: getLocation
+                setter: setLocation
+            xml_attribute: true
+            type: string
+        gruppe:
+            expose: true
+            access_type: public_method
+            serialized_name: gruppe
+            accessor:
+                getter: getGruppe
+                setter: setGruppe
+            xml_attribute: true
+            type: string
+        anhangtitel:
+            expose: true
+            access_type: public_method
+            serialized_name: anhangtitel
+            accessor:
+                getter: getAnhangtitel
+                setter: setAnhangtitel
+            type: string
+        format:
+            expose: true
+            access_type: public_method
+            serialized_name: format
+            accessor:
+                getter: getFormat
+                setter: setFormat
+            type: string
+        check:
+            expose: true
+            access_type: public_method
+            serialized_name: check
+            accessor:
+                getter: getCheck
+                setter: setCheck
+            type: MediaStoreNet\OpenImmo\Check
+        daten:
+            expose: true
+            access_type: public_method
+            serialized_name: daten
+            accessor:
+                getter: getDaten
+                setter: setDaten
+            type: MediaStoreNet\OpenImmo\Daten
