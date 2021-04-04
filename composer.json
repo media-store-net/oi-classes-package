@@ -1,0 +1,26 @@
+{
+  "name": "media-store-net/openimmo",
+  "description": "Represent OpenImmo specific Classes from the OpenImmo 1.27b",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Artur Voll",
+      "email": "artur.voll@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "MediaStoreNet\\OpenImmo\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "MediaStoreNet\\OpenImmo\\Test\\": "tests/"
+    }
+  },
+  "minimum-stability": "dev",
+  "require": {},
+  "require-dev": {
+    "goetas-webservices/xsd2php": ">=0.3"
+  }
+}
