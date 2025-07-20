@@ -1,10 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<phpunit
-        bootstrap="./vendor/bin/phpunit"
-        colors="true">
+<phpunit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="https://schema.phpunit.de/9.5/phpunit.xsd"
+         bootstrap="vendor/autoload.php"
+         colors="true">
     <testsuites>
-        <testsuite name="UnitTests">
-            <directory prefix="" suffix="Test.php">./tests</directory>
+        <testsuite name="OpenImmo Test Suite">
+            <directory>tests</directory>
         </testsuite>
     </testsuites>
+    <php>
+        <ini name="error_reporting" value="E_ALL &amp; ~E_DEPRECATED"/>
+    </php>
+    <coverage>
+        <include>
+            <directory suffix=".php">src</directory>
+        </include>
+    </coverage>
 </phpunit>
