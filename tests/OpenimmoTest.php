@@ -9,75 +9,112 @@ use MediaStoreNet\OpenImmo\Classes\UserDefinedAnyfield;
 use MediaStoreNet\OpenImmo\Classes\UserDefinedSimplefield;
 use PHPUnit\Framework\TestCase;
 
+/**
+ * Test-Klasse für Openimmo
+ */
 class OpenimmoTest extends TestCase
 {
-    public function setUp(): void
+    private Openimmo $oi;
+
+    protected function setUp(): void
     {
         parent::setUp();
-
         $this->oi = new Openimmo();
     }
 
-    public function tearDown(): void
+    protected function tearDown(): void
     {
         parent::tearDown();
         unset($this->oi);
     }
 
-    public function testIsInstanceOfOpenimmo(): void
+    public function testShouldBeInstanceOfOpenimmo(): void
     {
         self::assertInstanceOf(
-            'MediaStoreNet\OpenImmo\Classes\Openimmo',
+            Openimmo::class,
             $this->oi,
-            'expected that $this->openimmo a Instance of MediaStoreNet\OpenImmo\Openimmo'
+            'Das Objekt sollte eine Instanz von Openimmo sein'
         );
     }
 
-    public function testSetUebertragungInstance(): void
+    public function testShouldSetAndGetUebertragung(): void
     {
-        $this->oi->setUebertragung(new Uebertragung());
-        $this->assertInstanceOf(
-            'MediaStoreNet\OpenImmo\Classes\Uebertragung',
+        $uebertragung = new Uebertragung();
+        $this->oi->setUebertragung($uebertragung);
+
+        self::assertInstanceOf(
+            Uebertragung::class,
             $this->oi->getUebertragung(),
-            'expected method getUebertragung() returns a class of MediaStoreNet\OpenImmo\Classes\Uebertragung');
+            'getUebertragung() sollte eine Instanz von Uebertragung zurückgeben'
+        );
     }
 
-    public function testSetAnbieterInstance(): void
+    public function testShouldManageAnbieterCollection(): void
     {
-        $this->oi->addToAnbieter(new Anbieter());
-        $this->assertInstanceOf(
-            'MediaStoreNet\OpenImmo\Classes\Anbieter',
+        $anbieter = new Anbieter();
+        $this->oi->addToAnbieter($anbieter);
+
+        self::assertInstanceOf(
+            Anbieter::class,
             $this->oi->getAnbieter()[0],
-            'expected method getAnbieter()[0] returns a instance of MediaStoreNet\OpenImmo\Classes\Anbieter'
+            'Der erste Anbieter sollte eine Instanz von Anbieter sein'
         );
-        $this->assertIsArray($this->oi->getAnbieter(), 'expected getAnbieter() return an array');
+        self::assertIsArray(
+            $this->oi->getAnbieter(),
+            'getAnbieter() sollte ein Array zurückgeben'
+        );
+
         $this->oi->unsetAnbieter(0);
-        $this->assertArrayNotHasKey(0, $this->oi->getAnbieter(), 'expected the Anbieter Array is Empty');
+        self::assertArrayNotHasKey(
+            0,
+            $this->oi->getAnbieter(),
+            'Nach dem Entfernen sollte kein Anbieter mehr vorhanden sein'
+        );
     }
 
-    public function testSetUDSFInstance()
+    public function testShouldManageUserDefinedSimplefieldCollection(): void
     {
-        $this->oi->addToUserDefinedSimplefield(new UserDefinedSimplefield());
-        $this->assertInstanceOf(
-            'MediaStoreNet\OpenImmo\Classes\UserDefinedSimplefield',
+        $field = new UserDefinedSimplefield();
+        $this->oi->addToUserDefinedSimplefield($field);
+
+        self::assertInstanceOf(
+            UserDefinedSimplefield::class,
             $this->oi->getUserDefinedSimplefield()[0],
-            'expected method getUserDefinedSimplefield()[0] returns a instance of MediaStoreNet\OpenImmo\Classes\UserDefinedSimplefield'
+            'Das erste Feld sollte eine Instanz von UserDefinedSimplefield sein'
         );
-        $this->assertIsArray($this->oi->getUserDefinedSimplefield(), 'expected getUserDefinedSimplefield() return an array');
+        self::assertIsArray(
+            $this->oi->getUserDefinedSimplefield(),
+            'getUserDefinedSimplefield() sollte ein Array zurückgeben'
+        );
+
         $this->oi->unsetUserDefinedSimplefield(0);
-        $this->assertArrayNotHasKey(0, $this->oi->getUserDefinedSimplefield(), 'expected the UserDefinedSimplefield Array is Empty');
-    }
-
-    public function testSetADSAInstance() {
-        $this->oi->addToUserDefinedAnyfield(new UserDefinedAnyfield());
-        $this->assertInstanceOf(
-            'MediaStoreNet\OpenImmo\Classes\UserDefinedAnyfield',
-            $this->oi->getUserDefinedAnyfield()[0],
-            'expected method getUserDefinedAnyfield()[0] returns a instance of MediaStoreNet\OpenImmo\Classes\UserDefinedAnyfield'
+        self::assertArrayNotHasKey(
+            0,
+            $this->oi->getUserDefinedSimplefield(),
+            'Nach dem Entfernen sollte kein UserDefinedSimplefield mehr vorhanden sein'
         );
-        $this->assertIsArray($this->oi->getUserDefinedAnyfield(), 'expected getUserDefinedAnyfield() return an array');
-        $this->oi->unsetUserDefinedAnyfield(0);
-        $this->assertArrayNotHasKey(0, $this->oi->getUserDefinedAnyfield(), 'expected the UserDefinedAnyfield Array is Empty');
     }
 
+    public function testShouldManageUserDefinedAnyfieldCollection(): void
+    {
+        $field = new UserDefinedAnyfield();
+        $this->oi->addToUserDefinedAnyfield($field);
+
+        self::assertInstanceOf(
+            UserDefinedAnyfield::class,
+            $this->oi->getUserDefinedAnyfield()[0],
+            'Das erste Feld sollte eine Instanz von UserDefinedAnyfield sein'
+        );
+        self::assertIsArray(
+            $this->oi->getUserDefinedAnyfield(),
+            'getUserDefinedAnyfield() sollte ein Array zurückgeben'
+        );
+
+        $this->oi->unsetUserDefinedAnyfield(0);
+        self::assertArrayNotHasKey(
+            0,
+            $this->oi->getUserDefinedAnyfield(),
+            'Nach dem Entfernen sollte kein UserDefinedAnyfield mehr vorhanden sein'
+        );
+    }
 }
