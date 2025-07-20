@@ -1,0 +1,252 @@
+MediaStoreNet\OpenImmo\Classes\Geo\GeoAnonymousPHPType:
+    properties:
+        plz:
+            expose: true
+            access_type: public_method
+            serialized_name: plz
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getPlz
+                setter: setPlz
+            type: string
+        ort:
+            expose: true
+            access_type: public_method
+            serialized_name: ort
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getOrt
+                setter: setOrt
+            type: string
+        geokoordinaten:
+            expose: true
+            access_type: public_method
+            serialized_name: geokoordinaten
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getGeokoordinaten
+                setter: setGeokoordinaten
+            type: MediaStoreNet\OpenImmo\Classes\Geokoordinaten
+        strasse:
+            expose: true
+            access_type: public_method
+            serialized_name: strasse
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getStrasse
+                setter: setStrasse
+            type: string
+        hausnummer:
+            expose: true
+            access_type: public_method
+            serialized_name: hausnummer
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getHausnummer
+                setter: setHausnummer
+            type: string
+        bundesland:
+            expose: true
+            access_type: public_method
+            serialized_name: bundesland
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getBundesland
+                setter: setBundesland
+            type: string
+        land:
+            expose: true
+            access_type: public_method
+            serialized_name: land
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getLand
+                setter: setLand
+            type: MediaStoreNet\OpenImmo\Classes\Land
+        gemeindecode:
+            expose: true
+            access_type: public_method
+            serialized_name: gemeindecode
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getGemeindecode
+                setter: setGemeindecode
+            type: string
+        flur:
+            expose: true
+            access_type: public_method
+            serialized_name: flur
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getFlur
+                setter: setFlur
+            type: string
+        flurstueck:
+            expose: true
+            access_type: public_method
+            serialized_name: flurstueck
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getFlurstueck
+                setter: setFlurstueck
+            type: string
+        gemarkung:
+            expose: true
+            access_type: public_method
+            serialized_name: gemarkung
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getGemarkung
+                setter: setGemarkung
+            type: string
+        etage:
+            expose: true
+            access_type: public_method
+            serialized_name: etage
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getEtage
+                setter: setEtage
+            type: int
+        anzahlEtagen:
+            expose: true
+            access_type: public_method
+            serialized_name: anzahl_etagen
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getAnzahlEtagen
+                setter: setAnzahlEtagen
+            type: int
+        lageImBau:
+            expose: true
+            access_type: public_method
+            serialized_name: lage_im_bau
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getLageImBau
+                setter: setLageImBau
+            type: MediaStoreNet\OpenImmo\Classes\LageImBau
+        wohnungsnr:
+            expose: true
+            access_type: public_method
+            serialized_name: wohnungsnr
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getWohnungsnr
+                setter: setWohnungsnr
+            type: string
+        lageGebiet:
+            expose: true
+            access_type: public_method
+            serialized_name: lage_gebiet
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getLageGebiet
+                setter: setLageGebiet
+            type: MediaStoreNet\OpenImmo\Classes\LageGebiet
+        regionalerZusatz:
+            expose: true
+            access_type: public_method
+            serialized_name: regionaler_zusatz
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getRegionalerZusatz
+                setter: setRegionalerZusatz
+            type: string
+        kartenMakro:
+            expose: true
+            access_type: public_method
+            serialized_name: karten_makro
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getKartenMakro
+                setter: setKartenMakro
+            type: bool
+        kartenMikro:
+            expose: true
+            access_type: public_method
+            serialized_name: karten_mikro
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getKartenMikro
+                setter: setKartenMikro
+            type: bool
+        virtuelletour:
+            expose: true
+            access_type: public_method
+            serialized_name: virtuelletour
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getVirtuelletour
+                setter: setVirtuelletour
+            type: bool
+        luftbildern:
+            expose: true
+            access_type: public_method
+            serialized_name: luftbildern
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getLuftbildern
+                setter: setLuftbildern
+            type: bool
+        userDefinedSimplefield:
+            expose: true
+            access_type: public_method
+            serialized_name: user_defined_simplefield
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getUserDefinedSimplefield
+                setter: setUserDefinedSimplefield
+            xml_list:
+                inline: true
+                entry_name: user_defined_simplefield
+            type: array<MediaStoreNet\OpenImmo\Classes\UserDefinedSimplefield>
+        userDefinedAnyfield:
+            expose: true
+            access_type: public_method
+            serialized_name: user_defined_anyfield
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getUserDefinedAnyfield
+                setter: setUserDefinedAnyfield
+            xml_list:
+                inline: true
+                entry_name: user_defined_anyfield
+            type: array<MediaStoreNet\OpenImmo\Classes\UserDefinedAnyfield>
+        userDefinedExtend:
+            expose: true
+            access_type: public_method
+            serialized_name: user_defined_extend
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getUserDefinedExtend
+                setter: setUserDefinedExtend
+            type: array<MediaStoreNet\OpenImmo\Classes\UserDefinedExtend\UserDefinedExtendAnonymousPHPType\FeldAnonymousPHPType>
+            xml_list:
+                inline: false
+                entry_name: feld
+                skip_when_empty: true

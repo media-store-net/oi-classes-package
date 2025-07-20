@@ -1,0 +1,155 @@
+MediaStoreNet\OpenImmo\Classes\ZustandAngaben\ZustandAngabenAnonymousPHPType:
+    properties:
+        baujahr:
+            expose: true
+            access_type: public_method
+            serialized_name: baujahr
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getBaujahr
+                setter: setBaujahr
+            type: string
+        letztemodernisierung:
+            expose: true
+            access_type: public_method
+            serialized_name: letztemodernisierung
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getLetztemodernisierung
+                setter: setLetztemodernisierung
+            type: string
+        zustand:
+            expose: true
+            access_type: public_method
+            serialized_name: zustand
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getZustand
+                setter: setZustand
+            type: MediaStoreNet\OpenImmo\Classes\Zustand
+        alter:
+            expose: true
+            access_type: public_method
+            serialized_name: alter
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getAlter
+                setter: setAlter
+            type: MediaStoreNet\OpenImmo\Classes\Alter
+        bebaubarNach:
+            expose: true
+            access_type: public_method
+            serialized_name: bebaubar_nach
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getBebaubarNach
+                setter: setBebaubarNach
+            type: MediaStoreNet\OpenImmo\Classes\BebaubarNach
+        erschliessung:
+            expose: true
+            access_type: public_method
+            serialized_name: erschliessung
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getErschliessung
+                setter: setErschliessung
+            type: MediaStoreNet\OpenImmo\Classes\Erschliessung
+        erschliessungUmfang:
+            expose: true
+            access_type: public_method
+            serialized_name: erschliessung_umfang
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getErschliessungUmfang
+                setter: setErschliessungUmfang
+            type: MediaStoreNet\OpenImmo\Classes\ErschliessungUmfang
+        bauzone:
+            expose: true
+            access_type: public_method
+            serialized_name: bauzone
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getBauzone
+                setter: setBauzone
+            type: string
+        altlasten:
+            expose: true
+            access_type: public_method
+            serialized_name: altlasten
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getAltlasten
+                setter: setAltlasten
+            type: string
+        energiepass:
+            expose: true
+            access_type: public_method
+            serialized_name: energiepass
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getEnergiepass
+                setter: setEnergiepass
+            xml_list:
+                inline: true
+                entry_name: energiepass
+            type: array<MediaStoreNet\OpenImmo\Classes\Energiepass>
+        verkaufstatus:
+            expose: true
+            access_type: public_method
+            serialized_name: verkaufstatus
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getVerkaufstatus
+                setter: setVerkaufstatus
+            type: MediaStoreNet\OpenImmo\Classes\Verkaufstatus
+        userDefinedSimplefield:
+            expose: true
+            access_type: public_method
+            serialized_name: user_defined_simplefield
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getUserDefinedSimplefield
+                setter: setUserDefinedSimplefield
+            xml_list:
+                inline: true
+                entry_name: user_defined_simplefield
+            type: array<MediaStoreNet\OpenImmo\Classes\UserDefinedSimplefield>
+        userDefinedAnyfield:
+            expose: true
+            access_type: public_method
+            serialized_name: user_defined_anyfield
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getUserDefinedAnyfield
+                setter: setUserDefinedAnyfield
+            xml_list:
+                inline: true
+                entry_name: user_defined_anyfield
+            type: array<MediaStoreNet\OpenImmo\Classes\UserDefinedAnyfield>
+        userDefinedExtend:
+            expose: true
+            access_type: public_method
+            serialized_name: user_defined_extend
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getUserDefinedExtend
+                setter: setUserDefinedExtend
+            type: array<MediaStoreNet\OpenImmo\Classes\UserDefinedExtend\UserDefinedExtendAnonymousPHPType\FeldAnonymousPHPType>
+            xml_list:
+                inline: false
+                entry_name: feld
+                skip_when_empty: true

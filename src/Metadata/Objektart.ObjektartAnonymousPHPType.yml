@@ -1,0 +1,184 @@
+MediaStoreNet\OpenImmo\Classes\Objektart\ObjektartAnonymousPHPType:
+    properties:
+        zimmer:
+            expose: true
+            access_type: public_method
+            serialized_name: zimmer
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getZimmer
+                setter: setZimmer
+            xml_list:
+                inline: true
+                entry_name: zimmer
+            type: array<MediaStoreNet\OpenImmo\Classes\Zimmer>
+        wohnung:
+            expose: true
+            access_type: public_method
+            serialized_name: wohnung
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getWohnung
+                setter: setWohnung
+            xml_list:
+                inline: true
+                entry_name: wohnung
+            type: array<MediaStoreNet\OpenImmo\Classes\Wohnung>
+        haus:
+            expose: true
+            access_type: public_method
+            serialized_name: haus
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getHaus
+                setter: setHaus
+            xml_list:
+                inline: true
+                entry_name: haus
+            type: array<MediaStoreNet\OpenImmo\Classes\Haus>
+        grundstueck:
+            expose: true
+            access_type: public_method
+            serialized_name: grundstueck
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getGrundstueck
+                setter: setGrundstueck
+            xml_list:
+                inline: true
+                entry_name: grundstueck
+            type: array<MediaStoreNet\OpenImmo\Classes\Grundstueck>
+        bueroPraxen:
+            expose: true
+            access_type: public_method
+            serialized_name: buero_praxen
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getBueroPraxen
+                setter: setBueroPraxen
+            xml_list:
+                inline: true
+                entry_name: buero_praxen
+            type: array<MediaStoreNet\OpenImmo\Classes\BueroPraxen>
+        einzelhandel:
+            expose: true
+            access_type: public_method
+            serialized_name: einzelhandel
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getEinzelhandel
+                setter: setEinzelhandel
+            xml_list:
+                inline: true
+                entry_name: einzelhandel
+            type: array<MediaStoreNet\OpenImmo\Classes\Einzelhandel>
+        gastgewerbe:
+            expose: true
+            access_type: public_method
+            serialized_name: gastgewerbe
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getGastgewerbe
+                setter: setGastgewerbe
+            xml_list:
+                inline: true
+                entry_name: gastgewerbe
+            type: array<MediaStoreNet\OpenImmo\Classes\Gastgewerbe>
+        hallenLagerProd:
+            expose: true
+            access_type: public_method
+            serialized_name: hallen_lager_prod
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getHallenLagerProd
+                setter: setHallenLagerProd
+            xml_list:
+                inline: true
+                entry_name: hallen_lager_prod
+            type: array<MediaStoreNet\OpenImmo\Classes\HallenLagerProd>
+        landUndForstwirtschaft:
+            expose: true
+            access_type: public_method
+            serialized_name: land_und_forstwirtschaft
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getLandUndForstwirtschaft
+                setter: setLandUndForstwirtschaft
+            xml_list:
+                inline: true
+                entry_name: land_und_forstwirtschaft
+            type: array<MediaStoreNet\OpenImmo\Classes\LandUndForstwirtschaft>
+        parken:
+            expose: true
+            access_type: public_method
+            serialized_name: parken
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getParken
+                setter: setParken
+            xml_list:
+                inline: true
+                entry_name: parken
+            type: array<MediaStoreNet\OpenImmo\Classes\Parken>
+        sonstige:
+            expose: true
+            access_type: public_method
+            serialized_name: sonstige
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getSonstige
+                setter: setSonstige
+            xml_list:
+                inline: true
+                entry_name: sonstige
+            type: array<MediaStoreNet\OpenImmo\Classes\Sonstige>
+        freizeitimmobilieGewerblich:
+            expose: true
+            access_type: public_method
+            serialized_name: freizeitimmobilie_gewerblich
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getFreizeitimmobilieGewerblich
+                setter: setFreizeitimmobilieGewerblich
+            xml_list:
+                inline: true
+                entry_name: freizeitimmobilie_gewerblich
+            type: array<MediaStoreNet\OpenImmo\Classes\FreizeitimmobilieGewerblich>
+        zinshausRenditeobjekt:
+            expose: true
+            access_type: public_method
+            serialized_name: zinshaus_renditeobjekt
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getZinshausRenditeobjekt
+                setter: setZinshausRenditeobjekt
+            xml_list:
+                inline: true
+                entry_name: zinshaus_renditeobjekt
+            type: array<MediaStoreNet\OpenImmo\Classes\ZinshausRenditeobjekt>
+        objektartZusatz:
+            expose: true
+            access_type: public_method
+            serialized_name: objektart_zusatz
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getObjektartZusatz
+                setter: setObjektartZusatz
+            xml_list:
+                inline: true
+                entry_name: objektart_zusatz
+            type: array<string>

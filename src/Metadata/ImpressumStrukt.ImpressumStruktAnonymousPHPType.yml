@@ -1,0 +1,102 @@
+MediaStoreNet\OpenImmo\Classes\ImpressumStrukt\ImpressumStruktAnonymousPHPType:
+    properties:
+        firmenname:
+            expose: true
+            access_type: public_method
+            serialized_name: firmenname
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getFirmenname
+                setter: setFirmenname
+            type: string
+        firmenanschrift:
+            expose: true
+            access_type: public_method
+            serialized_name: firmenanschrift
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getFirmenanschrift
+                setter: setFirmenanschrift
+            type: string
+        telefon:
+            expose: true
+            access_type: public_method
+            serialized_name: telefon
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getTelefon
+                setter: setTelefon
+            type: string
+        vertretungsberechtigter:
+            expose: true
+            access_type: public_method
+            serialized_name: vertretungsberechtigter
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getVertretungsberechtigter
+                setter: setVertretungsberechtigter
+            type: string
+        berufsaufsichtsbehoerde:
+            expose: true
+            access_type: public_method
+            serialized_name: berufsaufsichtsbehoerde
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getBerufsaufsichtsbehoerde
+                setter: setBerufsaufsichtsbehoerde
+            type: string
+        handelsregister:
+            expose: true
+            access_type: public_method
+            serialized_name: handelsregister
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getHandelsregister
+                setter: setHandelsregister
+            type: string
+        handelsregisterNr:
+            expose: true
+            access_type: public_method
+            serialized_name: handelsregister_nr
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getHandelsregisterNr
+                setter: setHandelsregisterNr
+            type: string
+        umsstId:
+            expose: true
+            access_type: public_method
+            serialized_name: umsst-id
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getUmsstId
+                setter: setUmsstId
+            type: string
+        steuernummer:
+            expose: true
+            access_type: public_method
+            serialized_name: steuernummer
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getSteuernummer
+                setter: setSteuernummer
+            type: string
+        weiteres:
+            expose: true
+            access_type: public_method
+            serialized_name: weiteres
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getWeiteres
+                setter: setWeiteres
+            type: string

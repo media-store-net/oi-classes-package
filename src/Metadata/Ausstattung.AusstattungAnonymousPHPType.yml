@@ -1,0 +1,588 @@
+MediaStoreNet\OpenImmo\Classes\Ausstattung\AusstattungAnonymousPHPType:
+    properties:
+        ausstattKategorie:
+            expose: true
+            access_type: public_method
+            serialized_name: ausstatt_kategorie
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getAusstattKategorie
+                setter: setAusstattKategorie
+            type: string
+        wgGeeignet:
+            expose: true
+            access_type: public_method
+            serialized_name: wg_geeignet
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getWgGeeignet
+                setter: setWgGeeignet
+            type: bool
+        raeumeVeraenderbar:
+            expose: true
+            access_type: public_method
+            serialized_name: raeume_veraenderbar
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getRaeumeVeraenderbar
+                setter: setRaeumeVeraenderbar
+            type: bool
+        bad:
+            expose: true
+            access_type: public_method
+            serialized_name: bad
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getBad
+                setter: setBad
+            type: MediaStoreNet\OpenImmo\Classes\Bad
+        kueche:
+            expose: true
+            access_type: public_method
+            serialized_name: kueche
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getKueche
+                setter: setKueche
+            type: MediaStoreNet\OpenImmo\Classes\Kueche
+        boden:
+            expose: true
+            access_type: public_method
+            serialized_name: boden
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getBoden
+                setter: setBoden
+            type: MediaStoreNet\OpenImmo\Classes\Boden
+        kamin:
+            expose: true
+            access_type: public_method
+            serialized_name: kamin
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getKamin
+                setter: setKamin
+            type: bool
+        heizungsart:
+            expose: true
+            access_type: public_method
+            serialized_name: heizungsart
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getHeizungsart
+                setter: setHeizungsart
+            type: MediaStoreNet\OpenImmo\Classes\Heizungsart
+        befeuerung:
+            expose: true
+            access_type: public_method
+            serialized_name: befeuerung
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getBefeuerung
+                setter: setBefeuerung
+            type: MediaStoreNet\OpenImmo\Classes\Befeuerung
+        klimatisiert:
+            expose: true
+            access_type: public_method
+            serialized_name: klimatisiert
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getKlimatisiert
+                setter: setKlimatisiert
+            type: bool
+        fahrstuhl:
+            expose: true
+            access_type: public_method
+            serialized_name: fahrstuhl
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getFahrstuhl
+                setter: setFahrstuhl
+            type: MediaStoreNet\OpenImmo\Classes\Fahrstuhl
+        stellplatzart:
+            expose: true
+            access_type: public_method
+            serialized_name: stellplatzart
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getStellplatzart
+                setter: setStellplatzart
+            xml_list:
+                inline: true
+                entry_name: stellplatzart
+            type: array<MediaStoreNet\OpenImmo\Classes\Stellplatzart>
+        gartennutzung:
+            expose: true
+            access_type: public_method
+            serialized_name: gartennutzung
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getGartennutzung
+                setter: setGartennutzung
+            type: bool
+        ausrichtBalkonTerrasse:
+            expose: true
+            access_type: public_method
+            serialized_name: ausricht_balkon_terrasse
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getAusrichtBalkonTerrasse
+                setter: setAusrichtBalkonTerrasse
+            type: MediaStoreNet\OpenImmo\Classes\AusrichtBalkonTerrasse
+        moebliert:
+            expose: true
+            access_type: public_method
+            serialized_name: moebliert
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getMoebliert
+                setter: setMoebliert
+            type: MediaStoreNet\OpenImmo\Classes\Moebliert
+        rollstuhlgerecht:
+            expose: true
+            access_type: public_method
+            serialized_name: rollstuhlgerecht
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getRollstuhlgerecht
+                setter: setRollstuhlgerecht
+            type: bool
+        kabelSatTv:
+            expose: true
+            access_type: public_method
+            serialized_name: kabel_sat_tv
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getKabelSatTv
+                setter: setKabelSatTv
+            type: bool
+        dvbt:
+            expose: true
+            access_type: public_method
+            serialized_name: dvbt
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getDvbt
+                setter: setDvbt
+            type: bool
+        barrierefrei:
+            expose: true
+            access_type: public_method
+            serialized_name: barrierefrei
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getBarrierefrei
+                setter: setBarrierefrei
+            type: bool
+        sauna:
+            expose: true
+            access_type: public_method
+            serialized_name: sauna
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getSauna
+                setter: setSauna
+            type: bool
+        swimmingpool:
+            expose: true
+            access_type: public_method
+            serialized_name: swimmingpool
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getSwimmingpool
+                setter: setSwimmingpool
+            type: bool
+        waschTrockenraum:
+            expose: true
+            access_type: public_method
+            serialized_name: wasch_trockenraum
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getWaschTrockenraum
+                setter: setWaschTrockenraum
+            type: bool
+        wintergarten:
+            expose: true
+            access_type: public_method
+            serialized_name: wintergarten
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getWintergarten
+                setter: setWintergarten
+            type: bool
+        dvVerkabelung:
+            expose: true
+            access_type: public_method
+            serialized_name: dv_verkabelung
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getDvVerkabelung
+                setter: setDvVerkabelung
+            type: bool
+        rampe:
+            expose: true
+            access_type: public_method
+            serialized_name: rampe
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getRampe
+                setter: setRampe
+            type: bool
+        hebebuehne:
+            expose: true
+            access_type: public_method
+            serialized_name: hebebuehne
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getHebebuehne
+                setter: setHebebuehne
+            type: bool
+        kran:
+            expose: true
+            access_type: public_method
+            serialized_name: kran
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getKran
+                setter: setKran
+            type: bool
+        gastterrasse:
+            expose: true
+            access_type: public_method
+            serialized_name: gastterrasse
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getGastterrasse
+                setter: setGastterrasse
+            type: bool
+        stromanschlusswert:
+            expose: true
+            access_type: public_method
+            serialized_name: stromanschlusswert
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getStromanschlusswert
+                setter: setStromanschlusswert
+            type: string
+        kantineCafeteria:
+            expose: true
+            access_type: public_method
+            serialized_name: kantine_cafeteria
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getKantineCafeteria
+                setter: setKantineCafeteria
+            type: bool
+        teekueche:
+            expose: true
+            access_type: public_method
+            serialized_name: teekueche
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getTeekueche
+                setter: setTeekueche
+            type: bool
+        hallenhoehe:
+            expose: true
+            access_type: public_method
+            serialized_name: hallenhoehe
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getHallenhoehe
+                setter: setHallenhoehe
+            type: float
+        angeschlGastronomie:
+            expose: true
+            access_type: public_method
+            serialized_name: angeschl_gastronomie
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getAngeschlGastronomie
+                setter: setAngeschlGastronomie
+            type: MediaStoreNet\OpenImmo\Classes\AngeschlGastronomie
+        brauereibindung:
+            expose: true
+            access_type: public_method
+            serialized_name: brauereibindung
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getBrauereibindung
+                setter: setBrauereibindung
+            type: bool
+        sporteinrichtungen:
+            expose: true
+            access_type: public_method
+            serialized_name: sporteinrichtungen
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getSporteinrichtungen
+                setter: setSporteinrichtungen
+            type: bool
+        wellnessbereich:
+            expose: true
+            access_type: public_method
+            serialized_name: wellnessbereich
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getWellnessbereich
+                setter: setWellnessbereich
+            type: bool
+        serviceleistungen:
+            expose: true
+            access_type: public_method
+            serialized_name: serviceleistungen
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getServiceleistungen
+                setter: setServiceleistungen
+            xml_list:
+                inline: true
+                entry_name: serviceleistungen
+            type: array<MediaStoreNet\OpenImmo\Classes\Serviceleistungen>
+        telefonFerienimmobilie:
+            expose: true
+            access_type: public_method
+            serialized_name: telefon_ferienimmobilie
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getTelefonFerienimmobilie
+                setter: setTelefonFerienimmobilie
+            type: bool
+        breitbandZugang:
+            expose: true
+            access_type: public_method
+            serialized_name: breitband_zugang
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getBreitbandZugang
+                setter: setBreitbandZugang
+            type: MediaStoreNet\OpenImmo\Classes\BreitbandZugang
+        umtsEmpfang:
+            expose: true
+            access_type: public_method
+            serialized_name: umts_empfang
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getUmtsEmpfang
+                setter: setUmtsEmpfang
+            type: bool
+        sicherheitstechnik:
+            expose: true
+            access_type: public_method
+            serialized_name: sicherheitstechnik
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getSicherheitstechnik
+                setter: setSicherheitstechnik
+            type: MediaStoreNet\OpenImmo\Classes\Sicherheitstechnik
+        unterkellert:
+            expose: true
+            access_type: public_method
+            serialized_name: unterkellert
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getUnterkellert
+                setter: setUnterkellert
+            type: MediaStoreNet\OpenImmo\Classes\Unterkellert
+        abstellraum:
+            expose: true
+            access_type: public_method
+            serialized_name: abstellraum
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getAbstellraum
+                setter: setAbstellraum
+            type: bool
+        fahrradraum:
+            expose: true
+            access_type: public_method
+            serialized_name: fahrradraum
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getFahrradraum
+                setter: setFahrradraum
+            type: bool
+        rolladen:
+            expose: true
+            access_type: public_method
+            serialized_name: rolladen
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getRolladen
+                setter: setRolladen
+            type: bool
+        dachform:
+            expose: true
+            access_type: public_method
+            serialized_name: dachform
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getDachform
+                setter: setDachform
+            type: MediaStoreNet\OpenImmo\Classes\Dachform
+        bauweise:
+            expose: true
+            access_type: public_method
+            serialized_name: bauweise
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getBauweise
+                setter: setBauweise
+            type: MediaStoreNet\OpenImmo\Classes\Bauweise
+        ausbaustufe:
+            expose: true
+            access_type: public_method
+            serialized_name: ausbaustufe
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getAusbaustufe
+                setter: setAusbaustufe
+            type: MediaStoreNet\OpenImmo\Classes\Ausbaustufe
+        energietyp:
+            expose: true
+            access_type: public_method
+            serialized_name: energietyp
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getEnergietyp
+                setter: setEnergietyp
+            type: MediaStoreNet\OpenImmo\Classes\Energietyp
+        bibliothek:
+            expose: true
+            access_type: public_method
+            serialized_name: bibliothek
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getBibliothek
+                setter: setBibliothek
+            type: bool
+        dachboden:
+            expose: true
+            access_type: public_method
+            serialized_name: dachboden
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getDachboden
+                setter: setDachboden
+            type: bool
+        gaestewc:
+            expose: true
+            access_type: public_method
+            serialized_name: gaestewc
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getGaestewc
+                setter: setGaestewc
+            type: bool
+        kabelkanaele:
+            expose: true
+            access_type: public_method
+            serialized_name: kabelkanaele
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getKabelkanaele
+                setter: setKabelkanaele
+            type: bool
+        seniorengerecht:
+            expose: true
+            access_type: public_method
+            serialized_name: seniorengerecht
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getSeniorengerecht
+                setter: setSeniorengerecht
+            type: bool
+        userDefinedSimplefield:
+            expose: true
+            access_type: public_method
+            serialized_name: user_defined_simplefield
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getUserDefinedSimplefield
+                setter: setUserDefinedSimplefield
+            xml_list:
+                inline: true
+                entry_name: user_defined_simplefield
+            type: array<MediaStoreNet\OpenImmo\Classes\UserDefinedSimplefield>
+        userDefinedAnyfield:
+            expose: true
+            access_type: public_method
+            serialized_name: user_defined_anyfield
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getUserDefinedAnyfield
+                setter: setUserDefinedAnyfield
+            xml_list:
+                inline: true
+                entry_name: user_defined_anyfield
+            type: array<MediaStoreNet\OpenImmo\Classes\UserDefinedAnyfield>
+        userDefinedExtend:
+            expose: true
+            access_type: public_method
+            serialized_name: user_defined_extend
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getUserDefinedExtend
+                setter: setUserDefinedExtend
+            type: array<MediaStoreNet\OpenImmo\Classes\UserDefinedExtend\UserDefinedExtendAnonymousPHPType\FeldAnonymousPHPType>
+            xml_list:
+                inline: false
+                entry_name: feld
+                skip_when_empty: true

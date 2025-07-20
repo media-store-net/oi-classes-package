@@ -1,0 +1,11 @@
+MediaStoreNet\OpenImmo\Classes\ZinshausRenditeobjekt\ZinshausRenditeobjektAnonymousPHPType:
+    properties:
+        zinsTyp:
+            expose: true
+            access_type: public_method
+            serialized_name: zins_typ
+            accessor:
+                getter: getZinsTyp
+                setter: setZinsTyp
+            xml_attribute: true
+            type: string

@@ -1,0 +1,11 @@
+MediaStoreNet\OpenImmo\Classes\BueroPraxen\BueroPraxenAnonymousPHPType:
+    properties:
+        bueroTyp:
+            expose: true
+            access_type: public_method
+            serialized_name: buero_typ
+            accessor:
+                getter: getBueroTyp
+                setter: setBueroTyp
+            xml_attribute: true
+            type: string

@@ -1,0 +1,83 @@
+MediaStoreNet\OpenImmo\Classes\Energietyp\EnergietypAnonymousPHPType:
+    properties:
+        pASSIVHAUS:
+            expose: true
+            access_type: public_method
+            serialized_name: PASSIVHAUS
+            accessor:
+                getter: getPASSIVHAUS
+                setter: setPASSIVHAUS
+            xml_attribute: true
+            type: bool
+        nIEDRIGENERGIE:
+            expose: true
+            access_type: public_method
+            serialized_name: NIEDRIGENERGIE
+            accessor:
+                getter: getNIEDRIGENERGIE
+                setter: setNIEDRIGENERGIE
+            xml_attribute: true
+            type: bool
+        nEUBAUSTANDARD:
+            expose: true
+            access_type: public_method
+            serialized_name: NEUBAUSTANDARD
+            accessor:
+                getter: getNEUBAUSTANDARD
+                setter: setNEUBAUSTANDARD
+            xml_attribute: true
+            type: bool
+        kFW40:
+            expose: true
+            access_type: public_method
+            serialized_name: KFW40
+            accessor:
+                getter: getKFW40
+                setter: setKFW40
+            xml_attribute: true
+            type: bool
+        kFW60:
+            expose: true
+            access_type: public_method
+            serialized_name: KFW60
+            accessor:
+                getter: getKFW60
+                setter: setKFW60
+            xml_attribute: true
+            type: bool
+        kFW55:
+            expose: true
+            access_type: public_method
+            serialized_name: KFW55
+            accessor:
+                getter: getKFW55
+                setter: setKFW55
+            xml_attribute: true
+            type: bool
+        kFW70:
+            expose: true
+            access_type: public_method
+            serialized_name: KFW70
+            accessor:
+                getter: getKFW70
+                setter: setKFW70
+            xml_attribute: true
+            type: bool
+        mINERGIEBAUWEISE:
+            expose: true
+            access_type: public_method
+            serialized_name: MINERGIEBAUWEISE
+            accessor:
+                getter: getMINERGIEBAUWEISE
+                setter: setMINERGIEBAUWEISE
+            xml_attribute: true
+            type: bool
+        mINERGIEZERTIFIZIERT:
+            expose: true
+            access_type: public_method
+            serialized_name: MINERGIE_ZERTIFIZIERT
+            accessor:
+                getter: getMINERGIEZERTIFIZIERT
+                setter: setMINERGIEZERTIFIZIERT
+            xml_attribute: true
+            type: bool

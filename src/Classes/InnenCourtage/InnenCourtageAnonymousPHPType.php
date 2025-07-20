@@ -1,0 +1,40 @@
+<?php
+
+namespace MediaStoreNet\OpenImmo\Classes\InnenCourtage;
+
+/**
+ * Class representing InnenCourtageAnonymousPHPType
+ */
+class InnenCourtageAnonymousPHPType
+{
+
+    /**
+     * @var bool $mitMwst
+     */
+    private $mitMwst = null;
+
+    /**
+     * Gets as mitMwst
+     *
+     * @return bool
+     */
+    public function getMitMwst()
+    {
+        return $this->mitMwst;
+    }
+
+    /**
+     * Sets a new mitMwst
+     *
+     * @param bool $mitMwst
+     * @return self
+     */
+    public function setMitMwst($mitMwst)
+    {
+        $this->mitMwst = $mitMwst;
+        return $this;
+    }
+
+
+}
+

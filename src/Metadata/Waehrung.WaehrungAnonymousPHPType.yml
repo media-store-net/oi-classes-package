@@ -1,0 +1,11 @@
+MediaStoreNet\OpenImmo\Classes\Waehrung\WaehrungAnonymousPHPType:
+    properties:
+        isoWaehrung:
+            expose: true
+            access_type: public_method
+            serialized_name: iso_waehrung
+            accessor:
+                getter: getIsoWaehrung
+                setter: setIsoWaehrung
+            xml_attribute: true
+            type: string

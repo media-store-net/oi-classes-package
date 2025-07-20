@@ -1,0 +1,112 @@
+MediaStoreNet\OpenImmo\Classes\Freitexte\FreitexteAnonymousPHPType:
+    properties:
+        objekttitel:
+            expose: true
+            access_type: public_method
+            serialized_name: objekttitel
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getObjekttitel
+                setter: setObjekttitel
+            type: string
+        dreizeiler:
+            expose: true
+            access_type: public_method
+            serialized_name: dreizeiler
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getDreizeiler
+                setter: setDreizeiler
+            type: string
+        lage:
+            expose: true
+            access_type: public_method
+            serialized_name: lage
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getLage
+                setter: setLage
+            type: string
+        ausstattBeschr:
+            expose: true
+            access_type: public_method
+            serialized_name: ausstatt_beschr
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getAusstattBeschr
+                setter: setAusstattBeschr
+            type: string
+        objektbeschreibung:
+            expose: true
+            access_type: public_method
+            serialized_name: objektbeschreibung
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getObjektbeschreibung
+                setter: setObjektbeschreibung
+            type: string
+        sonstigeAngaben:
+            expose: true
+            access_type: public_method
+            serialized_name: sonstige_angaben
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getSonstigeAngaben
+                setter: setSonstigeAngaben
+            type: string
+        objektText:
+            expose: true
+            access_type: public_method
+            serialized_name: objekt_text
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getObjektText
+                setter: setObjektText
+            type: MediaStoreNet\OpenImmo\Classes\ObjektText
+        userDefinedSimplefield:
+            expose: true
+            access_type: public_method
+            serialized_name: user_defined_simplefield
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getUserDefinedSimplefield
+                setter: setUserDefinedSimplefield
+            xml_list:
+                inline: true
+                entry_name: user_defined_simplefield
+            type: array<MediaStoreNet\OpenImmo\Classes\UserDefinedSimplefield>
+        userDefinedAnyfield:
+            expose: true
+            access_type: public_method
+            serialized_name: user_defined_anyfield
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getUserDefinedAnyfield
+                setter: setUserDefinedAnyfield
+            xml_list:
+                inline: true
+                entry_name: user_defined_anyfield
+            type: array<MediaStoreNet\OpenImmo\Classes\UserDefinedAnyfield>
+        userDefinedExtend:
+            expose: true
+            access_type: public_method
+            serialized_name: user_defined_extend
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getUserDefinedExtend
+                setter: setUserDefinedExtend
+            type: array<MediaStoreNet\OpenImmo\Classes\UserDefinedExtend\UserDefinedExtendAnonymousPHPType\FeldAnonymousPHPType>
+            xml_list:
+                inline: false
+                entry_name: feld
+                skip_when_empty: true

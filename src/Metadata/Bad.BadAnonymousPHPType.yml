@@ -1,0 +1,47 @@
+MediaStoreNet\OpenImmo\Classes\Bad\BadAnonymousPHPType:
+    properties:
+        dUSCHE:
+            expose: true
+            access_type: public_method
+            serialized_name: DUSCHE
+            accessor:
+                getter: getDUSCHE
+                setter: setDUSCHE
+            xml_attribute: true
+            type: bool
+        wANNE:
+            expose: true
+            access_type: public_method
+            serialized_name: WANNE
+            accessor:
+                getter: getWANNE
+                setter: setWANNE
+            xml_attribute: true
+            type: bool
+        fENSTER:
+            expose: true
+            access_type: public_method
+            serialized_name: FENSTER
+            accessor:
+                getter: getFENSTER
+                setter: setFENSTER
+            xml_attribute: true
+            type: bool
+        bIDET:
+            expose: true
+            access_type: public_method
+            serialized_name: BIDET
+            accessor:
+                getter: getBIDET
+                setter: setBIDET
+            xml_attribute: true
+            type: bool
+        pISSOIR:
+            expose: true
+            access_type: public_method
+            serialized_name: PISSOIR
+            accessor:
+                getter: getPISSOIR
+                setter: setPISSOIR
+            xml_attribute: true
+            type: bool

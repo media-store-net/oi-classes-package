@@ -1,0 +1,245 @@
+MediaStoreNet\OpenImmo\Classes\Befeuerung\BefeuerungAnonymousPHPType:
+    properties:
+        oEL:
+            expose: true
+            access_type: public_method
+            serialized_name: OEL
+            accessor:
+                getter: getOEL
+                setter: setOEL
+            xml_attribute: true
+            type: bool
+        gAS:
+            expose: true
+            access_type: public_method
+            serialized_name: GAS
+            accessor:
+                getter: getGAS
+                setter: setGAS
+            xml_attribute: true
+            type: bool
+        eLEKTRO:
+            expose: true
+            access_type: public_method
+            serialized_name: ELEKTRO
+            accessor:
+                getter: getELEKTRO
+                setter: setELEKTRO
+            xml_attribute: true
+            type: bool
+        aLTERNATIV:
+            expose: true
+            access_type: public_method
+            serialized_name: ALTERNATIV
+            accessor:
+                getter: getALTERNATIV
+                setter: setALTERNATIV
+            xml_attribute: true
+            type: bool
+        sOLAR:
+            expose: true
+            access_type: public_method
+            serialized_name: SOLAR
+            accessor:
+                getter: getSOLAR
+                setter: setSOLAR
+            xml_attribute: true
+            type: bool
+        eRDWAERME:
+            expose: true
+            access_type: public_method
+            serialized_name: ERDWAERME
+            accessor:
+                getter: getERDWAERME
+                setter: setERDWAERME
+            xml_attribute: true
+            type: bool
+        lUFTWP:
+            expose: true
+            access_type: public_method
+            serialized_name: LUFTWP
+            accessor:
+                getter: getLUFTWP
+                setter: setLUFTWP
+            xml_attribute: true
+            type: bool
+        fERN:
+            expose: true
+            access_type: public_method
+            serialized_name: FERN
+            accessor:
+                getter: getFERN
+                setter: setFERN
+            xml_attribute: true
+            type: bool
+        bLOCK:
+            expose: true
+            access_type: public_method
+            serialized_name: BLOCK
+            accessor:
+                getter: getBLOCK
+                setter: setBLOCK
+            xml_attribute: true
+            type: bool
+        wASSERELEKTRO:
+            expose: true
+            access_type: public_method
+            serialized_name: WASSER-ELEKTRO
+            accessor:
+                getter: getWASSERELEKTRO
+                setter: setWASSERELEKTRO
+            xml_attribute: true
+            type: bool
+        pELLET:
+            expose: true
+            access_type: public_method
+            serialized_name: PELLET
+            accessor:
+                getter: getPELLET
+                setter: setPELLET
+            xml_attribute: true
+            type: bool
+        kOHLE:
+            expose: true
+            access_type: public_method
+            serialized_name: KOHLE
+            accessor:
+                getter: getKOHLE
+                setter: setKOHLE
+            xml_attribute: true
+            type: bool
+        hOLZ:
+            expose: true
+            access_type: public_method
+            serialized_name: HOLZ
+            accessor:
+                getter: getHOLZ
+                setter: setHOLZ
+            xml_attribute: true
+            type: bool
+        fLUESSIGGAS:
+            expose: true
+            access_type: public_method
+            serialized_name: FLUESSIGGAS
+            accessor:
+                getter: getFLUESSIGGAS
+                setter: setFLUESSIGGAS
+            xml_attribute: true
+            type: bool
+        eRDGASLEICHT:
+            expose: true
+            access_type: public_method
+            serialized_name: ERDGAS_LEICHT
+            accessor:
+                getter: getERDGASLEICHT
+                setter: setERDGASLEICHT
+            xml_attribute: true
+            type: bool
+        eRDGASSCHWER:
+            expose: true
+            access_type: public_method
+            serialized_name: ERDGAS_SCHWER
+            accessor:
+                getter: getERDGASSCHWER
+                setter: setERDGASSCHWER
+            xml_attribute: true
+            type: bool
+        fERNWAERMEDAMPF:
+            expose: true
+            access_type: public_method
+            serialized_name: FERNWAERME_DAMPF
+            accessor:
+                getter: getFERNWAERMEDAMPF
+                setter: setFERNWAERMEDAMPF
+            xml_attribute: true
+            type: bool
+        nAHWAERME:
+            expose: true
+            access_type: public_method
+            serialized_name: NAHWAERME
+            accessor:
+                getter: getNAHWAERME
+                setter: setNAHWAERME
+            xml_attribute: true
+            type: bool
+        wAERMELIEFERUNG:
+            expose: true
+            access_type: public_method
+            serialized_name: WAERMELIEFERUNG
+            accessor:
+                getter: getWAERMELIEFERUNG
+                setter: setWAERMELIEFERUNG
+            xml_attribute: true
+            type: bool
+        bIOENERGIE:
+            expose: true
+            access_type: public_method
+            serialized_name: BIOENERGIE
+            accessor:
+                getter: getBIOENERGIE
+                setter: setBIOENERGIE
+            xml_attribute: true
+            type: bool
+        wINDENERGIE:
+            expose: true
+            access_type: public_method
+            serialized_name: WINDENERGIE
+            accessor:
+                getter: getWINDENERGIE
+                setter: setWINDENERGIE
+            xml_attribute: true
+            type: bool
+        wASSERENERGIE:
+            expose: true
+            access_type: public_method
+            serialized_name: WASSERENERGIE
+            accessor:
+                getter: getWASSERENERGIE
+                setter: setWASSERENERGIE
+            xml_attribute: true
+            type: bool
+        uMWELTWAERME:
+            expose: true
+            access_type: public_method
+            serialized_name: UMWELTWAERME
+            accessor:
+                getter: getUMWELTWAERME
+                setter: setUMWELTWAERME
+            xml_attribute: true
+            type: bool
+        kWKFOSSIL:
+            expose: true
+            access_type: public_method
+            serialized_name: KWK_FOSSIL
+            accessor:
+                getter: getKWKFOSSIL
+                setter: setKWKFOSSIL
+            xml_attribute: true
+            type: bool
+        kWKERNEUERBAR:
+            expose: true
+            access_type: public_method
+            serialized_name: KWK_ERNEUERBAR
+            accessor:
+                getter: getKWKERNEUERBAR
+                setter: setKWKERNEUERBAR
+            xml_attribute: true
+            type: bool
+        kWKREGENERATIV:
+            expose: true
+            access_type: public_method
+            serialized_name: KWK_REGENERATIV
+            accessor:
+                getter: getKWKREGENERATIV
+                setter: setKWKREGENERATIV
+            xml_attribute: true
+            type: bool
+        kWKBIO:
+            expose: true
+            access_type: public_method
+            serialized_name: KWK_BIO
+            accessor:
+                getter: getKWKBIO
+                setter: setKWKBIO
+            xml_attribute: true
+            type: bool

@@ -1,0 +1,21 @@
+MediaStoreNet\OpenImmo\Classes\Kaufpreis\KaufpreisAnonymousPHPType:
+    properties:
+        __value:
+            expose: true
+            xml_value: true
+            access_type: public_method
+            accessor:
+                getter: value
+                setter: value
+            type: float
+            xml_element:
+                cdata: false
+        aufAnfrage:
+            expose: true
+            access_type: public_method
+            serialized_name: auf_anfrage
+            accessor:
+                getter: getAufAnfrage
+                setter: setAufAnfrage
+            xml_attribute: true
+            type: bool

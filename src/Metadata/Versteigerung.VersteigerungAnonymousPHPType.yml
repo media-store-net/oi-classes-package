@@ -1,0 +1,62 @@
+MediaStoreNet\OpenImmo\Classes\Versteigerung\VersteigerungAnonymousPHPType:
+    properties:
+        zwangsversteigerung:
+            expose: true
+            access_type: public_method
+            serialized_name: zwangsversteigerung
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getZwangsversteigerung
+                setter: setZwangsversteigerung
+            type: bool
+        aktenzeichen:
+            expose: true
+            access_type: public_method
+            serialized_name: aktenzeichen
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getAktenzeichen
+                setter: setAktenzeichen
+            type: string
+        zvtermin:
+            expose: true
+            access_type: public_method
+            serialized_name: zvtermin
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getZvtermin
+                setter: setZvtermin
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        zusatztermin:
+            expose: true
+            access_type: public_method
+            serialized_name: zusatztermin
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getZusatztermin
+                setter: setZusatztermin
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        amtsgericht:
+            expose: true
+            access_type: public_method
+            serialized_name: amtsgericht
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getAmtsgericht
+                setter: setAmtsgericht
+            type: string
+        verkehrswert:
+            expose: true
+            access_type: public_method
+            serialized_name: verkehrswert
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getVerkehrswert
+                setter: setVerkehrswert
+            type: float

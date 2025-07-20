@@ -1,0 +1,209 @@
+MediaStoreNet\OpenImmo\Classes\Immobilie\ImmobilieAnonymousPHPType:
+    properties:
+        objektkategorie:
+            expose: true
+            access_type: public_method
+            serialized_name: objektkategorie
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getObjektkategorie
+                setter: setObjektkategorie
+            type: MediaStoreNet\OpenImmo\Classes\Objektkategorie
+        geo:
+            expose: true
+            access_type: public_method
+            serialized_name: geo
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getGeo
+                setter: setGeo
+            type: MediaStoreNet\OpenImmo\Classes\Geo
+        kontaktperson:
+            expose: true
+            access_type: public_method
+            serialized_name: kontaktperson
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getKontaktperson
+                setter: setKontaktperson
+            type: MediaStoreNet\OpenImmo\Classes\Kontaktperson
+        weitereAdresse:
+            expose: true
+            access_type: public_method
+            serialized_name: weitere_adresse
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getWeitereAdresse
+                setter: setWeitereAdresse
+            xml_list:
+                inline: true
+                entry_name: weitere_adresse
+            type: array<MediaStoreNet\OpenImmo\Classes\WeitereAdresse>
+        preise:
+            expose: true
+            access_type: public_method
+            serialized_name: preise
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getPreise
+                setter: setPreise
+            type: MediaStoreNet\OpenImmo\Classes\Preise
+        bieterverfahren:
+            expose: true
+            access_type: public_method
+            serialized_name: bieterverfahren
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getBieterverfahren
+                setter: setBieterverfahren
+            type: MediaStoreNet\OpenImmo\Classes\Bieterverfahren
+        versteigerung:
+            expose: true
+            access_type: public_method
+            serialized_name: versteigerung
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getVersteigerung
+                setter: setVersteigerung
+            type: MediaStoreNet\OpenImmo\Classes\Versteigerung
+        flaechen:
+            expose: true
+            access_type: public_method
+            serialized_name: flaechen
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getFlaechen
+                setter: setFlaechen
+            type: MediaStoreNet\OpenImmo\Classes\Flaechen
+        ausstattung:
+            expose: true
+            access_type: public_method
+            serialized_name: ausstattung
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getAusstattung
+                setter: setAusstattung
+            type: MediaStoreNet\OpenImmo\Classes\Ausstattung
+        zustandAngaben:
+            expose: true
+            access_type: public_method
+            serialized_name: zustand_angaben
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getZustandAngaben
+                setter: setZustandAngaben
+            type: MediaStoreNet\OpenImmo\Classes\ZustandAngaben
+        bewertung:
+            expose: true
+            access_type: public_method
+            serialized_name: bewertung
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getBewertung
+                setter: setBewertung
+            type: array<MediaStoreNet\OpenImmo\Classes\Bewertung\BewertungAnonymousPHPType\FeldAnonymousPHPType>
+            xml_list:
+                inline: false
+                entry_name: feld
+                skip_when_empty: true
+        infrastruktur:
+            expose: true
+            access_type: public_method
+            serialized_name: infrastruktur
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getInfrastruktur
+                setter: setInfrastruktur
+            type: MediaStoreNet\OpenImmo\Classes\Infrastruktur
+        freitexte:
+            expose: true
+            access_type: public_method
+            serialized_name: freitexte
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getFreitexte
+                setter: setFreitexte
+            type: MediaStoreNet\OpenImmo\Classes\Freitexte
+        anhaenge:
+            expose: true
+            access_type: public_method
+            serialized_name: anhaenge
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getAnhaenge
+                setter: setAnhaenge
+            type: MediaStoreNet\OpenImmo\Classes\Anhaenge
+        verwaltungObjekt:
+            expose: true
+            access_type: public_method
+            serialized_name: verwaltung_objekt
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getVerwaltungObjekt
+                setter: setVerwaltungObjekt
+            type: MediaStoreNet\OpenImmo\Classes\VerwaltungObjekt
+        verwaltungTechn:
+            expose: true
+            access_type: public_method
+            serialized_name: verwaltung_techn
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getVerwaltungTechn
+                setter: setVerwaltungTechn
+            type: MediaStoreNet\OpenImmo\Classes\VerwaltungTechn
+        userDefinedSimplefield:
+            expose: true
+            access_type: public_method
+            serialized_name: user_defined_simplefield
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getUserDefinedSimplefield
+                setter: setUserDefinedSimplefield
+            xml_list:
+                inline: true
+                entry_name: user_defined_simplefield
+            type: array<MediaStoreNet\OpenImmo\Classes\UserDefinedSimplefield>
+        userDefinedAnyfield:
+            expose: true
+            access_type: public_method
+            serialized_name: user_defined_anyfield
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getUserDefinedAnyfield
+                setter: setUserDefinedAnyfield
+            xml_list:
+                inline: true
+                entry_name: user_defined_anyfield
+            type: array<MediaStoreNet\OpenImmo\Classes\UserDefinedAnyfield>
+        userDefinedExtend:
+            expose: true
+            access_type: public_method
+            serialized_name: user_defined_extend
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getUserDefinedExtend
+                setter: setUserDefinedExtend
+            type: array<MediaStoreNet\OpenImmo\Classes\UserDefinedExtend\UserDefinedExtendAnonymousPHPType\FeldAnonymousPHPType>
+            xml_list:
+                inline: false
+                entry_name: feld
+                skip_when_empty: true

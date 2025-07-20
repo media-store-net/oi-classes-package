@@ -1,0 +1,21 @@
+MediaStoreNet\OpenImmo\Classes\Provisionnetto\ProvisionnettoAnonymousPHPType:
+    properties:
+        __value:
+            expose: true
+            xml_value: true
+            access_type: public_method
+            accessor:
+                getter: value
+                setter: value
+            type: float
+            xml_element:
+                cdata: false
+        provisionust:
+            expose: true
+            access_type: public_method
+            serialized_name: provisionust
+            accessor:
+                getter: getProvisionust
+                setter: setProvisionust
+            xml_attribute: true
+            type: float

@@ -1,0 +1,56 @@
+MediaStoreNet\OpenImmo\Classes\Stellplatzart\StellplatzartAnonymousPHPType:
+    properties:
+        gARAGE:
+            expose: true
+            access_type: public_method
+            serialized_name: GARAGE
+            accessor:
+                getter: getGARAGE
+                setter: setGARAGE
+            xml_attribute: true
+            type: bool
+        tIEFGARAGE:
+            expose: true
+            access_type: public_method
+            serialized_name: TIEFGARAGE
+            accessor:
+                getter: getTIEFGARAGE
+                setter: setTIEFGARAGE
+            xml_attribute: true
+            type: bool
+        cARPORT:
+            expose: true
+            access_type: public_method
+            serialized_name: CARPORT
+            accessor:
+                getter: getCARPORT
+                setter: setCARPORT
+            xml_attribute: true
+            type: bool
+        fREIPLATZ:
+            expose: true
+            access_type: public_method
+            serialized_name: FREIPLATZ
+            accessor:
+                getter: getFREIPLATZ
+                setter: setFREIPLATZ
+            xml_attribute: true
+            type: bool
+        pARKHAUS:
+            expose: true
+            access_type: public_method
+            serialized_name: PARKHAUS
+            accessor:
+                getter: getPARKHAUS
+                setter: setPARKHAUS
+            xml_attribute: true
+            type: bool
+        dUPLEX:
+            expose: true
+            access_type: public_method
+            serialized_name: DUPLEX
+            accessor:
+                getter: getDUPLEX
+                setter: setDUPLEX
+            xml_attribute: true
+            type: bool

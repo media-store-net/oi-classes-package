@@ -1,0 +1,192 @@
+MediaStoreNet\OpenImmo\Classes\Energiepass\EnergiepassAnonymousPHPType:
+    properties:
+        epart:
+            expose: true
+            access_type: public_method
+            serialized_name: epart
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getEpart
+                setter: setEpart
+            type: string
+        gueltigBis:
+            expose: true
+            access_type: public_method
+            serialized_name: gueltig_bis
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getGueltigBis
+                setter: setGueltigBis
+            type: string
+        energieverbrauchkennwert:
+            expose: true
+            access_type: public_method
+            serialized_name: energieverbrauchkennwert
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getEnergieverbrauchkennwert
+                setter: setEnergieverbrauchkennwert
+            type: string
+        mitwarmwasser:
+            expose: true
+            access_type: public_method
+            serialized_name: mitwarmwasser
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getMitwarmwasser
+                setter: setMitwarmwasser
+            type: bool
+        endenergiebedarf:
+            expose: true
+            access_type: public_method
+            serialized_name: endenergiebedarf
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getEndenergiebedarf
+                setter: setEndenergiebedarf
+            type: string
+        primaerenergietraeger:
+            expose: true
+            access_type: public_method
+            serialized_name: primaerenergietraeger
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getPrimaerenergietraeger
+                setter: setPrimaerenergietraeger
+            type: string
+        stromwert:
+            expose: true
+            access_type: public_method
+            serialized_name: stromwert
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getStromwert
+                setter: setStromwert
+            type: string
+        waermewert:
+            expose: true
+            access_type: public_method
+            serialized_name: waermewert
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getWaermewert
+                setter: setWaermewert
+            type: string
+        wertklasse:
+            expose: true
+            access_type: public_method
+            serialized_name: wertklasse
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getWertklasse
+                setter: setWertklasse
+            type: string
+        baujahr:
+            expose: true
+            access_type: public_method
+            serialized_name: baujahr
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getBaujahr
+                setter: setBaujahr
+            type: string
+        ausstelldatum:
+            expose: true
+            access_type: public_method
+            serialized_name: ausstelldatum
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getAusstelldatum
+                setter: setAusstelldatum
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Date
+        jahrgang:
+            expose: true
+            access_type: public_method
+            serialized_name: jahrgang
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getJahrgang
+                setter: setJahrgang
+            type: string
+        gebaeudeart:
+            expose: true
+            access_type: public_method
+            serialized_name: gebaeudeart
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getGebaeudeart
+                setter: setGebaeudeart
+            type: string
+        epasstext:
+            expose: true
+            access_type: public_method
+            serialized_name: epasstext
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getEpasstext
+                setter: setEpasstext
+            type: string
+        geg2018:
+            expose: true
+            access_type: public_method
+            serialized_name: geg2018
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getGeg2018
+                setter: setGeg2018
+            type: string
+        hwbwert:
+            expose: true
+            access_type: public_method
+            serialized_name: hwbwert
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getHwbwert
+                setter: setHwbwert
+            type: string
+        hwbklasse:
+            expose: true
+            access_type: public_method
+            serialized_name: hwbklasse
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getHwbklasse
+                setter: setHwbklasse
+            type: string
+        fgeewert:
+            expose: true
+            access_type: public_method
+            serialized_name: fgeewert
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getFgeewert
+                setter: setFgeewert
+            type: string
+        fgeeklasse:
+            expose: true
+            access_type: public_method
+            serialized_name: fgeeklasse
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getFgeeklasse
+                setter: setFgeeklasse
+            type: string

@@ -1,0 +1,21 @@
+MediaStoreNet\OpenImmo\Classes\Monatlichekostennetto\MonatlichekostennettoAnonymousPHPType:
+    properties:
+        __value:
+            expose: true
+            xml_value: true
+            access_type: public_method
+            accessor:
+                getter: value
+                setter: value
+            type: float
+            xml_element:
+                cdata: false
+        monatlichekostenust:
+            expose: true
+            access_type: public_method
+            serialized_name: monatlichekostenust
+            accessor:
+                getter: getMonatlichekostenust
+                setter: setMonatlichekostenust
+            xml_attribute: true
+            type: float

@@ -1,0 +1,347 @@
+MediaStoreNet\OpenImmo\Classes\WeitereAdresse\WeitereAdresseAnonymousPHPType:
+    properties:
+        adressart:
+            expose: true
+            access_type: public_method
+            serialized_name: adressart
+            accessor:
+                getter: getAdressart
+                setter: setAdressart
+            xml_attribute: true
+            type: string
+        vorname:
+            expose: true
+            access_type: public_method
+            serialized_name: vorname
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getVorname
+                setter: setVorname
+            type: string
+        name:
+            expose: true
+            access_type: public_method
+            serialized_name: name
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getName
+                setter: setName
+            type: string
+        titel:
+            expose: true
+            access_type: public_method
+            serialized_name: titel
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getTitel
+                setter: setTitel
+            type: string
+        anrede:
+            expose: true
+            access_type: public_method
+            serialized_name: anrede
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getAnrede
+                setter: setAnrede
+            type: string
+        anredeBrief:
+            expose: true
+            access_type: public_method
+            serialized_name: anrede_brief
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getAnredeBrief
+                setter: setAnredeBrief
+            type: string
+        firma:
+            expose: true
+            access_type: public_method
+            serialized_name: firma
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getFirma
+                setter: setFirma
+            type: string
+        zusatzfeld:
+            expose: true
+            access_type: public_method
+            serialized_name: zusatzfeld
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getZusatzfeld
+                setter: setZusatzfeld
+            type: string
+        strasse:
+            expose: true
+            access_type: public_method
+            serialized_name: strasse
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getStrasse
+                setter: setStrasse
+            type: string
+        hausnummer:
+            expose: true
+            access_type: public_method
+            serialized_name: hausnummer
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getHausnummer
+                setter: setHausnummer
+            type: string
+        plz:
+            expose: true
+            access_type: public_method
+            serialized_name: plz
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getPlz
+                setter: setPlz
+            type: string
+        ort:
+            expose: true
+            access_type: public_method
+            serialized_name: ort
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getOrt
+                setter: setOrt
+            type: string
+        postfach:
+            expose: true
+            access_type: public_method
+            serialized_name: postfach
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getPostfach
+                setter: setPostfach
+            type: string
+        postfPlz:
+            expose: true
+            access_type: public_method
+            serialized_name: postf_plz
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getPostfPlz
+                setter: setPostfPlz
+            type: string
+        postfOrt:
+            expose: true
+            access_type: public_method
+            serialized_name: postf_ort
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getPostfOrt
+                setter: setPostfOrt
+            type: string
+        land:
+            expose: true
+            access_type: public_method
+            serialized_name: land
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getLand
+                setter: setLand
+            type: MediaStoreNet\OpenImmo\Classes\Land
+        emailZentrale:
+            expose: true
+            access_type: public_method
+            serialized_name: email_zentrale
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getEmailZentrale
+                setter: setEmailZentrale
+            type: string
+        emailDirekt:
+            expose: true
+            access_type: public_method
+            serialized_name: email_direkt
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getEmailDirekt
+                setter: setEmailDirekt
+            type: string
+        emailPrivat:
+            expose: true
+            access_type: public_method
+            serialized_name: email_privat
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getEmailPrivat
+                setter: setEmailPrivat
+            type: string
+        emailSonstige:
+            expose: true
+            access_type: public_method
+            serialized_name: email_sonstige
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getEmailSonstige
+                setter: setEmailSonstige
+            xml_list:
+                inline: true
+                entry_name: email_sonstige
+            type: array<MediaStoreNet\OpenImmo\Classes\EmailSonstige>
+        telDurchw:
+            expose: true
+            access_type: public_method
+            serialized_name: tel_durchw
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getTelDurchw
+                setter: setTelDurchw
+            type: string
+        telZentrale:
+            expose: true
+            access_type: public_method
+            serialized_name: tel_zentrale
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getTelZentrale
+                setter: setTelZentrale
+            type: string
+        telHandy:
+            expose: true
+            access_type: public_method
+            serialized_name: tel_handy
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getTelHandy
+                setter: setTelHandy
+            type: string
+        telFax:
+            expose: true
+            access_type: public_method
+            serialized_name: tel_fax
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getTelFax
+                setter: setTelFax
+            type: string
+        telPrivat:
+            expose: true
+            access_type: public_method
+            serialized_name: tel_privat
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getTelPrivat
+                setter: setTelPrivat
+            type: string
+        telSonstige:
+            expose: true
+            access_type: public_method
+            serialized_name: tel_sonstige
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getTelSonstige
+                setter: setTelSonstige
+            xml_list:
+                inline: true
+                entry_name: tel_sonstige
+            type: array<MediaStoreNet\OpenImmo\Classes\TelSonstige>
+        url:
+            expose: true
+            access_type: public_method
+            serialized_name: url
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getUrl
+                setter: setUrl
+            type: string
+        adressfreigabe:
+            expose: true
+            access_type: public_method
+            serialized_name: adressfreigabe
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getAdressfreigabe
+                setter: setAdressfreigabe
+            type: bool
+        personennummer:
+            expose: true
+            access_type: public_method
+            serialized_name: personennummer
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getPersonennummer
+                setter: setPersonennummer
+            type: string
+        freitextfeld:
+            expose: true
+            access_type: public_method
+            serialized_name: freitextfeld
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getFreitextfeld
+                setter: setFreitextfeld
+            type: string
+        userDefinedSimplefield:
+            expose: true
+            access_type: public_method
+            serialized_name: user_defined_simplefield
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getUserDefinedSimplefield
+                setter: setUserDefinedSimplefield
+            xml_list:
+                inline: true
+                entry_name: user_defined_simplefield
+            type: array<MediaStoreNet\OpenImmo\Classes\UserDefinedSimplefield>
+        userDefinedAnyfield:
+            expose: true
+            access_type: public_method
+            serialized_name: user_defined_anyfield
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getUserDefinedAnyfield
+                setter: setUserDefinedAnyfield
+            xml_list:
+                inline: true
+                entry_name: user_defined_anyfield
+            type: array<MediaStoreNet\OpenImmo\Classes\UserDefinedAnyfield>
+        userDefinedExtend:
+            expose: true
+            access_type: public_method
+            serialized_name: user_defined_extend
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getUserDefinedExtend
+                setter: setUserDefinedExtend
+            type: array<MediaStoreNet\OpenImmo\Classes\UserDefinedExtend\UserDefinedExtendAnonymousPHPType\FeldAnonymousPHPType>
+            xml_list:
+                inline: false
+                entry_name: feld
+                skip_when_empty: true
