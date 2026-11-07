@@ -1,6 +1,6 @@
 {
   "name": "media-store-net/oi-classes-package",
-  "description": "Represent OpenImmo specific Classes from the OpenImmo 1.27b",
+  "description": "Represent OpenImmo specific Classes from the OpenImmo 1.27d",
   "license": "MIT",
   "authors": [
     {
@@ -23,7 +23,7 @@
     "php": ">=7.0"
   },
   "require-dev": {
-    "goetas-webservices/xsd2php": ">=0.3",
+    "goetas-webservices/xsd2php": ">= 0.4-dev",
     "phpunit/phpunit": "^10.0"
   }
 }
