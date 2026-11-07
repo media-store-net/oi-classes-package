@@ -7,7 +7,6 @@ namespace MediaStoreNet\OpenImmo\Classes\ZustandAngaben;
  */
 class ZustandAngabenAnonymousPHPType
 {
-
     /**
      * @var string $baujahr
      */
@@ -144,7 +143,7 @@ class ZustandAngabenAnonymousPHPType
      * @param \MediaStoreNet\OpenImmo\Classes\Zustand $zustand
      * @return self
      */
-    public function setZustand(\MediaStoreNet\OpenImmo\Classes\Zustand $zustand)
+    public function setZustand(?\MediaStoreNet\OpenImmo\Classes\Zustand $zustand = null)
     {
         $this->zustand = $zustand;
         return $this;
@@ -166,7 +165,7 @@ class ZustandAngabenAnonymousPHPType
      * @param \MediaStoreNet\OpenImmo\Classes\Alter $alter
      * @return self
      */
-    public function setAlter(\MediaStoreNet\OpenImmo\Classes\Alter $alter)
+    public function setAlter(?\MediaStoreNet\OpenImmo\Classes\Alter $alter = null)
     {
         $this->alter = $alter;
         return $this;
@@ -188,7 +187,7 @@ class ZustandAngabenAnonymousPHPType
      * @param \MediaStoreNet\OpenImmo\Classes\BebaubarNach $bebaubarNach
      * @return self
      */
-    public function setBebaubarNach(\MediaStoreNet\OpenImmo\Classes\BebaubarNach $bebaubarNach)
+    public function setBebaubarNach(?\MediaStoreNet\OpenImmo\Classes\BebaubarNach $bebaubarNach = null)
     {
         $this->bebaubarNach = $bebaubarNach;
         return $this;
@@ -210,7 +209,7 @@ class ZustandAngabenAnonymousPHPType
      * @param \MediaStoreNet\OpenImmo\Classes\Erschliessung $erschliessung
      * @return self
      */
-    public function setErschliessung(\MediaStoreNet\OpenImmo\Classes\Erschliessung $erschliessung)
+    public function setErschliessung(?\MediaStoreNet\OpenImmo\Classes\Erschliessung $erschliessung = null)
     {
         $this->erschliessung = $erschliessung;
         return $this;
@@ -232,7 +231,7 @@ class ZustandAngabenAnonymousPHPType
      * @param \MediaStoreNet\OpenImmo\Classes\ErschliessungUmfang $erschliessungUmfang
      * @return self
      */
-    public function setErschliessungUmfang(\MediaStoreNet\OpenImmo\Classes\ErschliessungUmfang $erschliessungUmfang)
+    public function setErschliessungUmfang(?\MediaStoreNet\OpenImmo\Classes\ErschliessungUmfang $erschliessungUmfang = null)
     {
         $this->erschliessungUmfang = $erschliessungUmfang;
         return $this;
@@ -332,7 +331,7 @@ class ZustandAngabenAnonymousPHPType
      * @param \MediaStoreNet\OpenImmo\Classes\Energiepass[] $energiepass
      * @return self
      */
-    public function setEnergiepass(array $energiepass)
+    public function setEnergiepass(?array $energiepass = null)
     {
         $this->energiepass = $energiepass;
         return $this;
@@ -354,7 +353,7 @@ class ZustandAngabenAnonymousPHPType
      * @param \MediaStoreNet\OpenImmo\Classes\Verkaufstatus $verkaufstatus
      * @return self
      */
-    public function setVerkaufstatus(\MediaStoreNet\OpenImmo\Classes\Verkaufstatus $verkaufstatus)
+    public function setVerkaufstatus(?\MediaStoreNet\OpenImmo\Classes\Verkaufstatus $verkaufstatus = null)
     {
         $this->verkaufstatus = $verkaufstatus;
         return $this;
@@ -410,7 +409,7 @@ class ZustandAngabenAnonymousPHPType
      * @param \MediaStoreNet\OpenImmo\Classes\UserDefinedSimplefield[] $userDefinedSimplefield
      * @return self
      */
-    public function setUserDefinedSimplefield(array $userDefinedSimplefield)
+    public function setUserDefinedSimplefield(?array $userDefinedSimplefield = null)
     {
         $this->userDefinedSimplefield = $userDefinedSimplefield;
         return $this;
@@ -466,7 +465,7 @@ class ZustandAngabenAnonymousPHPType
      * @param \MediaStoreNet\OpenImmo\Classes\UserDefinedAnyfield[] $userDefinedAnyfield
      * @return self
      */
-    public function setUserDefinedAnyfield(array $userDefinedAnyfield)
+    public function setUserDefinedAnyfield(?array $userDefinedAnyfield = null)
     {
         $this->userDefinedAnyfield = $userDefinedAnyfield;
         return $this;
@@ -522,12 +521,10 @@ class ZustandAngabenAnonymousPHPType
      * @param \MediaStoreNet\OpenImmo\Classes\UserDefinedExtend\UserDefinedExtendAnonymousPHPType\FeldAnonymousPHPType[] $userDefinedExtend
      * @return self
      */
-    public function setUserDefinedExtend(array $userDefinedExtend)
+    public function setUserDefinedExtend(?array $userDefinedExtend = null)
     {
         $this->userDefinedExtend = $userDefinedExtend;
         return $this;
     }
-
-
 }
 

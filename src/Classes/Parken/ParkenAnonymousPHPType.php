@@ -7,7 +7,6 @@ namespace MediaStoreNet\OpenImmo\Classes\Parken;
  */
 class ParkenAnonymousPHPType
 {
-
     /**
      * @var string $parkenTyp
      */
@@ -34,7 +33,5 @@ class ParkenAnonymousPHPType
         $this->parkenTyp = $parkenTyp;
         return $this;
     }
-
-
 }
 

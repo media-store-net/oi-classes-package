@@ -7,7 +7,6 @@ namespace MediaStoreNet\OpenImmo\Classes\Bieterverfahren;
  */
 class BieterverfahrenAnonymousPHPType
 {
-
     /**
      * @var \DateTime $beginnAngebotsphase
      */
@@ -78,7 +77,7 @@ class BieterverfahrenAnonymousPHPType
      * @param \DateTime $beginnAngebotsphase
      * @return self
      */
-    public function setBeginnAngebotsphase(\DateTime $beginnAngebotsphase)
+    public function setBeginnAngebotsphase(?\DateTime $beginnAngebotsphase = null)
     {
         $this->beginnAngebotsphase = $beginnAngebotsphase;
         return $this;
@@ -100,7 +99,7 @@ class BieterverfahrenAnonymousPHPType
      * @param \DateTime $besichtigungstermin
      * @return self
      */
-    public function setBesichtigungstermin(\DateTime $besichtigungstermin)
+    public function setBesichtigungstermin(?\DateTime $besichtigungstermin = null)
     {
         $this->besichtigungstermin = $besichtigungstermin;
         return $this;
@@ -122,7 +121,7 @@ class BieterverfahrenAnonymousPHPType
      * @param \DateTime $besichtigungstermin2
      * @return self
      */
-    public function setBesichtigungstermin2(\DateTime $besichtigungstermin2)
+    public function setBesichtigungstermin2(?\DateTime $besichtigungstermin2 = null)
     {
         $this->besichtigungstermin2 = $besichtigungstermin2;
         return $this;
@@ -144,7 +143,7 @@ class BieterverfahrenAnonymousPHPType
      * @param \DateTime $beginnBietzeit
      * @return self
      */
-    public function setBeginnBietzeit(\DateTime $beginnBietzeit)
+    public function setBeginnBietzeit(?\DateTime $beginnBietzeit = null)
     {
         $this->beginnBietzeit = $beginnBietzeit;
         return $this;
@@ -166,7 +165,7 @@ class BieterverfahrenAnonymousPHPType
      * @param \DateTime $endeBietzeit
      * @return self
      */
-    public function setEndeBietzeit(\DateTime $endeBietzeit)
+    public function setEndeBietzeit(?\DateTime $endeBietzeit = null)
     {
         $this->endeBietzeit = $endeBietzeit;
         return $this;
@@ -266,7 +265,7 @@ class BieterverfahrenAnonymousPHPType
      * @param \MediaStoreNet\OpenImmo\Classes\UserDefinedSimplefield[] $userDefinedSimplefield
      * @return self
      */
-    public function setUserDefinedSimplefield(array $userDefinedSimplefield)
+    public function setUserDefinedSimplefield(?array $userDefinedSimplefield = null)
     {
         $this->userDefinedSimplefield = $userDefinedSimplefield;
         return $this;
@@ -322,7 +321,7 @@ class BieterverfahrenAnonymousPHPType
      * @param \MediaStoreNet\OpenImmo\Classes\UserDefinedAnyfield[] $userDefinedAnyfield
      * @return self
      */
-    public function setUserDefinedAnyfield(array $userDefinedAnyfield)
+    public function setUserDefinedAnyfield(?array $userDefinedAnyfield = null)
     {
         $this->userDefinedAnyfield = $userDefinedAnyfield;
         return $this;
@@ -378,12 +377,10 @@ class BieterverfahrenAnonymousPHPType
      * @param \MediaStoreNet\OpenImmo\Classes\UserDefinedExtend\UserDefinedExtendAnonymousPHPType\FeldAnonymousPHPType[] $userDefinedExtend
      * @return self
      */
-    public function setUserDefinedExtend(array $userDefinedExtend)
+    public function setUserDefinedExtend(?array $userDefinedExtend = null)
     {
         $this->userDefinedExtend = $userDefinedExtend;
         return $this;
     }
-
-
 }
 

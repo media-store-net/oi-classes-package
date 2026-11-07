@@ -7,11 +7,9 @@ use MediaStoreNet\OpenImmo\Classes\Fahrstuhl\FahrstuhlAnonymousPHPType;
 /**
  * Class representing Fahrstuhl
  *
- * Welche Art von Fahrstuhl, Aufzug, Lift - Mehrfachnennung möglich
+ * Welche Art von Fahrstuhl, Aufzug, Lift - Mehrfachnennung mÃ¶glich
  */
 class Fahrstuhl extends FahrstuhlAnonymousPHPType
 {
-
-
 }
 

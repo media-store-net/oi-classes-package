@@ -7,7 +7,6 @@ namespace MediaStoreNet\OpenImmo\Classes\Kontaktperson;
  */
 class KontaktpersonAnonymousPHPType
 {
-
     /**
      * @var string $emailZentrale
      */
@@ -679,7 +678,7 @@ class KontaktpersonAnonymousPHPType
      * @param \MediaStoreNet\OpenImmo\Classes\Land $land
      * @return self
      */
-    public function setLand(\MediaStoreNet\OpenImmo\Classes\Land $land)
+    public function setLand(?\MediaStoreNet\OpenImmo\Classes\Land $land = null)
     {
         $this->land = $land;
         return $this;
@@ -757,7 +756,7 @@ class KontaktpersonAnonymousPHPType
      * @param \MediaStoreNet\OpenImmo\Classes\EmailSonstige[] $emailSonstige
      * @return self
      */
-    public function setEmailSonstige(array $emailSonstige)
+    public function setEmailSonstige(?array $emailSonstige = null)
     {
         $this->emailSonstige = $emailSonstige;
         return $this;
@@ -857,7 +856,7 @@ class KontaktpersonAnonymousPHPType
      * @param \MediaStoreNet\OpenImmo\Classes\TelSonstige[] $telSonstige
      * @return self
      */
-    public function setTelSonstige(array $telSonstige)
+    public function setTelSonstige(?array $telSonstige = null)
     {
         $this->telSonstige = $telSonstige;
         return $this;
@@ -967,7 +966,7 @@ class KontaktpersonAnonymousPHPType
      * @param \MediaStoreNet\OpenImmo\Classes\Foto $foto
      * @return self
      */
-    public function setFoto(\MediaStoreNet\OpenImmo\Classes\Foto $foto)
+    public function setFoto(?\MediaStoreNet\OpenImmo\Classes\Foto $foto = null)
     {
         $this->foto = $foto;
         return $this;
@@ -1067,7 +1066,7 @@ class KontaktpersonAnonymousPHPType
      * @param \MediaStoreNet\OpenImmo\Classes\UserDefinedSimplefield[] $userDefinedSimplefield
      * @return self
      */
-    public function setUserDefinedSimplefield(array $userDefinedSimplefield)
+    public function setUserDefinedSimplefield(?array $userDefinedSimplefield = null)
     {
         $this->userDefinedSimplefield = $userDefinedSimplefield;
         return $this;
@@ -1123,7 +1122,7 @@ class KontaktpersonAnonymousPHPType
      * @param \MediaStoreNet\OpenImmo\Classes\UserDefinedAnyfield[] $userDefinedAnyfield
      * @return self
      */
-    public function setUserDefinedAnyfield(array $userDefinedAnyfield)
+    public function setUserDefinedAnyfield(?array $userDefinedAnyfield = null)
     {
         $this->userDefinedAnyfield = $userDefinedAnyfield;
         return $this;
@@ -1179,12 +1178,10 @@ class KontaktpersonAnonymousPHPType
      * @param \MediaStoreNet\OpenImmo\Classes\UserDefinedExtend\UserDefinedExtendAnonymousPHPType\FeldAnonymousPHPType[] $userDefinedExtend
      * @return self
      */
-    public function setUserDefinedExtend(array $userDefinedExtend)
+    public function setUserDefinedExtend(?array $userDefinedExtend = null)
     {
         $this->userDefinedExtend = $userDefinedExtend;
         return $this;
     }
-
-
 }
 

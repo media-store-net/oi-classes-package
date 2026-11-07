@@ -11,7 +11,5 @@ use MediaStoreNet\OpenImmo\Classes\Heizkostennetto\HeizkostennettoAnonymousPHPTy
  */
 class Heizkostennetto extends HeizkostennettoAnonymousPHPType
 {
-
-
 }
 

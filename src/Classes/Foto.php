@@ -7,12 +7,10 @@ use MediaStoreNet\OpenImmo\Classes\Foto\FotoAnonymousPHPType;
 /**
  * Class representing Foto
  *
- * Foto bei der Kontaktperson. Datentyp ähnlich "Anhang"
+ * Foto bei der Kontaktperson. Datentyp Ã¤hnlich "Anhang"
  * foto from the kontakt person of the sender
  */
 class Foto extends FotoAnonymousPHPType
 {
-
-
 }
 

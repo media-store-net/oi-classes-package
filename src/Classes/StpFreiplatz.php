@@ -7,7 +7,5 @@ namespace MediaStoreNet\OpenImmo\Classes;
  */
 class StpFreiplatz extends StellplatzType
 {
-
-
 }
 

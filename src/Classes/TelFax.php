@@ -7,7 +7,6 @@ namespace MediaStoreNet\OpenImmo\Classes;
  */
 class TelFax
 {
-
     /**
      * @var string $__value
      */
@@ -46,7 +45,5 @@ class TelFax
     {
         return strval($this->__value);
     }
-
-
 }
 

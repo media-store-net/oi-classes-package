@@ -11,7 +11,5 @@ use MediaStoreNet\OpenImmo\Classes\Nebenkostenprom2von\Nebenkostenprom2vonAnonym
  */
 class Nebenkostenprom2von extends Nebenkostenprom2vonAnonymousPHPType
 {
-
-
 }
 

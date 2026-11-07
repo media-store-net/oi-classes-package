@@ -7,11 +7,9 @@ use MediaStoreNet\OpenImmo\Classes\BueroPraxen\BueroPraxenAnonymousPHPType;
 /**
  * Class representing BueroPraxen
  *
- * Objektart / Typ f. Büro/Praxen
+ * Objektart / Typ f. BÃ¼ro/Praxen
  */
 class BueroPraxen extends BueroPraxenAnonymousPHPType
 {
-
-
 }
 

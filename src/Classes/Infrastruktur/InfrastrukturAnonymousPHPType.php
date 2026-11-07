@@ -7,7 +7,6 @@ namespace MediaStoreNet\OpenImmo\Classes\Infrastruktur;
  */
 class InfrastrukturAnonymousPHPType
 {
-
     /**
      * @var bool $zulieferung
      */
@@ -89,7 +88,7 @@ class InfrastrukturAnonymousPHPType
      * @param \MediaStoreNet\OpenImmo\Classes\Ausblick $ausblick
      * @return self
      */
-    public function setAusblick(\MediaStoreNet\OpenImmo\Classes\Ausblick $ausblick)
+    public function setAusblick(?\MediaStoreNet\OpenImmo\Classes\Ausblick $ausblick = null)
     {
         $this->ausblick = $ausblick;
         return $this;
@@ -145,7 +144,7 @@ class InfrastrukturAnonymousPHPType
      * @param \MediaStoreNet\OpenImmo\Classes\Distanzen[] $distanzen
      * @return self
      */
-    public function setDistanzen(array $distanzen)
+    public function setDistanzen(?array $distanzen = null)
     {
         $this->distanzen = $distanzen;
         return $this;
@@ -201,7 +200,7 @@ class InfrastrukturAnonymousPHPType
      * @param \MediaStoreNet\OpenImmo\Classes\DistanzenSport[] $distanzenSport
      * @return self
      */
-    public function setDistanzenSport(array $distanzenSport)
+    public function setDistanzenSport(?array $distanzenSport = null)
     {
         $this->distanzenSport = $distanzenSport;
         return $this;
@@ -257,7 +256,7 @@ class InfrastrukturAnonymousPHPType
      * @param \MediaStoreNet\OpenImmo\Classes\UserDefinedSimplefield[] $userDefinedSimplefield
      * @return self
      */
-    public function setUserDefinedSimplefield(array $userDefinedSimplefield)
+    public function setUserDefinedSimplefield(?array $userDefinedSimplefield = null)
     {
         $this->userDefinedSimplefield = $userDefinedSimplefield;
         return $this;
@@ -313,7 +312,7 @@ class InfrastrukturAnonymousPHPType
      * @param \MediaStoreNet\OpenImmo\Classes\UserDefinedAnyfield[] $userDefinedAnyfield
      * @return self
      */
-    public function setUserDefinedAnyfield(array $userDefinedAnyfield)
+    public function setUserDefinedAnyfield(?array $userDefinedAnyfield = null)
     {
         $this->userDefinedAnyfield = $userDefinedAnyfield;
         return $this;
@@ -369,12 +368,10 @@ class InfrastrukturAnonymousPHPType
      * @param \MediaStoreNet\OpenImmo\Classes\UserDefinedExtend\UserDefinedExtendAnonymousPHPType\FeldAnonymousPHPType[] $userDefinedExtend
      * @return self
      */
-    public function setUserDefinedExtend(array $userDefinedExtend)
+    public function setUserDefinedExtend(?array $userDefinedExtend = null)
     {
         $this->userDefinedExtend = $userDefinedExtend;
         return $this;
     }
-
-
 }
 

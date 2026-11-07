@@ -11,7 +11,5 @@ use MediaStoreNet\OpenImmo\Classes\Land\LandAnonymousPHPType;
  */
 class Land extends LandAnonymousPHPType
 {
-
-
 }
 

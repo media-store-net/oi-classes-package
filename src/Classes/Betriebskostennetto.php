@@ -11,7 +11,5 @@ use MediaStoreNet\OpenImmo\Classes\Betriebskostennetto\BetriebskostennettoAnonym
  */
 class Betriebskostennetto extends BetriebskostennettoAnonymousPHPType
 {
-
-
 }
 

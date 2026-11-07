@@ -9,7 +9,5 @@ use MediaStoreNet\OpenImmo\Classes\StpSonstige\StpSonstigeAnonymousPHPType;
  */
 class StpSonstige extends StpSonstigeAnonymousPHPType
 {
-
-
 }
 

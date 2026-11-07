@@ -7,7 +7,6 @@ namespace MediaStoreNet\OpenImmo\Classes\Nutzungsart;
  */
 class NutzungsartAnonymousPHPType
 {
-
     /**
      * @var bool $wOHNEN
      */
@@ -115,7 +114,5 @@ class NutzungsartAnonymousPHPType
         $this->wAZ = $wAZ;
         return $this;
     }
-
-
 }
 

@@ -7,7 +7,6 @@ namespace MediaStoreNet\OpenImmo\Classes\Zustand;
  */
 class ZustandAnonymousPHPType
 {
-
     /**
      * @var string $zustandArt
      */
@@ -34,7 +33,5 @@ class ZustandAnonymousPHPType
         $this->zustandArt = $zustandArt;
         return $this;
     }
-
-
 }
 

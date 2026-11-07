@@ -7,7 +7,5 @@ namespace MediaStoreNet\OpenImmo\Classes\UserDefinedAnyfield;
  */
 class UserDefinedAnyfieldAnonymousPHPType
 {
-
-
 }
 

@@ -7,7 +7,6 @@ namespace MediaStoreNet\OpenImmo\Classes\Kueche;
  */
 class KuecheAnonymousPHPType
 {
-
     /**
      * @var bool $eBK
      */
@@ -88,7 +87,5 @@ class KuecheAnonymousPHPType
         $this->pANTRY = $pANTRY;
         return $this;
     }
-
-
 }
 

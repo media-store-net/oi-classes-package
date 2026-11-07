@@ -7,11 +7,9 @@ use MediaStoreNet\OpenImmo\Classes\ImpressumStrukt\ImpressumStruktAnonymousPHPTy
 /**
  * Class representing ImpressumStrukt
  *
- * Ergänzung ($V120)
+ * ErgÃ¤nzung ($V120)
  */
 class ImpressumStrukt extends ImpressumStruktAnonymousPHPType
 {
-
-
 }
 

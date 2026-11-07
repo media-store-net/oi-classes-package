@@ -7,7 +7,6 @@ namespace MediaStoreNet\OpenImmo\Classes\ZinshausRenditeobjekt;
  */
 class ZinshausRenditeobjektAnonymousPHPType
 {
-
     /**
      * @var string $zinsTyp
      */
@@ -34,7 +33,5 @@ class ZinshausRenditeobjektAnonymousPHPType
         $this->zinsTyp = $zinsTyp;
         return $this;
     }
-
-
 }
 

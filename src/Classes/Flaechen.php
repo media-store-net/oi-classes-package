@@ -9,7 +9,5 @@ use MediaStoreNet\OpenImmo\Classes\Flaechen\FlaechenAnonymousPHPType;
  */
 class Flaechen extends FlaechenAnonymousPHPType
 {
-
-
 }
 

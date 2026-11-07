@@ -12,7 +12,5 @@ use MediaStoreNet\OpenImmo\Classes\ObjektText\ObjektTextAnonymousPHPType;
  */
 class ObjektText extends ObjektTextAnonymousPHPType
 {
-
-
 }
 

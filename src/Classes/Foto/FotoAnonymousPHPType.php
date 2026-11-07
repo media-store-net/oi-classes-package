@@ -7,7 +7,6 @@ namespace MediaStoreNet\OpenImmo\Classes\Foto;
  */
 class FotoAnonymousPHPType
 {
-
     /**
      * @var string $location
      */
@@ -88,7 +87,5 @@ class FotoAnonymousPHPType
         $this->daten = $daten;
         return $this;
     }
-
-
 }
 

@@ -9,7 +9,5 @@ use MediaStoreNet\OpenImmo\Classes\Objektkategorie\ObjektkategorieAnonymousPHPTy
  */
 class Objektkategorie extends ObjektkategorieAnonymousPHPType
 {
-
-
 }
 

@@ -7,7 +7,6 @@ namespace MediaStoreNet\OpenImmo\Classes\Gesamtbelastungnetto;
  */
 class GesamtbelastungnettoAnonymousPHPType
 {
-
     /**
      * @var float $__value
      */
@@ -73,7 +72,5 @@ class GesamtbelastungnettoAnonymousPHPType
         $this->gesamtbelastungust = $gesamtbelastungust;
         return $this;
     }
-
-
 }
 

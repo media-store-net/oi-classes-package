@@ -11,7 +11,5 @@ use MediaStoreNet\OpenImmo\Classes\AusrichtBalkonTerrasse\AusrichtBalkonTerrasse
  */
 class AusrichtBalkonTerrasse extends AusrichtBalkonTerrasseAnonymousPHPType
 {
-
-
 }
 

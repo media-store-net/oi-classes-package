@@ -11,7 +11,5 @@ use MediaStoreNet\OpenImmo\Classes\Bieterverfahren\BieterverfahrenAnonymousPHPTy
  */
 class Bieterverfahren extends BieterverfahrenAnonymousPHPType
 {
-
-
 }
 

@@ -11,7 +11,5 @@ use MediaStoreNet\OpenImmo\Classes\AussenCourtage\AussenCourtageAnonymousPHPType
  */
 class AussenCourtage extends AussenCourtageAnonymousPHPType
 {
-
-
 }
 

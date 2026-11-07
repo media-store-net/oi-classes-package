@@ -7,7 +7,6 @@ namespace MediaStoreNet\OpenImmo\Classes\DistanzenSport;
  */
 class DistanzenSportAnonymousPHPType
 {
-
     /**
      * @var float $__value
      */
@@ -73,7 +72,5 @@ class DistanzenSportAnonymousPHPType
         $this->distanzZuSport = $distanzZuSport;
         return $this;
     }
-
-
 }
 

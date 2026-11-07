@@ -7,7 +7,6 @@ namespace MediaStoreNet\OpenImmo\Classes\Alter;
  */
 class AlterAnonymousPHPType
 {
-
     /**
      * @var string $alterAttr
      */
@@ -34,7 +33,5 @@ class AlterAnonymousPHPType
         $this->alterAttr = $alterAttr;
         return $this;
     }
-
-
 }
 

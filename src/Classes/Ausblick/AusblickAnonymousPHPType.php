@@ -7,7 +7,6 @@ namespace MediaStoreNet\OpenImmo\Classes\Ausblick;
  */
 class AusblickAnonymousPHPType
 {
-
     /**
      * @var string $blick
      */
@@ -34,7 +33,5 @@ class AusblickAnonymousPHPType
         $this->blick = $blick;
         return $this;
     }
-
-
 }
 

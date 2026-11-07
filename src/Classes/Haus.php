@@ -11,7 +11,5 @@ use MediaStoreNet\OpenImmo\Classes\Haus\HausAnonymousPHPType;
  */
 class Haus extends HausAnonymousPHPType
 {
-
-
 }
 

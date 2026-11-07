@@ -11,7 +11,5 @@ use MediaStoreNet\OpenImmo\Classes\Provisionnetto\ProvisionnettoAnonymousPHPType
  */
 class Provisionnetto extends ProvisionnettoAnonymousPHPType
 {
-
-
 }
 

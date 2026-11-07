@@ -7,7 +7,6 @@ namespace MediaStoreNet\OpenImmo\Classes\Anbieter;
  */
 class AnbieterAnonymousPHPType
 {
-
     /**
      * @var string $anbieternr
      */
@@ -173,7 +172,7 @@ class AnbieterAnonymousPHPType
      * @param \MediaStoreNet\OpenImmo\Classes\Anhang $anhang
      * @return self
      */
-    public function setAnhang(\MediaStoreNet\OpenImmo\Classes\Anhang $anhang)
+    public function setAnhang(?\MediaStoreNet\OpenImmo\Classes\Anhang $anhang = null)
     {
         $this->anhang = $anhang;
         return $this;
@@ -229,7 +228,7 @@ class AnbieterAnonymousPHPType
      * @param \MediaStoreNet\OpenImmo\Classes\Immobilie[] $immobilie
      * @return self
      */
-    public function setImmobilie(array $immobilie)
+    public function setImmobilie(?array $immobilie = null)
     {
         $this->immobilie = $immobilie;
         return $this;
@@ -273,7 +272,7 @@ class AnbieterAnonymousPHPType
      * @param \MediaStoreNet\OpenImmo\Classes\ImpressumStrukt $impressumStrukt
      * @return self
      */
-    public function setImpressumStrukt(\MediaStoreNet\OpenImmo\Classes\ImpressumStrukt $impressumStrukt)
+    public function setImpressumStrukt(?\MediaStoreNet\OpenImmo\Classes\ImpressumStrukt $impressumStrukt = null)
     {
         $this->impressumStrukt = $impressumStrukt;
         return $this;
@@ -329,7 +328,7 @@ class AnbieterAnonymousPHPType
      * @param \MediaStoreNet\OpenImmo\Classes\UserDefinedSimplefield[] $userDefinedSimplefield
      * @return self
      */
-    public function setUserDefinedSimplefield(array $userDefinedSimplefield)
+    public function setUserDefinedSimplefield(?array $userDefinedSimplefield = null)
     {
         $this->userDefinedSimplefield = $userDefinedSimplefield;
         return $this;
@@ -385,7 +384,7 @@ class AnbieterAnonymousPHPType
      * @param \MediaStoreNet\OpenImmo\Classes\UserDefinedAnyfield[] $userDefinedAnyfield
      * @return self
      */
-    public function setUserDefinedAnyfield(array $userDefinedAnyfield)
+    public function setUserDefinedAnyfield(?array $userDefinedAnyfield = null)
     {
         $this->userDefinedAnyfield = $userDefinedAnyfield;
         return $this;
@@ -441,12 +440,10 @@ class AnbieterAnonymousPHPType
      * @param \MediaStoreNet\OpenImmo\Classes\UserDefinedExtend\UserDefinedExtendAnonymousPHPType\FeldAnonymousPHPType[] $userDefinedExtend
      * @return self
      */
-    public function setUserDefinedExtend(array $userDefinedExtend)
+    public function setUserDefinedExtend(?array $userDefinedExtend = null)
     {
         $this->userDefinedExtend = $userDefinedExtend;
         return $this;
     }
-
-
 }
 

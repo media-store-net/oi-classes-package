@@ -7,12 +7,10 @@ use MediaStoreNet\OpenImmo\Classes\Geschlecht\GeschlechtAnonymousPHPType;
 /**
  * Class representing Geschlecht
  *
- * Soll das Objekt nur an Frauen bzw. nur an Männer vermietet werden, 
+ * Soll das Objekt nur an Frauen bzw. nur an MÃ¤nner vermietet werden, 
  *  fehlende Angabe wird als 'Ja' interpretiert
  */
 class Geschlecht extends GeschlechtAnonymousPHPType
 {
-
-
 }
 

@@ -7,7 +7,6 @@ namespace MediaStoreNet\OpenImmo\Classes\MaxMietdauer;
  */
 class MaxMietdauerAnonymousPHPType
 {
-
     /**
      * @var string $maxDauer
      */
@@ -34,7 +33,5 @@ class MaxMietdauerAnonymousPHPType
         $this->maxDauer = $maxDauer;
         return $this;
     }
-
-
 }
 

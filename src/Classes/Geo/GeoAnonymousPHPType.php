@@ -7,7 +7,6 @@ namespace MediaStoreNet\OpenImmo\Classes\Geo;
  */
 class GeoAnonymousPHPType
 {
-
     /**
      * @var string $plz
      */
@@ -192,7 +191,7 @@ class GeoAnonymousPHPType
      * @param \MediaStoreNet\OpenImmo\Classes\Geokoordinaten $geokoordinaten
      * @return self
      */
-    public function setGeokoordinaten(\MediaStoreNet\OpenImmo\Classes\Geokoordinaten $geokoordinaten)
+    public function setGeokoordinaten(?\MediaStoreNet\OpenImmo\Classes\Geokoordinaten $geokoordinaten = null)
     {
         $this->geokoordinaten = $geokoordinaten;
         return $this;
@@ -280,7 +279,7 @@ class GeoAnonymousPHPType
      * @param \MediaStoreNet\OpenImmo\Classes\Land $land
      * @return self
      */
-    public function setLand(\MediaStoreNet\OpenImmo\Classes\Land $land)
+    public function setLand(?\MediaStoreNet\OpenImmo\Classes\Land $land = null)
     {
         $this->land = $land;
         return $this;
@@ -434,7 +433,7 @@ class GeoAnonymousPHPType
      * @param \MediaStoreNet\OpenImmo\Classes\LageImBau $lageImBau
      * @return self
      */
-    public function setLageImBau(\MediaStoreNet\OpenImmo\Classes\LageImBau $lageImBau)
+    public function setLageImBau(?\MediaStoreNet\OpenImmo\Classes\LageImBau $lageImBau = null)
     {
         $this->lageImBau = $lageImBau;
         return $this;
@@ -478,7 +477,7 @@ class GeoAnonymousPHPType
      * @param \MediaStoreNet\OpenImmo\Classes\LageGebiet $lageGebiet
      * @return self
      */
-    public function setLageGebiet(\MediaStoreNet\OpenImmo\Classes\LageGebiet $lageGebiet)
+    public function setLageGebiet(?\MediaStoreNet\OpenImmo\Classes\LageGebiet $lageGebiet = null)
     {
         $this->lageGebiet = $lageGebiet;
         return $this;
@@ -644,7 +643,7 @@ class GeoAnonymousPHPType
      * @param \MediaStoreNet\OpenImmo\Classes\UserDefinedSimplefield[] $userDefinedSimplefield
      * @return self
      */
-    public function setUserDefinedSimplefield(array $userDefinedSimplefield)
+    public function setUserDefinedSimplefield(?array $userDefinedSimplefield = null)
     {
         $this->userDefinedSimplefield = $userDefinedSimplefield;
         return $this;
@@ -700,7 +699,7 @@ class GeoAnonymousPHPType
      * @param \MediaStoreNet\OpenImmo\Classes\UserDefinedAnyfield[] $userDefinedAnyfield
      * @return self
      */
-    public function setUserDefinedAnyfield(array $userDefinedAnyfield)
+    public function setUserDefinedAnyfield(?array $userDefinedAnyfield = null)
     {
         $this->userDefinedAnyfield = $userDefinedAnyfield;
         return $this;
@@ -756,12 +755,10 @@ class GeoAnonymousPHPType
      * @param \MediaStoreNet\OpenImmo\Classes\UserDefinedExtend\UserDefinedExtendAnonymousPHPType\FeldAnonymousPHPType[] $userDefinedExtend
      * @return self
      */
-    public function setUserDefinedExtend(array $userDefinedExtend)
+    public function setUserDefinedExtend(?array $userDefinedExtend = null)
     {
         $this->userDefinedExtend = $userDefinedExtend;
         return $this;
     }
-
-
 }
 

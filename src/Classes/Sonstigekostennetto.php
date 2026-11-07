@@ -11,7 +11,5 @@ use MediaStoreNet\OpenImmo\Classes\Sonstigekostennetto\SonstigekostennettoAnonym
  */
 class Sonstigekostennetto extends SonstigekostennettoAnonymousPHPType
 {
-
-
 }
 

@@ -7,7 +7,6 @@ namespace MediaStoreNet\OpenImmo\Classes\Daten;
  */
 class DatenAnonymousPHPType
 {
-
     /**
      * @var string $pfad
      */
@@ -61,7 +60,5 @@ class DatenAnonymousPHPType
         $this->anhanginhalt = $anhanginhalt;
         return $this;
     }
-
-
 }
 

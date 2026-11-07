@@ -7,7 +7,6 @@ namespace MediaStoreNet\OpenImmo\Classes\Ausstattung;
  */
 class AusstattungAnonymousPHPType
 {
-
     /**
      * @var string $ausstattKategorie
      */
@@ -383,7 +382,7 @@ class AusstattungAnonymousPHPType
      * @param \MediaStoreNet\OpenImmo\Classes\Bad $bad
      * @return self
      */
-    public function setBad(\MediaStoreNet\OpenImmo\Classes\Bad $bad)
+    public function setBad(?\MediaStoreNet\OpenImmo\Classes\Bad $bad = null)
     {
         $this->bad = $bad;
         return $this;
@@ -405,7 +404,7 @@ class AusstattungAnonymousPHPType
      * @param \MediaStoreNet\OpenImmo\Classes\Kueche $kueche
      * @return self
      */
-    public function setKueche(\MediaStoreNet\OpenImmo\Classes\Kueche $kueche)
+    public function setKueche(?\MediaStoreNet\OpenImmo\Classes\Kueche $kueche = null)
     {
         $this->kueche = $kueche;
         return $this;
@@ -427,7 +426,7 @@ class AusstattungAnonymousPHPType
      * @param \MediaStoreNet\OpenImmo\Classes\Boden $boden
      * @return self
      */
-    public function setBoden(\MediaStoreNet\OpenImmo\Classes\Boden $boden)
+    public function setBoden(?\MediaStoreNet\OpenImmo\Classes\Boden $boden = null)
     {
         $this->boden = $boden;
         return $this;
@@ -471,7 +470,7 @@ class AusstattungAnonymousPHPType
      * @param \MediaStoreNet\OpenImmo\Classes\Heizungsart $heizungsart
      * @return self
      */
-    public function setHeizungsart(\MediaStoreNet\OpenImmo\Classes\Heizungsart $heizungsart)
+    public function setHeizungsart(?\MediaStoreNet\OpenImmo\Classes\Heizungsart $heizungsart = null)
     {
         $this->heizungsart = $heizungsart;
         return $this;
@@ -493,7 +492,7 @@ class AusstattungAnonymousPHPType
      * @param \MediaStoreNet\OpenImmo\Classes\Befeuerung $befeuerung
      * @return self
      */
-    public function setBefeuerung(\MediaStoreNet\OpenImmo\Classes\Befeuerung $befeuerung)
+    public function setBefeuerung(?\MediaStoreNet\OpenImmo\Classes\Befeuerung $befeuerung = null)
     {
         $this->befeuerung = $befeuerung;
         return $this;
@@ -537,7 +536,7 @@ class AusstattungAnonymousPHPType
      * @param \MediaStoreNet\OpenImmo\Classes\Fahrstuhl $fahrstuhl
      * @return self
      */
-    public function setFahrstuhl(\MediaStoreNet\OpenImmo\Classes\Fahrstuhl $fahrstuhl)
+    public function setFahrstuhl(?\MediaStoreNet\OpenImmo\Classes\Fahrstuhl $fahrstuhl = null)
     {
         $this->fahrstuhl = $fahrstuhl;
         return $this;
@@ -593,7 +592,7 @@ class AusstattungAnonymousPHPType
      * @param \MediaStoreNet\OpenImmo\Classes\Stellplatzart[] $stellplatzart
      * @return self
      */
-    public function setStellplatzart(array $stellplatzart)
+    public function setStellplatzart(?array $stellplatzart = null)
     {
         $this->stellplatzart = $stellplatzart;
         return $this;
@@ -637,7 +636,7 @@ class AusstattungAnonymousPHPType
      * @param \MediaStoreNet\OpenImmo\Classes\AusrichtBalkonTerrasse $ausrichtBalkonTerrasse
      * @return self
      */
-    public function setAusrichtBalkonTerrasse(\MediaStoreNet\OpenImmo\Classes\AusrichtBalkonTerrasse $ausrichtBalkonTerrasse)
+    public function setAusrichtBalkonTerrasse(?\MediaStoreNet\OpenImmo\Classes\AusrichtBalkonTerrasse $ausrichtBalkonTerrasse = null)
     {
         $this->ausrichtBalkonTerrasse = $ausrichtBalkonTerrasse;
         return $this;
@@ -659,7 +658,7 @@ class AusstattungAnonymousPHPType
      * @param \MediaStoreNet\OpenImmo\Classes\Moebliert $moebliert
      * @return self
      */
-    public function setMoebliert(\MediaStoreNet\OpenImmo\Classes\Moebliert $moebliert)
+    public function setMoebliert(?\MediaStoreNet\OpenImmo\Classes\Moebliert $moebliert = null)
     {
         $this->moebliert = $moebliert;
         return $this;
@@ -1055,7 +1054,7 @@ class AusstattungAnonymousPHPType
      * @param \MediaStoreNet\OpenImmo\Classes\AngeschlGastronomie $angeschlGastronomie
      * @return self
      */
-    public function setAngeschlGastronomie(\MediaStoreNet\OpenImmo\Classes\AngeschlGastronomie $angeschlGastronomie)
+    public function setAngeschlGastronomie(?\MediaStoreNet\OpenImmo\Classes\AngeschlGastronomie $angeschlGastronomie = null)
     {
         $this->angeschlGastronomie = $angeschlGastronomie;
         return $this;
@@ -1177,7 +1176,7 @@ class AusstattungAnonymousPHPType
      * @param \MediaStoreNet\OpenImmo\Classes\Serviceleistungen[] $serviceleistungen
      * @return self
      */
-    public function setServiceleistungen(array $serviceleistungen)
+    public function setServiceleistungen(?array $serviceleistungen = null)
     {
         $this->serviceleistungen = $serviceleistungen;
         return $this;
@@ -1221,7 +1220,7 @@ class AusstattungAnonymousPHPType
      * @param \MediaStoreNet\OpenImmo\Classes\BreitbandZugang $breitbandZugang
      * @return self
      */
-    public function setBreitbandZugang(\MediaStoreNet\OpenImmo\Classes\BreitbandZugang $breitbandZugang)
+    public function setBreitbandZugang(?\MediaStoreNet\OpenImmo\Classes\BreitbandZugang $breitbandZugang = null)
     {
         $this->breitbandZugang = $breitbandZugang;
         return $this;
@@ -1265,7 +1264,7 @@ class AusstattungAnonymousPHPType
      * @param \MediaStoreNet\OpenImmo\Classes\Sicherheitstechnik $sicherheitstechnik
      * @return self
      */
-    public function setSicherheitstechnik(\MediaStoreNet\OpenImmo\Classes\Sicherheitstechnik $sicherheitstechnik)
+    public function setSicherheitstechnik(?\MediaStoreNet\OpenImmo\Classes\Sicherheitstechnik $sicherheitstechnik = null)
     {
         $this->sicherheitstechnik = $sicherheitstechnik;
         return $this;
@@ -1287,7 +1286,7 @@ class AusstattungAnonymousPHPType
      * @param \MediaStoreNet\OpenImmo\Classes\Unterkellert $unterkellert
      * @return self
      */
-    public function setUnterkellert(\MediaStoreNet\OpenImmo\Classes\Unterkellert $unterkellert)
+    public function setUnterkellert(?\MediaStoreNet\OpenImmo\Classes\Unterkellert $unterkellert = null)
     {
         $this->unterkellert = $unterkellert;
         return $this;
@@ -1375,7 +1374,7 @@ class AusstattungAnonymousPHPType
      * @param \MediaStoreNet\OpenImmo\Classes\Dachform $dachform
      * @return self
      */
-    public function setDachform(\MediaStoreNet\OpenImmo\Classes\Dachform $dachform)
+    public function setDachform(?\MediaStoreNet\OpenImmo\Classes\Dachform $dachform = null)
     {
         $this->dachform = $dachform;
         return $this;
@@ -1397,7 +1396,7 @@ class AusstattungAnonymousPHPType
      * @param \MediaStoreNet\OpenImmo\Classes\Bauweise $bauweise
      * @return self
      */
-    public function setBauweise(\MediaStoreNet\OpenImmo\Classes\Bauweise $bauweise)
+    public function setBauweise(?\MediaStoreNet\OpenImmo\Classes\Bauweise $bauweise = null)
     {
         $this->bauweise = $bauweise;
         return $this;
@@ -1419,7 +1418,7 @@ class AusstattungAnonymousPHPType
      * @param \MediaStoreNet\OpenImmo\Classes\Ausbaustufe $ausbaustufe
      * @return self
      */
-    public function setAusbaustufe(\MediaStoreNet\OpenImmo\Classes\Ausbaustufe $ausbaustufe)
+    public function setAusbaustufe(?\MediaStoreNet\OpenImmo\Classes\Ausbaustufe $ausbaustufe = null)
     {
         $this->ausbaustufe = $ausbaustufe;
         return $this;
@@ -1441,7 +1440,7 @@ class AusstattungAnonymousPHPType
      * @param \MediaStoreNet\OpenImmo\Classes\Energietyp $energietyp
      * @return self
      */
-    public function setEnergietyp(\MediaStoreNet\OpenImmo\Classes\Energietyp $energietyp)
+    public function setEnergietyp(?\MediaStoreNet\OpenImmo\Classes\Energietyp $energietyp = null)
     {
         $this->energietyp = $energietyp;
         return $this;
@@ -1607,7 +1606,7 @@ class AusstattungAnonymousPHPType
      * @param \MediaStoreNet\OpenImmo\Classes\UserDefinedSimplefield[] $userDefinedSimplefield
      * @return self
      */
-    public function setUserDefinedSimplefield(array $userDefinedSimplefield)
+    public function setUserDefinedSimplefield(?array $userDefinedSimplefield = null)
     {
         $this->userDefinedSimplefield = $userDefinedSimplefield;
         return $this;
@@ -1663,7 +1662,7 @@ class AusstattungAnonymousPHPType
      * @param \MediaStoreNet\OpenImmo\Classes\UserDefinedAnyfield[] $userDefinedAnyfield
      * @return self
      */
-    public function setUserDefinedAnyfield(array $userDefinedAnyfield)
+    public function setUserDefinedAnyfield(?array $userDefinedAnyfield = null)
     {
         $this->userDefinedAnyfield = $userDefinedAnyfield;
         return $this;
@@ -1719,12 +1718,10 @@ class AusstattungAnonymousPHPType
      * @param \MediaStoreNet\OpenImmo\Classes\UserDefinedExtend\UserDefinedExtendAnonymousPHPType\FeldAnonymousPHPType[] $userDefinedExtend
      * @return self
      */
-    public function setUserDefinedExtend(array $userDefinedExtend)
+    public function setUserDefinedExtend(?array $userDefinedExtend = null)
     {
         $this->userDefinedExtend = $userDefinedExtend;
         return $this;
     }
-
-
 }
 

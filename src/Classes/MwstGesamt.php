@@ -5,12 +5,11 @@ namespace MediaStoreNet\OpenImmo\Classes;
 /**
  * Class representing MwstGesamt
  *
- * Bei unterschiedlichen Mehrwertsteuersätzen
+ * Bei unterschiedlichen MehrwertsteuersÃ¤tzen
  * VAT as a summ of all.
  */
 class MwstGesamt
 {
-
     /**
      * @var float $__value
      */
@@ -49,7 +48,5 @@ class MwstGesamt
     {
         return strval($this->__value);
     }
-
-
 }
 

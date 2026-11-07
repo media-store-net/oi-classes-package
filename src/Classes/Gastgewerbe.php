@@ -11,7 +11,5 @@ use MediaStoreNet\OpenImmo\Classes\Gastgewerbe\GastgewerbeAnonymousPHPType;
  */
 class Gastgewerbe extends GastgewerbeAnonymousPHPType
 {
-
-
 }
 

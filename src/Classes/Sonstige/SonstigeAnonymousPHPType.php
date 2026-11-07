@@ -7,7 +7,6 @@ namespace MediaStoreNet\OpenImmo\Classes\Sonstige;
  */
 class SonstigeAnonymousPHPType
 {
-
     /**
      * @var string $sonstigeTyp
      */
@@ -34,7 +33,5 @@ class SonstigeAnonymousPHPType
         $this->sonstigeTyp = $sonstigeTyp;
         return $this;
     }
-
-
 }
 

@@ -11,7 +11,5 @@ use MediaStoreNet\OpenImmo\Classes\Kaufpreis\KaufpreisAnonymousPHPType;
  */
 class Kaufpreis extends KaufpreisAnonymousPHPType
 {
-
-
 }
 

@@ -7,11 +7,9 @@ use MediaStoreNet\OpenImmo\Classes\Ruecklagenetto\RuecklagenettoAnonymousPHPType
 /**
  * Class representing Ruecklagenetto
  *
- * Vorhanden Rücklagen bei einem Kauf Objekt, UmSt. im Attribut.
+ * Vorhanden RÃ¼cklagen bei einem Kauf Objekt, UmSt. im Attribut.
  */
 class Ruecklagenetto extends RuecklagenettoAnonymousPHPType
 {
-
-
 }
 

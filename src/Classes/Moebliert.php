@@ -7,11 +7,9 @@ use MediaStoreNet\OpenImmo\Classes\Moebliert\MoebliertAnonymousPHPType;
 /**
  * Class representing Moebliert
  *
- * Wie ist die Möblierung: Voll, Teil oder keine Aussage
+ * Wie ist die MÃ¶blierung: Voll, Teil oder keine Aussage
  */
 class Moebliert extends MoebliertAnonymousPHPType
 {
-
-
 }
 

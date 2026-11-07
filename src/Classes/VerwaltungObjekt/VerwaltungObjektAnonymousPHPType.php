@@ -7,7 +7,6 @@ namespace MediaStoreNet\OpenImmo\Classes\VerwaltungObjekt;
  */
 class VerwaltungObjektAnonymousPHPType
 {
-
     /**
      * @var bool $objektadresseFreigeben
      */
@@ -192,7 +191,7 @@ class VerwaltungObjektAnonymousPHPType
      * @param \DateTime $abdatum
      * @return self
      */
-    public function setAbdatum(\DateTime $abdatum)
+    public function setAbdatum(?\DateTime $abdatum = null)
     {
         $this->abdatum = $abdatum;
         return $this;
@@ -214,7 +213,7 @@ class VerwaltungObjektAnonymousPHPType
      * @param \DateTime $bisdatum
      * @return self
      */
-    public function setBisdatum(\DateTime $bisdatum)
+    public function setBisdatum(?\DateTime $bisdatum = null)
     {
         $this->bisdatum = $bisdatum;
         return $this;
@@ -236,7 +235,7 @@ class VerwaltungObjektAnonymousPHPType
      * @param \MediaStoreNet\OpenImmo\Classes\MinMietdauer $minMietdauer
      * @return self
      */
-    public function setMinMietdauer(\MediaStoreNet\OpenImmo\Classes\MinMietdauer $minMietdauer)
+    public function setMinMietdauer(?\MediaStoreNet\OpenImmo\Classes\MinMietdauer $minMietdauer = null)
     {
         $this->minMietdauer = $minMietdauer;
         return $this;
@@ -258,7 +257,7 @@ class VerwaltungObjektAnonymousPHPType
      * @param \MediaStoreNet\OpenImmo\Classes\MaxMietdauer $maxMietdauer
      * @return self
      */
-    public function setMaxMietdauer(\MediaStoreNet\OpenImmo\Classes\MaxMietdauer $maxMietdauer)
+    public function setMaxMietdauer(?\MediaStoreNet\OpenImmo\Classes\MaxMietdauer $maxMietdauer = null)
     {
         $this->maxMietdauer = $maxMietdauer;
         return $this;
@@ -280,7 +279,7 @@ class VerwaltungObjektAnonymousPHPType
      * @param \DateTime $versteigerungstermin
      * @return self
      */
-    public function setVersteigerungstermin(\DateTime $versteigerungstermin)
+    public function setVersteigerungstermin(?\DateTime $versteigerungstermin = null)
     {
         $this->versteigerungstermin = $versteigerungstermin;
         return $this;
@@ -478,7 +477,7 @@ class VerwaltungObjektAnonymousPHPType
      * @param \MediaStoreNet\OpenImmo\Classes\Geschlecht $geschlecht
      * @return self
      */
-    public function setGeschlecht(\MediaStoreNet\OpenImmo\Classes\Geschlecht $geschlecht)
+    public function setGeschlecht(?\MediaStoreNet\OpenImmo\Classes\Geschlecht $geschlecht = null)
     {
         $this->geschlecht = $geschlecht;
         return $this;
@@ -644,7 +643,7 @@ class VerwaltungObjektAnonymousPHPType
      * @param \MediaStoreNet\OpenImmo\Classes\UserDefinedSimplefield[] $userDefinedSimplefield
      * @return self
      */
-    public function setUserDefinedSimplefield(array $userDefinedSimplefield)
+    public function setUserDefinedSimplefield(?array $userDefinedSimplefield = null)
     {
         $this->userDefinedSimplefield = $userDefinedSimplefield;
         return $this;
@@ -700,7 +699,7 @@ class VerwaltungObjektAnonymousPHPType
      * @param \MediaStoreNet\OpenImmo\Classes\UserDefinedAnyfield[] $userDefinedAnyfield
      * @return self
      */
-    public function setUserDefinedAnyfield(array $userDefinedAnyfield)
+    public function setUserDefinedAnyfield(?array $userDefinedAnyfield = null)
     {
         $this->userDefinedAnyfield = $userDefinedAnyfield;
         return $this;
@@ -756,12 +755,10 @@ class VerwaltungObjektAnonymousPHPType
      * @param \MediaStoreNet\OpenImmo\Classes\UserDefinedExtend\UserDefinedExtendAnonymousPHPType\FeldAnonymousPHPType[] $userDefinedExtend
      * @return self
      */
-    public function setUserDefinedExtend(array $userDefinedExtend)
+    public function setUserDefinedExtend(?array $userDefinedExtend = null)
     {
         $this->userDefinedExtend = $userDefinedExtend;
         return $this;
     }
-
-
 }
 

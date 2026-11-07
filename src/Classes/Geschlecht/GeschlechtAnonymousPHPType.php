@@ -7,7 +7,6 @@ namespace MediaStoreNet\OpenImmo\Classes\Geschlecht;
  */
 class GeschlechtAnonymousPHPType
 {
-
     /**
      * @var string $geschlAttr
      */
@@ -34,7 +33,5 @@ class GeschlechtAnonymousPHPType
         $this->geschlAttr = $geschlAttr;
         return $this;
     }
-
-
 }
 

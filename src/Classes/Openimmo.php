@@ -12,7 +12,5 @@ use MediaStoreNet\OpenImmo\Classes\Openimmo\OpenimmoAnonymousPHPType;
  */
 class Openimmo extends OpenimmoAnonymousPHPType
 {
-
-
 }
 

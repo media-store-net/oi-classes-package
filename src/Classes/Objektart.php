@@ -11,7 +11,5 @@ use MediaStoreNet\OpenImmo\Classes\Objektart\ObjektartAnonymousPHPType;
  */
 class Objektart extends ObjektartAnonymousPHPType
 {
-
-
 }
 

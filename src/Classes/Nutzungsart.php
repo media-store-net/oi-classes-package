@@ -11,7 +11,5 @@ use MediaStoreNet\OpenImmo\Classes\Nutzungsart\NutzungsartAnonymousPHPType;
  */
 class Nutzungsart extends NutzungsartAnonymousPHPType
 {
-
-
 }
 

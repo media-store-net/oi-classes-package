@@ -11,7 +11,5 @@ use MediaStoreNet\OpenImmo\Classes\FreizeitimmobilieGewerblich\Freizeitimmobilie
  */
 class FreizeitimmobilieGewerblich extends FreizeitimmobilieGewerblichAnonymousPHPType
 {
-
-
 }
 

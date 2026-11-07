@@ -7,7 +7,6 @@ namespace MediaStoreNet\OpenImmo\Classes\MieteinnahmenSoll;
  */
 class MieteinnahmenSollAnonymousPHPType
 {
-
     /**
      * @var float $__value
      */
@@ -73,7 +72,5 @@ class MieteinnahmenSollAnonymousPHPType
         $this->periode = $periode;
         return $this;
     }
-
-
 }
 

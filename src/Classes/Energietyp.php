@@ -9,7 +9,5 @@ use MediaStoreNet\OpenImmo\Classes\Energietyp\EnergietypAnonymousPHPType;
  */
 class Energietyp extends EnergietypAnonymousPHPType
 {
-
-
 }
 

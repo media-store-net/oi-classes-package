@@ -7,7 +7,6 @@ namespace MediaStoreNet\OpenImmo\Classes\Sonstigemietenetto;
  */
 class SonstigemietenettoAnonymousPHPType
 {
-
     /**
      * @var float $__value
      */
@@ -73,7 +72,5 @@ class SonstigemietenettoAnonymousPHPType
         $this->sonstigemieteust = $sonstigemieteust;
         return $this;
     }
-
-
 }
 

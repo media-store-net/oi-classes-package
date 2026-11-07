@@ -7,11 +7,9 @@ use MediaStoreNet\OpenImmo\Classes\Anhang\AnhangAnonymousPHPType;
 /**
  * Class representing Anhang
  *
- * Element für Anhänge
+ * Element fÃ¼r AnhÃ¤nge
  */
 class Anhang extends AnhangAnonymousPHPType
 {
-
-
 }
 

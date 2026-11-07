@@ -7,7 +7,6 @@ namespace MediaStoreNet\OpenImmo\Classes\Freitexte;
  */
 class FreitexteAnonymousPHPType
 {
-
     /**
      * @var string $objekttitel
      */
@@ -210,7 +209,7 @@ class FreitexteAnonymousPHPType
      * @param \MediaStoreNet\OpenImmo\Classes\ObjektText $objektText
      * @return self
      */
-    public function setObjektText(\MediaStoreNet\OpenImmo\Classes\ObjektText $objektText)
+    public function setObjektText(?\MediaStoreNet\OpenImmo\Classes\ObjektText $objektText = null)
     {
         $this->objektText = $objektText;
         return $this;
@@ -266,7 +265,7 @@ class FreitexteAnonymousPHPType
      * @param \MediaStoreNet\OpenImmo\Classes\UserDefinedSimplefield[] $userDefinedSimplefield
      * @return self
      */
-    public function setUserDefinedSimplefield(array $userDefinedSimplefield)
+    public function setUserDefinedSimplefield(?array $userDefinedSimplefield = null)
     {
         $this->userDefinedSimplefield = $userDefinedSimplefield;
         return $this;
@@ -322,7 +321,7 @@ class FreitexteAnonymousPHPType
      * @param \MediaStoreNet\OpenImmo\Classes\UserDefinedAnyfield[] $userDefinedAnyfield
      * @return self
      */
-    public function setUserDefinedAnyfield(array $userDefinedAnyfield)
+    public function setUserDefinedAnyfield(?array $userDefinedAnyfield = null)
     {
         $this->userDefinedAnyfield = $userDefinedAnyfield;
         return $this;
@@ -378,12 +377,10 @@ class FreitexteAnonymousPHPType
      * @param \MediaStoreNet\OpenImmo\Classes\UserDefinedExtend\UserDefinedExtendAnonymousPHPType\FeldAnonymousPHPType[] $userDefinedExtend
      * @return self
      */
-    public function setUserDefinedExtend(array $userDefinedExtend)
+    public function setUserDefinedExtend(?array $userDefinedExtend = null)
     {
         $this->userDefinedExtend = $userDefinedExtend;
         return $this;
     }
-
-
 }
 

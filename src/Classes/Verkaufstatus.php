@@ -11,7 +11,5 @@ use MediaStoreNet\OpenImmo\Classes\Verkaufstatus\VerkaufstatusAnonymousPHPType;
  */
 class Verkaufstatus extends VerkaufstatusAnonymousPHPType
 {
-
-
 }
 

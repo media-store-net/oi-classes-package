@@ -11,7 +11,5 @@ use MediaStoreNet\OpenImmo\Classes\Bad\BadAnonymousPHPType;
  */
 class Bad extends BadAnonymousPHPType
 {
-
-
 }
 

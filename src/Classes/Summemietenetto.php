@@ -11,7 +11,5 @@ use MediaStoreNet\OpenImmo\Classes\Summemietenetto\SummemietenettoAnonymousPHPTy
  */
 class Summemietenetto extends SummemietenettoAnonymousPHPType
 {
-
-
 }
 

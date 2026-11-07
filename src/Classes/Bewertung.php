@@ -7,11 +7,9 @@ use MediaStoreNet\OpenImmo\Classes\Bewertung\BewertungAnonymousPHPType;
 /**
  * Class representing Bewertung
  *
- * Container für detailierte Bewertungs Parmater
+ * Container fÃ¼r detailierte Bewertungs Parmater
  */
 class Bewertung extends BewertungAnonymousPHPType
 {
-
-
 }
 

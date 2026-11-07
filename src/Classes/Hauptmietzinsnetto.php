@@ -9,7 +9,5 @@ use MediaStoreNet\OpenImmo\Classes\Hauptmietzinsnetto\HauptmietzinsnettoAnonymou
  */
 class Hauptmietzinsnetto extends HauptmietzinsnettoAnonymousPHPType
 {
-
-
 }
 

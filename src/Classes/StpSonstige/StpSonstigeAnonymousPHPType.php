@@ -9,7 +9,6 @@ use MediaStoreNet\OpenImmo\Classes\StellplatzType;
  */
 class StpSonstigeAnonymousPHPType extends StellplatzType
 {
-
     /**
      * @var string $platzart
      */
@@ -63,7 +62,5 @@ class StpSonstigeAnonymousPHPType extends StellplatzType
         $this->bemerkung = $bemerkung;
         return $this;
     }
-
-
 }
 

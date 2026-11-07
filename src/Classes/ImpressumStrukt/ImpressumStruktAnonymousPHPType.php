@@ -7,7 +7,6 @@ namespace MediaStoreNet\OpenImmo\Classes\ImpressumStrukt;
  */
 class ImpressumStruktAnonymousPHPType
 {
-
     /**
      * @var string $firmenname
      */
@@ -277,7 +276,5 @@ class ImpressumStruktAnonymousPHPType
         $this->weiteres = $weiteres;
         return $this;
     }
-
-
 }
 

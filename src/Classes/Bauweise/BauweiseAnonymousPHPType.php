@@ -7,7 +7,6 @@ namespace MediaStoreNet\OpenImmo\Classes\Bauweise;
  */
 class BauweiseAnonymousPHPType
 {
-
     /**
      * @var bool $mASSIV
      */
@@ -88,7 +87,5 @@ class BauweiseAnonymousPHPType
         $this->hOLZ = $hOLZ;
         return $this;
     }
-
-
 }
 

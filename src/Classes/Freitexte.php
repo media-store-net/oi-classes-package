@@ -9,7 +9,5 @@ use MediaStoreNet\OpenImmo\Classes\Freitexte\FreitexteAnonymousPHPType;
  */
 class Freitexte extends FreitexteAnonymousPHPType
 {
-
-
 }
 

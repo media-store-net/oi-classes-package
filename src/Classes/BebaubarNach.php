@@ -11,7 +11,5 @@ use MediaStoreNet\OpenImmo\Classes\BebaubarNach\BebaubarNachAnonymousPHPType;
  */
 class BebaubarNach extends BebaubarNachAnonymousPHPType
 {
-
-
 }
 

@@ -7,7 +7,6 @@ namespace MediaStoreNet\OpenImmo\Classes\Provisionnetto;
  */
 class ProvisionnettoAnonymousPHPType
 {
-
     /**
      * @var float $__value
      */
@@ -73,7 +72,5 @@ class ProvisionnettoAnonymousPHPType
         $this->provisionust = $provisionust;
         return $this;
     }
-
-
 }
 

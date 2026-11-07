@@ -11,7 +11,5 @@ use MediaStoreNet\OpenImmo\Classes\ErschliessungUmfang\ErschliessungUmfangAnonym
  */
 class ErschliessungUmfang extends ErschliessungUmfangAnonymousPHPType
 {
-
-
 }
 

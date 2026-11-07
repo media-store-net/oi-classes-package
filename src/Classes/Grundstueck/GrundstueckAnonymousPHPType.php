@@ -7,7 +7,6 @@ namespace MediaStoreNet\OpenImmo\Classes\Grundstueck;
  */
 class GrundstueckAnonymousPHPType
 {
-
     /**
      * @var string $grundstTyp
      */
@@ -34,7 +33,5 @@ class GrundstueckAnonymousPHPType
         $this->grundstTyp = $grundstTyp;
         return $this;
     }
-
-
 }
 

@@ -7,7 +7,6 @@ namespace MediaStoreNet\OpenImmo\Classes\Vermarktungsart;
  */
 class VermarktungsartAnonymousPHPType
 {
-
     /**
      * @var bool $kAUF
      */
@@ -115,7 +114,5 @@ class VermarktungsartAnonymousPHPType
         $this->lEASING = $lEASING;
         return $this;
     }
-
-
 }
 

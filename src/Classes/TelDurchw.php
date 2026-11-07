@@ -7,7 +7,6 @@ namespace MediaStoreNet\OpenImmo\Classes;
  */
 class TelDurchw
 {
-
     /**
      * @var string $__value
      */
@@ -46,7 +45,5 @@ class TelDurchw
     {
         return strval($this->__value);
     }
-
-
 }
 

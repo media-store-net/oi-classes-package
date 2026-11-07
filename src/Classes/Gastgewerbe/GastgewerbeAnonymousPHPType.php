@@ -7,7 +7,6 @@ namespace MediaStoreNet\OpenImmo\Classes\Gastgewerbe;
  */
 class GastgewerbeAnonymousPHPType
 {
-
     /**
      * @var string $gastgewTyp
      */
@@ -34,7 +33,5 @@ class GastgewerbeAnonymousPHPType
         $this->gastgewTyp = $gastgewTyp;
         return $this;
     }
-
-
 }
 

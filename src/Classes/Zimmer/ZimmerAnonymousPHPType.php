@@ -7,7 +7,6 @@ namespace MediaStoreNet\OpenImmo\Classes\Zimmer;
  */
 class ZimmerAnonymousPHPType
 {
-
     /**
      * @var string $zimmertyp
      */
@@ -34,7 +33,5 @@ class ZimmerAnonymousPHPType
         $this->zimmertyp = $zimmertyp;
         return $this;
     }
-
-
 }
 

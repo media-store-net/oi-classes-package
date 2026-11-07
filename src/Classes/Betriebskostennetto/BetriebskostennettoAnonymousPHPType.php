@@ -7,7 +7,6 @@ namespace MediaStoreNet\OpenImmo\Classes\Betriebskostennetto;
  */
 class BetriebskostennettoAnonymousPHPType
 {
-
     /**
      * @var float $__value
      */
@@ -73,7 +72,5 @@ class BetriebskostennettoAnonymousPHPType
         $this->betriebskostenust = $betriebskostenust;
         return $this;
     }
-
-
 }
 

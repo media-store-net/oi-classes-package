@@ -7,7 +7,6 @@ namespace MediaStoreNet\OpenImmo\Classes\Verkaufstatus;
  */
 class VerkaufstatusAnonymousPHPType
 {
-
     /**
      * @var string $stand
      */
@@ -34,7 +33,5 @@ class VerkaufstatusAnonymousPHPType
         $this->stand = $stand;
         return $this;
     }
-
-
 }
 

@@ -9,7 +9,5 @@ use MediaStoreNet\OpenImmo\Classes\Dachform\DachformAnonymousPHPType;
  */
 class Dachform extends DachformAnonymousPHPType
 {
-
-
 }
 

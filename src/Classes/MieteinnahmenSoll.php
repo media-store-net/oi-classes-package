@@ -11,7 +11,5 @@ use MediaStoreNet\OpenImmo\Classes\MieteinnahmenSoll\MieteinnahmenSollAnonymousP
  */
 class MieteinnahmenSoll extends MieteinnahmenSollAnonymousPHPType
 {
-
-
 }
 

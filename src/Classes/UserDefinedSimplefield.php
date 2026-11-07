@@ -11,7 +11,5 @@ use MediaStoreNet\OpenImmo\Classes\UserDefinedSimplefield\UserDefinedSimplefield
  */
 class UserDefinedSimplefield extends UserDefinedSimplefieldAnonymousPHPType
 {
-
-
 }
 

@@ -7,7 +7,6 @@ namespace MediaStoreNet\OpenImmo\Classes\Bad;
  */
 class BadAnonymousPHPType
 {
-
     /**
      * @var bool $dUSCHE
      */
@@ -142,7 +141,5 @@ class BadAnonymousPHPType
         $this->pISSOIR = $pISSOIR;
         return $this;
     }
-
-
 }
 

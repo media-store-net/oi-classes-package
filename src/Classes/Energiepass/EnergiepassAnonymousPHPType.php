@@ -7,7 +7,6 @@ namespace MediaStoreNet\OpenImmo\Classes\Energiepass;
  */
 class EnergiepassAnonymousPHPType
 {
-
     /**
      * @var string $epart
      */
@@ -37,6 +36,11 @@ class EnergiepassAnonymousPHPType
      * @var string $primaerenergietraeger
      */
     private $primaerenergietraeger = null;
+
+    /**
+     * @var float $primaerenergiebedarf
+     */
+    private $primaerenergiebedarf = null;
 
     /**
      * @var string $stromwert
@@ -236,6 +240,28 @@ class EnergiepassAnonymousPHPType
     }
 
     /**
+     * Gets as primaerenergiebedarf
+     *
+     * @return float
+     */
+    public function getPrimaerenergiebedarf()
+    {
+        return $this->primaerenergiebedarf;
+    }
+
+    /**
+     * Sets a new primaerenergiebedarf
+     *
+     * @param float $primaerenergiebedarf
+     * @return self
+     */
+    public function setPrimaerenergiebedarf($primaerenergiebedarf)
+    {
+        $this->primaerenergiebedarf = $primaerenergiebedarf;
+        return $this;
+    }
+
+    /**
      * Gets as stromwert
      *
      * @return string
@@ -339,7 +365,7 @@ class EnergiepassAnonymousPHPType
      * @param \DateTime $ausstelldatum
      * @return self
      */
-    public function setAusstelldatum(\DateTime $ausstelldatum)
+    public function setAusstelldatum(?\DateTime $ausstelldatum = null)
     {
         $this->ausstelldatum = $ausstelldatum;
         return $this;
@@ -520,7 +546,5 @@ class EnergiepassAnonymousPHPType
         $this->fgeeklasse = $fgeeklasse;
         return $this;
     }
-
-
 }
 

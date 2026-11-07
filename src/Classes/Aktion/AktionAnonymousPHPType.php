@@ -7,7 +7,6 @@ namespace MediaStoreNet\OpenImmo\Classes\Aktion;
  */
 class AktionAnonymousPHPType
 {
-
     /**
      * @var string $aktionart
      */
@@ -34,7 +33,5 @@ class AktionAnonymousPHPType
         $this->aktionart = $aktionart;
         return $this;
     }
-
-
 }
 

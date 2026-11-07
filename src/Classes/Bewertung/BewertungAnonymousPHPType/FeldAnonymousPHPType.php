@@ -7,7 +7,6 @@ namespace MediaStoreNet\OpenImmo\Classes\Bewertung\BewertungAnonymousPHPType;
  */
 class FeldAnonymousPHPType
 {
-
     /**
      * @var string $name
      */
@@ -126,7 +125,7 @@ class FeldAnonymousPHPType
      * @param string[] $typ
      * @return self
      */
-    public function setTyp(array $typ)
+    public function setTyp(?array $typ = null)
     {
         $this->typ = $typ;
         return $this;
@@ -182,12 +181,10 @@ class FeldAnonymousPHPType
      * @param string[] $modus
      * @return self
      */
-    public function setModus(array $modus)
+    public function setModus(?array $modus = null)
     {
         $this->modus = $modus;
         return $this;
     }
-
-
 }
 

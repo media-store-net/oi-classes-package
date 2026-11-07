@@ -11,7 +11,5 @@ use MediaStoreNet\OpenImmo\Classes\Serviceleistungen\ServiceleistungenAnonymousP
  */
 class Serviceleistungen extends ServiceleistungenAnonymousPHPType
 {
-
-
 }
 

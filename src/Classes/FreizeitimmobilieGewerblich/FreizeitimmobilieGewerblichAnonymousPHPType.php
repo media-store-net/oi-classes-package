@@ -7,7 +7,6 @@ namespace MediaStoreNet\OpenImmo\Classes\FreizeitimmobilieGewerblich;
  */
 class FreizeitimmobilieGewerblichAnonymousPHPType
 {
-
     /**
      * @var string $freizeitTyp
      */
@@ -34,7 +33,5 @@ class FreizeitimmobilieGewerblichAnonymousPHPType
         $this->freizeitTyp = $freizeitTyp;
         return $this;
     }
-
-
 }
 

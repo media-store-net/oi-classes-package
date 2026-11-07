@@ -11,7 +11,5 @@ use MediaStoreNet\OpenImmo\Classes\AngeschlGastronomie\AngeschlGastronomieAnonym
  */
 class AngeschlGastronomie extends AngeschlGastronomieAnonymousPHPType
 {
-
-
 }
 

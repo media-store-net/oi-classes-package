@@ -7,7 +7,6 @@ namespace MediaStoreNet\OpenImmo\Classes\LageGebiet;
  */
 class LageGebietAnonymousPHPType
 {
-
     /**
      * @var string $gebiete
      */
@@ -34,7 +33,5 @@ class LageGebietAnonymousPHPType
         $this->gebiete = $gebiete;
         return $this;
     }
-
-
 }
 

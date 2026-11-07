@@ -7,7 +7,6 @@ namespace MediaStoreNet\OpenImmo\Classes\Hauptmietzinsnetto;
  */
 class HauptmietzinsnettoAnonymousPHPType
 {
-
     /**
      * @var float $__value
      */
@@ -73,7 +72,5 @@ class HauptmietzinsnettoAnonymousPHPType
         $this->hauptmietzinsust = $hauptmietzinsust;
         return $this;
     }
-
-
 }
 

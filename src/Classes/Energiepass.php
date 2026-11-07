@@ -11,7 +11,5 @@ use MediaStoreNet\OpenImmo\Classes\Energiepass\EnergiepassAnonymousPHPType;
  */
 class Energiepass extends EnergiepassAnonymousPHPType
 {
-
-
 }
 

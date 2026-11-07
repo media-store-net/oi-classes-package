@@ -7,7 +7,6 @@ namespace MediaStoreNet\OpenImmo\Classes\Nettomieteprom2von;
  */
 class Nettomieteprom2vonAnonymousPHPType
 {
-
     /**
      * @var float $__value
      */
@@ -73,7 +72,5 @@ class Nettomieteprom2vonAnonymousPHPType
         $this->nettomieteprom2bis = $nettomieteprom2bis;
         return $this;
     }
-
-
 }
 

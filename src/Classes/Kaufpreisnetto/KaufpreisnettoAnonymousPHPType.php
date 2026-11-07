@@ -7,7 +7,6 @@ namespace MediaStoreNet\OpenImmo\Classes\Kaufpreisnetto;
  */
 class KaufpreisnettoAnonymousPHPType
 {
-
     /**
      * @var float $__value
      */
@@ -73,7 +72,5 @@ class KaufpreisnettoAnonymousPHPType
         $this->kaufpreisust = $kaufpreisust;
         return $this;
     }
-
-
 }
 

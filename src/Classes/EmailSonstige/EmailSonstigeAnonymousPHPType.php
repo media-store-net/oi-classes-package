@@ -7,7 +7,6 @@ namespace MediaStoreNet\OpenImmo\Classes\EmailSonstige;
  */
 class EmailSonstigeAnonymousPHPType
 {
-
     /**
      * @var string $__value
      */
@@ -100,7 +99,5 @@ class EmailSonstigeAnonymousPHPType
         $this->bemerkung = $bemerkung;
         return $this;
     }
-
-
 }
 

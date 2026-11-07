@@ -7,7 +7,6 @@ namespace MediaStoreNet\OpenImmo\Classes\Versteigerung;
  */
 class VersteigerungAnonymousPHPType
 {
-
     /**
      * @var bool $zwangsversteigerung
      */
@@ -98,7 +97,7 @@ class VersteigerungAnonymousPHPType
      * @param \DateTime $zvtermin
      * @return self
      */
-    public function setZvtermin(\DateTime $zvtermin)
+    public function setZvtermin(?\DateTime $zvtermin = null)
     {
         $this->zvtermin = $zvtermin;
         return $this;
@@ -120,7 +119,7 @@ class VersteigerungAnonymousPHPType
      * @param \DateTime $zusatztermin
      * @return self
      */
-    public function setZusatztermin(\DateTime $zusatztermin)
+    public function setZusatztermin(?\DateTime $zusatztermin = null)
     {
         $this->zusatztermin = $zusatztermin;
         return $this;
@@ -169,7 +168,5 @@ class VersteigerungAnonymousPHPType
         $this->verkehrswert = $verkehrswert;
         return $this;
     }
-
-
 }
 

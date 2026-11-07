@@ -7,7 +7,6 @@ namespace MediaStoreNet\OpenImmo\Classes\Gesamtkostenprom2von;
  */
 class Gesamtkostenprom2vonAnonymousPHPType
 {
-
     /**
      * @var float $__value
      */
@@ -73,7 +72,5 @@ class Gesamtkostenprom2vonAnonymousPHPType
         $this->gesamtkostenprom2bis = $gesamtkostenprom2bis;
         return $this;
     }
-
-
 }
 

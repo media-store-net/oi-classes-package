@@ -11,7 +11,5 @@ use MediaStoreNet\OpenImmo\Classes\Anbieter\AnbieterAnonymousPHPType;
  */
 class Anbieter extends AnbieterAnonymousPHPType
 {
-
-
 }
 

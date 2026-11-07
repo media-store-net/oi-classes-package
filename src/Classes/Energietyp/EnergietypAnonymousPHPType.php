@@ -7,7 +7,6 @@ namespace MediaStoreNet\OpenImmo\Classes\Energietyp;
  */
 class EnergietypAnonymousPHPType
 {
-
     /**
      * @var bool $pASSIVHAUS
      */
@@ -250,7 +249,5 @@ class EnergietypAnonymousPHPType
         $this->mINERGIEZERTIFIZIERT = $mINERGIEZERTIFIZIERT;
         return $this;
     }
-
-
 }
 

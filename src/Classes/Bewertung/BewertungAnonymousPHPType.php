@@ -7,7 +7,6 @@ namespace MediaStoreNet\OpenImmo\Classes\Bewertung;
  */
 class BewertungAnonymousPHPType
 {
-
     /**
      * @var \MediaStoreNet\OpenImmo\Classes\Bewertung\BewertungAnonymousPHPType\FeldAnonymousPHPType[] $feld
      */
@@ -65,12 +64,10 @@ class BewertungAnonymousPHPType
      * @param \MediaStoreNet\OpenImmo\Classes\Bewertung\BewertungAnonymousPHPType\FeldAnonymousPHPType[] $feld
      * @return self
      */
-    public function setFeld(array $feld)
+    public function setFeld(?array $feld = null)
     {
         $this->feld = $feld;
         return $this;
     }
-
-
 }
 

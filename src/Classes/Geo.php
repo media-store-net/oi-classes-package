@@ -9,7 +9,5 @@ use MediaStoreNet\OpenImmo\Classes\Geo\GeoAnonymousPHPType;
  */
 class Geo extends GeoAnonymousPHPType
 {
-
-
 }
 

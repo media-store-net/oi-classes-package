@@ -7,7 +7,6 @@ namespace MediaStoreNet\OpenImmo\Classes\Heizungsart;
  */
 class HeizungsartAnonymousPHPType
 {
-
     /**
      * @var bool $oFEN
      */
@@ -142,7 +141,5 @@ class HeizungsartAnonymousPHPType
         $this->fUSSBODEN = $fUSSBODEN;
         return $this;
     }
-
-
 }
 

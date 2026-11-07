@@ -9,7 +9,6 @@ namespace MediaStoreNet\OpenImmo\Classes;
  */
 class AusstattKategorie
 {
-
     /**
      * @var string $__value
      */
@@ -48,7 +47,5 @@ class AusstattKategorie
     {
         return strval($this->__value);
     }
-
-
 }
 

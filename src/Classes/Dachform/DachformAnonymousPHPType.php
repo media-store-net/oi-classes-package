@@ -7,7 +7,6 @@ namespace MediaStoreNet\OpenImmo\Classes\Dachform;
  */
 class DachformAnonymousPHPType
 {
-
     /**
      * @var bool $kRUEPPELWALMDACH
      */
@@ -196,7 +195,5 @@ class DachformAnonymousPHPType
         $this->pYRAMIDENDACH = $pYRAMIDENDACH;
         return $this;
     }
-
-
 }
 

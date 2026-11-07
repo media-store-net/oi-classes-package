@@ -11,7 +11,5 @@ use MediaStoreNet\OpenImmo\Classes\Gesamtbelastungnetto\GesamtbelastungnettoAnon
  */
 class Gesamtbelastungnetto extends GesamtbelastungnettoAnonymousPHPType
 {
-
-
 }
 

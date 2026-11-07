@@ -7,7 +7,6 @@ namespace MediaStoreNet\OpenImmo\Classes\HallenLagerProd;
  */
 class HallenLagerProdAnonymousPHPType
 {
-
     /**
      * @var string $hallenTyp
      */
@@ -34,7 +33,5 @@ class HallenLagerProdAnonymousPHPType
         $this->hallenTyp = $hallenTyp;
         return $this;
     }
-
-
 }
 

@@ -7,11 +7,9 @@ use MediaStoreNet\OpenImmo\Classes\Grundstueck\GrundstueckAnonymousPHPType;
 /**
  * Class representing Grundstueck
  *
- * Objektart / Typ f. Grundstücke
+ * Objektart / Typ f. GrundstÃ¼cke
  */
 class Grundstueck extends GrundstueckAnonymousPHPType
 {
-
-
 }
 

@@ -9,7 +9,5 @@ use MediaStoreNet\OpenImmo\Classes\Kontaktperson\KontaktpersonAnonymousPHPType;
  */
 class Kontaktperson extends KontaktpersonAnonymousPHPType
 {
-
-
 }
 

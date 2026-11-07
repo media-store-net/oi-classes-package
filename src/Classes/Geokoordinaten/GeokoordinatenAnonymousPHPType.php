@@ -7,7 +7,6 @@ namespace MediaStoreNet\OpenImmo\Classes\Geokoordinaten;
  */
 class GeokoordinatenAnonymousPHPType
 {
-
     /**
      * @var float $breitengrad
      */
@@ -61,7 +60,5 @@ class GeokoordinatenAnonymousPHPType
         $this->laengengrad = $laengengrad;
         return $this;
     }
-
-
 }
 

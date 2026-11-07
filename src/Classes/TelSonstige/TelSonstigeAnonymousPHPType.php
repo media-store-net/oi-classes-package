@@ -7,7 +7,6 @@ namespace MediaStoreNet\OpenImmo\Classes\TelSonstige;
  */
 class TelSonstigeAnonymousPHPType
 {
-
     /**
      * @var string $__value
      */
@@ -100,7 +99,5 @@ class TelSonstigeAnonymousPHPType
         $this->bemerkung = $bemerkung;
         return $this;
     }
-
-
 }
 

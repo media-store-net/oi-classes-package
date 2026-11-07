@@ -9,7 +9,5 @@ use MediaStoreNet\OpenImmo\Classes\ZustandAngaben\ZustandAngabenAnonymousPHPType
  */
 class ZustandAngaben extends ZustandAngabenAnonymousPHPType
 {
-
-
 }
 

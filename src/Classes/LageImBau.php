@@ -7,11 +7,9 @@ use MediaStoreNet\OpenImmo\Classes\LageImBau\LageImBauAnonymousPHPType;
 /**
  * Class representing LageImBau
  *
- * Angabe über die Lage der Immobilie im Gesamtgebäude, Optionen kombinierbar
+ * Angabe Ã¼ber die Lage der Immobilie im GesamtgebÃ¤ude, Optionen kombinierbar
  */
 class LageImBau extends LageImBauAnonymousPHPType
 {
-
-
 }
 

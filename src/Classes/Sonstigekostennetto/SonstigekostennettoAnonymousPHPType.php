@@ -7,7 +7,6 @@ namespace MediaStoreNet\OpenImmo\Classes\Sonstigekostennetto;
  */
 class SonstigekostennettoAnonymousPHPType
 {
-
     /**
      * @var float $__value
      */
@@ -73,7 +72,5 @@ class SonstigekostennettoAnonymousPHPType
         $this->sonstigekostenust = $sonstigekostenust;
         return $this;
     }
-
-
 }
 

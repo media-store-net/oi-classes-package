@@ -7,7 +7,6 @@ namespace MediaStoreNet\OpenImmo\Classes\Serviceleistungen;
  */
 class ServiceleistungenAnonymousPHPType
 {
-
     /**
      * @var bool $bETREUTESWOHNEN
      */
@@ -142,7 +141,5 @@ class ServiceleistungenAnonymousPHPType
         $this->wACHDIENST = $wACHDIENST;
         return $this;
     }
-
-
 }
 

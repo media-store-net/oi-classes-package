@@ -7,7 +7,6 @@ namespace MediaStoreNet\OpenImmo\Classes\Nebenkostenprom2von;
  */
 class Nebenkostenprom2vonAnonymousPHPType
 {
-
     /**
      * @var float $__value
      */
@@ -73,7 +72,5 @@ class Nebenkostenprom2vonAnonymousPHPType
         $this->nebenkostenprom2bis = $nebenkostenprom2bis;
         return $this;
     }
-
-
 }
 

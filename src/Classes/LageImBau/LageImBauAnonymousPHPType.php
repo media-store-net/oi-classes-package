@@ -7,7 +7,6 @@ namespace MediaStoreNet\OpenImmo\Classes\LageImBau;
  */
 class LageImBauAnonymousPHPType
 {
-
     /**
      * @var bool $lINKS
      */
@@ -115,7 +114,5 @@ class LageImBauAnonymousPHPType
         $this->hINTEN = $hINTEN;
         return $this;
     }
-
-
 }
 

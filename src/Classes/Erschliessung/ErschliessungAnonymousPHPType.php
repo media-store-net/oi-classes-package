@@ -7,7 +7,6 @@ namespace MediaStoreNet\OpenImmo\Classes\Erschliessung;
  */
 class ErschliessungAnonymousPHPType
 {
-
     /**
      * @var string $erschlAttr
      */
@@ -34,7 +33,5 @@ class ErschliessungAnonymousPHPType
         $this->erschlAttr = $erschlAttr;
         return $this;
     }
-
-
 }
 

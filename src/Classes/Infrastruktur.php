@@ -9,7 +9,5 @@ use MediaStoreNet\OpenImmo\Classes\Infrastruktur\InfrastrukturAnonymousPHPType;
  */
 class Infrastruktur extends InfrastrukturAnonymousPHPType
 {
-
-
 }
 

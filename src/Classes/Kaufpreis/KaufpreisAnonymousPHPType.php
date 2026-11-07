@@ -7,7 +7,6 @@ namespace MediaStoreNet\OpenImmo\Classes\Kaufpreis;
  */
 class KaufpreisAnonymousPHPType
 {
-
     /**
      * @var float $__value
      */
@@ -73,7 +72,5 @@ class KaufpreisAnonymousPHPType
         $this->aufAnfrage = $aufAnfrage;
         return $this;
     }
-
-
 }
 

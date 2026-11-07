@@ -7,7 +7,6 @@ namespace MediaStoreNet\OpenImmo\Classes;
  */
 class EmailZentrale
 {
-
     /**
      * @var string $__value
      */
@@ -46,7 +45,5 @@ class EmailZentrale
     {
         return strval($this->__value);
     }
-
-
 }
 

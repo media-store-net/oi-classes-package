@@ -7,7 +7,6 @@ namespace MediaStoreNet\OpenImmo\Classes\Boden;
  */
 class BodenAnonymousPHPType
 {
-
     /**
      * @var bool $fLIESEN
      */
@@ -385,7 +384,5 @@ class BodenAnonymousPHPType
         $this->gRANIT = $gRANIT;
         return $this;
     }
-
-
 }
 

@@ -7,7 +7,6 @@ namespace MediaStoreNet\OpenImmo\Classes\Ausbaustufe;
  */
 class AusbaustufeAnonymousPHPType
 {
-
     /**
      * @var bool $bAUSATZHAUS
      */
@@ -142,7 +141,5 @@ class AusbaustufeAnonymousPHPType
         $this->sCHLUESSELFERTIGMITBODENPLATTE = $sCHLUESSELFERTIGMITBODENPLATTE;
         return $this;
     }
-
-
 }
 

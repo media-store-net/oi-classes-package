@@ -9,7 +9,5 @@ use MediaStoreNet\OpenImmo\Classes\Bauweise\BauweiseAnonymousPHPType;
  */
 class Bauweise extends BauweiseAnonymousPHPType
 {
-
-
 }
 

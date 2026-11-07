@@ -11,7 +11,5 @@ use MediaStoreNet\OpenImmo\Classes\Befeuerung\BefeuerungAnonymousPHPType;
  */
 class Befeuerung extends BefeuerungAnonymousPHPType
 {
-
-
 }
 

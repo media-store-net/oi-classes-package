@@ -9,7 +9,5 @@ use MediaStoreNet\OpenImmo\Classes\VerwaltungTechn\VerwaltungTechnAnonymousPHPTy
  */
 class VerwaltungTechn extends VerwaltungTechnAnonymousPHPType
 {
-
-
 }
 

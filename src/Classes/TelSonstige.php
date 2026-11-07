@@ -9,7 +9,5 @@ use MediaStoreNet\OpenImmo\Classes\TelSonstige\TelSonstigeAnonymousPHPType;
  */
 class TelSonstige extends TelSonstigeAnonymousPHPType
 {
-
-
 }
 

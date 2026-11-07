@@ -7,7 +7,6 @@ namespace MediaStoreNet\OpenImmo\Classes\Unterkellert;
  */
 class UnterkellertAnonymousPHPType
 {
-
     /**
      * @var string $keller
      */
@@ -34,7 +33,5 @@ class UnterkellertAnonymousPHPType
         $this->keller = $keller;
         return $this;
     }
-
-
 }
 

@@ -7,7 +7,6 @@ namespace MediaStoreNet\OpenImmo\Classes\Ruecklagenetto;
  */
 class RuecklagenettoAnonymousPHPType
 {
-
     /**
      * @var float $__value
      */
@@ -73,7 +72,5 @@ class RuecklagenettoAnonymousPHPType
         $this->ruecklageust = $ruecklageust;
         return $this;
     }
-
-
 }
 

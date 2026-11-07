@@ -7,7 +7,6 @@ namespace MediaStoreNet\OpenImmo\Classes\ProvisionTeilen;
  */
 class ProvisionTeilenAnonymousPHPType
 {
-
     /**
      * @var string $wert
      */
@@ -34,7 +33,5 @@ class ProvisionTeilenAnonymousPHPType
         $this->wert = $wert;
         return $this;
     }
-
-
 }
 

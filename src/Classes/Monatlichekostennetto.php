@@ -7,11 +7,9 @@ use MediaStoreNet\OpenImmo\Classes\Monatlichekostennetto\MonatlichekostennettoAn
 /**
  * Class representing Monatlichekostennetto
  *
- * Summe der Monatlichen Kosten einer Wohnung als Information für einen Käufer (Netto), Umst im Attribut.
+ * Summe der Monatlichen Kosten einer Wohnung als Information fÃ¼r einen KÃ¤ufer (Netto), Umst im Attribut.
  */
 class Monatlichekostennetto extends MonatlichekostennettoAnonymousPHPType
 {
-
-
 }
 

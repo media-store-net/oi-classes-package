@@ -7,7 +7,6 @@ namespace MediaStoreNet\OpenImmo\Classes\BebaubarNach;
  */
 class BebaubarNachAnonymousPHPType
 {
-
     /**
      * @var string $bebaubarAttr
      */
@@ -34,7 +33,5 @@ class BebaubarNachAnonymousPHPType
         $this->bebaubarAttr = $bebaubarAttr;
         return $this;
     }
-
-
 }
 

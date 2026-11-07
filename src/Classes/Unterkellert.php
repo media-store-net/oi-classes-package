@@ -11,7 +11,5 @@ use MediaStoreNet\OpenImmo\Classes\Unterkellert\UnterkellertAnonymousPHPType;
  */
 class Unterkellert extends UnterkellertAnonymousPHPType
 {
-
-
 }
 

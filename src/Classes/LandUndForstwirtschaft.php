@@ -11,7 +11,5 @@ use MediaStoreNet\OpenImmo\Classes\LandUndForstwirtschaft\LandUndForstwirtschaft
  */
 class LandUndForstwirtschaft extends LandUndForstwirtschaftAnonymousPHPType
 {
-
-
 }
 

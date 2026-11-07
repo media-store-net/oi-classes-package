@@ -7,7 +7,6 @@ namespace MediaStoreNet\OpenImmo\Classes\Openimmo;
  */
 class OpenimmoAnonymousPHPType
 {
-
     /**
      * @var \MediaStoreNet\OpenImmo\Classes\Uebertragung $uebertragung
      */
@@ -162,7 +161,7 @@ class OpenimmoAnonymousPHPType
      * @param \MediaStoreNet\OpenImmo\Classes\UserDefinedSimplefield[] $userDefinedSimplefield
      * @return self
      */
-    public function setUserDefinedSimplefield(array $userDefinedSimplefield)
+    public function setUserDefinedSimplefield(?array $userDefinedSimplefield = null)
     {
         $this->userDefinedSimplefield = $userDefinedSimplefield;
         return $this;
@@ -218,12 +217,10 @@ class OpenimmoAnonymousPHPType
      * @param \MediaStoreNet\OpenImmo\Classes\UserDefinedAnyfield[] $userDefinedAnyfield
      * @return self
      */
-    public function setUserDefinedAnyfield(array $userDefinedAnyfield)
+    public function setUserDefinedAnyfield(?array $userDefinedAnyfield = null)
     {
         $this->userDefinedAnyfield = $userDefinedAnyfield;
         return $this;
     }
-
-
 }
 

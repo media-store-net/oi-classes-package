@@ -7,11 +7,9 @@ use MediaStoreNet\OpenImmo\Classes\ZinshausRenditeobjekt\ZinshausRenditeobjektAn
 /**
  * Class representing ZinshausRenditeobjekt
  *
- * Objektyp / Typ f. Zins und Renditehäuser
+ * Objektyp / Typ f. Zins und RenditehÃ¤user
  */
 class ZinshausRenditeobjekt extends ZinshausRenditeobjektAnonymousPHPType
 {
-
-
 }
 

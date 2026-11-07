@@ -9,7 +9,5 @@ use MediaStoreNet\OpenImmo\Classes\UserDefinedAnyfield\UserDefinedAnyfieldAnonym
  */
 class UserDefinedAnyfield extends UserDefinedAnyfieldAnonymousPHPType
 {
-
-
 }
 

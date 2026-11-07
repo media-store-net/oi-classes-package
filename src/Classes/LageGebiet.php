@@ -11,7 +11,5 @@ use MediaStoreNet\OpenImmo\Classes\LageGebiet\LageGebietAnonymousPHPType;
  */
 class LageGebiet extends LageGebietAnonymousPHPType
 {
-
-
 }
 

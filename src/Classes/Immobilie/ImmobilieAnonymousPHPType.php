@@ -7,7 +7,6 @@ namespace MediaStoreNet\OpenImmo\Classes\Immobilie;
  */
 class ImmobilieAnonymousPHPType
 {
-
     /**
      * @var \MediaStoreNet\OpenImmo\Classes\Objektkategorie $objektkategorie
      */
@@ -225,7 +224,7 @@ class ImmobilieAnonymousPHPType
      * @param \MediaStoreNet\OpenImmo\Classes\WeitereAdresse[] $weitereAdresse
      * @return self
      */
-    public function setWeitereAdresse(array $weitereAdresse)
+    public function setWeitereAdresse(?array $weitereAdresse = null)
     {
         $this->weitereAdresse = $weitereAdresse;
         return $this;
@@ -247,7 +246,7 @@ class ImmobilieAnonymousPHPType
      * @param \MediaStoreNet\OpenImmo\Classes\Preise $preise
      * @return self
      */
-    public function setPreise(\MediaStoreNet\OpenImmo\Classes\Preise $preise)
+    public function setPreise(?\MediaStoreNet\OpenImmo\Classes\Preise $preise = null)
     {
         $this->preise = $preise;
         return $this;
@@ -269,7 +268,7 @@ class ImmobilieAnonymousPHPType
      * @param \MediaStoreNet\OpenImmo\Classes\Bieterverfahren $bieterverfahren
      * @return self
      */
-    public function setBieterverfahren(\MediaStoreNet\OpenImmo\Classes\Bieterverfahren $bieterverfahren)
+    public function setBieterverfahren(?\MediaStoreNet\OpenImmo\Classes\Bieterverfahren $bieterverfahren = null)
     {
         $this->bieterverfahren = $bieterverfahren;
         return $this;
@@ -291,7 +290,7 @@ class ImmobilieAnonymousPHPType
      * @param \MediaStoreNet\OpenImmo\Classes\Versteigerung $versteigerung
      * @return self
      */
-    public function setVersteigerung(\MediaStoreNet\OpenImmo\Classes\Versteigerung $versteigerung)
+    public function setVersteigerung(?\MediaStoreNet\OpenImmo\Classes\Versteigerung $versteigerung = null)
     {
         $this->versteigerung = $versteigerung;
         return $this;
@@ -313,7 +312,7 @@ class ImmobilieAnonymousPHPType
      * @param \MediaStoreNet\OpenImmo\Classes\Flaechen $flaechen
      * @return self
      */
-    public function setFlaechen(\MediaStoreNet\OpenImmo\Classes\Flaechen $flaechen)
+    public function setFlaechen(?\MediaStoreNet\OpenImmo\Classes\Flaechen $flaechen = null)
     {
         $this->flaechen = $flaechen;
         return $this;
@@ -335,7 +334,7 @@ class ImmobilieAnonymousPHPType
      * @param \MediaStoreNet\OpenImmo\Classes\Ausstattung $ausstattung
      * @return self
      */
-    public function setAusstattung(\MediaStoreNet\OpenImmo\Classes\Ausstattung $ausstattung)
+    public function setAusstattung(?\MediaStoreNet\OpenImmo\Classes\Ausstattung $ausstattung = null)
     {
         $this->ausstattung = $ausstattung;
         return $this;
@@ -357,7 +356,7 @@ class ImmobilieAnonymousPHPType
      * @param \MediaStoreNet\OpenImmo\Classes\ZustandAngaben $zustandAngaben
      * @return self
      */
-    public function setZustandAngaben(\MediaStoreNet\OpenImmo\Classes\ZustandAngaben $zustandAngaben)
+    public function setZustandAngaben(?\MediaStoreNet\OpenImmo\Classes\ZustandAngaben $zustandAngaben = null)
     {
         $this->zustandAngaben = $zustandAngaben;
         return $this;
@@ -413,7 +412,7 @@ class ImmobilieAnonymousPHPType
      * @param \MediaStoreNet\OpenImmo\Classes\Bewertung\BewertungAnonymousPHPType\FeldAnonymousPHPType[] $bewertung
      * @return self
      */
-    public function setBewertung(array $bewertung)
+    public function setBewertung(?array $bewertung = null)
     {
         $this->bewertung = $bewertung;
         return $this;
@@ -435,7 +434,7 @@ class ImmobilieAnonymousPHPType
      * @param \MediaStoreNet\OpenImmo\Classes\Infrastruktur $infrastruktur
      * @return self
      */
-    public function setInfrastruktur(\MediaStoreNet\OpenImmo\Classes\Infrastruktur $infrastruktur)
+    public function setInfrastruktur(?\MediaStoreNet\OpenImmo\Classes\Infrastruktur $infrastruktur = null)
     {
         $this->infrastruktur = $infrastruktur;
         return $this;
@@ -457,7 +456,7 @@ class ImmobilieAnonymousPHPType
      * @param \MediaStoreNet\OpenImmo\Classes\Freitexte $freitexte
      * @return self
      */
-    public function setFreitexte(\MediaStoreNet\OpenImmo\Classes\Freitexte $freitexte)
+    public function setFreitexte(?\MediaStoreNet\OpenImmo\Classes\Freitexte $freitexte = null)
     {
         $this->freitexte = $freitexte;
         return $this;
@@ -479,7 +478,7 @@ class ImmobilieAnonymousPHPType
      * @param \MediaStoreNet\OpenImmo\Classes\Anhaenge $anhaenge
      * @return self
      */
-    public function setAnhaenge(\MediaStoreNet\OpenImmo\Classes\Anhaenge $anhaenge)
+    public function setAnhaenge(?\MediaStoreNet\OpenImmo\Classes\Anhaenge $anhaenge = null)
     {
         $this->anhaenge = $anhaenge;
         return $this;
@@ -501,7 +500,7 @@ class ImmobilieAnonymousPHPType
      * @param \MediaStoreNet\OpenImmo\Classes\VerwaltungObjekt $verwaltungObjekt
      * @return self
      */
-    public function setVerwaltungObjekt(\MediaStoreNet\OpenImmo\Classes\VerwaltungObjekt $verwaltungObjekt)
+    public function setVerwaltungObjekt(?\MediaStoreNet\OpenImmo\Classes\VerwaltungObjekt $verwaltungObjekt = null)
     {
         $this->verwaltungObjekt = $verwaltungObjekt;
         return $this;
@@ -579,7 +578,7 @@ class ImmobilieAnonymousPHPType
      * @param \MediaStoreNet\OpenImmo\Classes\UserDefinedSimplefield[] $userDefinedSimplefield
      * @return self
      */
-    public function setUserDefinedSimplefield(array $userDefinedSimplefield)
+    public function setUserDefinedSimplefield(?array $userDefinedSimplefield = null)
     {
         $this->userDefinedSimplefield = $userDefinedSimplefield;
         return $this;
@@ -635,7 +634,7 @@ class ImmobilieAnonymousPHPType
      * @param \MediaStoreNet\OpenImmo\Classes\UserDefinedAnyfield[] $userDefinedAnyfield
      * @return self
      */
-    public function setUserDefinedAnyfield(array $userDefinedAnyfield)
+    public function setUserDefinedAnyfield(?array $userDefinedAnyfield = null)
     {
         $this->userDefinedAnyfield = $userDefinedAnyfield;
         return $this;
@@ -691,12 +690,10 @@ class ImmobilieAnonymousPHPType
      * @param \MediaStoreNet\OpenImmo\Classes\UserDefinedExtend\UserDefinedExtendAnonymousPHPType\FeldAnonymousPHPType[] $userDefinedExtend
      * @return self
      */
-    public function setUserDefinedExtend(array $userDefinedExtend)
+    public function setUserDefinedExtend(?array $userDefinedExtend = null)
     {
         $this->userDefinedExtend = $userDefinedExtend;
         return $this;
     }
-
-
 }
 

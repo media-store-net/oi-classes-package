@@ -7,7 +7,6 @@ namespace MediaStoreNet\OpenImmo\Classes\Moebliert;
  */
 class MoebliertAnonymousPHPType
 {
-
     /**
      * @var string $moeb
      */
@@ -34,7 +33,5 @@ class MoebliertAnonymousPHPType
         $this->moeb = $moeb;
         return $this;
     }
-
-
 }
 

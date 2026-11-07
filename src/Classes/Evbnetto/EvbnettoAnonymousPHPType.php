@@ -7,7 +7,6 @@ namespace MediaStoreNet\OpenImmo\Classes\Evbnetto;
  */
 class EvbnettoAnonymousPHPType
 {
-
     /**
      * @var float $__value
      */
@@ -73,7 +72,5 @@ class EvbnettoAnonymousPHPType
         $this->evbust = $evbust;
         return $this;
     }
-
-
 }
 

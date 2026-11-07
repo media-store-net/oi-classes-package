@@ -7,11 +7,9 @@ use MediaStoreNet\OpenImmo\Classes\Erschliessung\ErschliessungAnonymousPHPType;
 /**
  * Class representing Erschliessung
  *
- * Stand der Erschließung, Optionen nicht kombinierbar
+ * Stand der ErschlieÃung, Optionen nicht kombinierbar
  */
 class Erschliessung extends ErschliessungAnonymousPHPType
 {
-
-
 }
 

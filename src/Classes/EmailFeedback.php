@@ -7,7 +7,6 @@ namespace MediaStoreNet\OpenImmo\Classes;
  */
 class EmailFeedback
 {
-
     /**
      * @var string $__value
      */
@@ -46,7 +45,5 @@ class EmailFeedback
     {
         return strval($this->__value);
     }
-
-
 }
 

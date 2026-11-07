@@ -7,7 +7,6 @@ namespace MediaStoreNet\OpenImmo\Classes\VerwaltungTechn;
  */
 class VerwaltungTechnAnonymousPHPType
 {
-
     /**
      * @var string $objektnrIntern
      */
@@ -179,7 +178,7 @@ class VerwaltungTechnAnonymousPHPType
      * @param \DateTime $aktivVon
      * @return self
      */
-    public function setAktivVon(\DateTime $aktivVon)
+    public function setAktivVon(?\DateTime $aktivVon = null)
     {
         $this->aktivVon = $aktivVon;
         return $this;
@@ -201,7 +200,7 @@ class VerwaltungTechnAnonymousPHPType
      * @param \DateTime $aktivBis
      * @return self
      */
-    public function setAktivBis(\DateTime $aktivBis)
+    public function setAktivBis(?\DateTime $aktivBis = null)
     {
         $this->aktivBis = $aktivBis;
         return $this;
@@ -377,7 +376,7 @@ class VerwaltungTechnAnonymousPHPType
      * @param \MediaStoreNet\OpenImmo\Classes\Master $master
      * @return self
      */
-    public function setMaster(\MediaStoreNet\OpenImmo\Classes\Master $master)
+    public function setMaster(?\MediaStoreNet\OpenImmo\Classes\Master $master = null)
     {
         $this->master = $master;
         return $this;
@@ -455,7 +454,7 @@ class VerwaltungTechnAnonymousPHPType
      * @param \MediaStoreNet\OpenImmo\Classes\UserDefinedSimplefield[] $userDefinedSimplefield
      * @return self
      */
-    public function setUserDefinedSimplefield(array $userDefinedSimplefield)
+    public function setUserDefinedSimplefield(?array $userDefinedSimplefield = null)
     {
         $this->userDefinedSimplefield = $userDefinedSimplefield;
         return $this;
@@ -511,7 +510,7 @@ class VerwaltungTechnAnonymousPHPType
      * @param \MediaStoreNet\OpenImmo\Classes\UserDefinedAnyfield[] $userDefinedAnyfield
      * @return self
      */
-    public function setUserDefinedAnyfield(array $userDefinedAnyfield)
+    public function setUserDefinedAnyfield(?array $userDefinedAnyfield = null)
     {
         $this->userDefinedAnyfield = $userDefinedAnyfield;
         return $this;
@@ -567,12 +566,10 @@ class VerwaltungTechnAnonymousPHPType
      * @param \MediaStoreNet\OpenImmo\Classes\UserDefinedExtend\UserDefinedExtendAnonymousPHPType\FeldAnonymousPHPType[] $userDefinedExtend
      * @return self
      */
-    public function setUserDefinedExtend(array $userDefinedExtend)
+    public function setUserDefinedExtend(?array $userDefinedExtend = null)
     {
         $this->userDefinedExtend = $userDefinedExtend;
         return $this;
     }
-
-
 }
 

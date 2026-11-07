@@ -7,7 +7,6 @@ namespace MediaStoreNet\OpenImmo\Classes\Befeuerung;
  */
 class BefeuerungAnonymousPHPType
 {
-
     /**
      * @var bool $oEL
      */
@@ -736,7 +735,5 @@ class BefeuerungAnonymousPHPType
         $this->kWKBIO = $kWKBIO;
         return $this;
     }
-
-
 }
 

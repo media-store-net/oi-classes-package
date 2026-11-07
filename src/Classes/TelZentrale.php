@@ -7,7 +7,6 @@ namespace MediaStoreNet\OpenImmo\Classes;
  */
 class TelZentrale
 {
-
     /**
      * @var string $__value
      */
@@ -46,7 +45,5 @@ class TelZentrale
     {
         return strval($this->__value);
     }
-
-
 }
 

@@ -7,7 +7,6 @@ namespace MediaStoreNet\OpenImmo\Classes\Land;
  */
 class LandAnonymousPHPType
 {
-
     /**
      * @var string $isoLand
      */
@@ -34,7 +33,5 @@ class LandAnonymousPHPType
         $this->isoLand = $isoLand;
         return $this;
     }
-
-
 }
 

@@ -11,7 +11,5 @@ use MediaStoreNet\OpenImmo\Classes\Sicherheitstechnik\SicherheitstechnikAnonymou
  */
 class Sicherheitstechnik extends SicherheitstechnikAnonymousPHPType
 {
-
-
 }
 

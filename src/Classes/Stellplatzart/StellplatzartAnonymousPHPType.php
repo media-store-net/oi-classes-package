@@ -7,7 +7,6 @@ namespace MediaStoreNet\OpenImmo\Classes\Stellplatzart;
  */
 class StellplatzartAnonymousPHPType
 {
-
     /**
      * @var bool $gARAGE
      */
@@ -169,7 +168,5 @@ class StellplatzartAnonymousPHPType
         $this->dUPLEX = $dUPLEX;
         return $this;
     }
-
-
 }
 

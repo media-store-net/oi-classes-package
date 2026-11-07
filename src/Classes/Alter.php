@@ -11,7 +11,5 @@ use MediaStoreNet\OpenImmo\Classes\Alter\AlterAnonymousPHPType;
  */
 class Alter extends AlterAnonymousPHPType
 {
-
-
 }
 

@@ -11,7 +11,5 @@ use MediaStoreNet\OpenImmo\Classes\Nettomieteprom2von\Nettomieteprom2vonAnonymou
  */
 class Nettomieteprom2von extends Nettomieteprom2vonAnonymousPHPType
 {
-
-
 }
 

@@ -7,11 +7,9 @@ use MediaStoreNet\OpenImmo\Classes\Waehrung\WaehrungAnonymousPHPType;
 /**
  * Class representing Waehrung
  *
- * Währung
+ * WÃ¤hrung
  */
 class Waehrung extends WaehrungAnonymousPHPType
 {
-
-
 }
 

@@ -11,7 +11,5 @@ use MediaStoreNet\OpenImmo\Classes\Daten\DatenAnonymousPHPType;
  */
 class Daten extends DatenAnonymousPHPType
 {
-
-
 }
 

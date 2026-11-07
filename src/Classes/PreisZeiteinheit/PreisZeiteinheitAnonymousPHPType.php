@@ -7,7 +7,6 @@ namespace MediaStoreNet\OpenImmo\Classes\PreisZeiteinheit;
  */
 class PreisZeiteinheitAnonymousPHPType
 {
-
     /**
      * @var string $zeiteinheit
      */
@@ -34,7 +33,5 @@ class PreisZeiteinheitAnonymousPHPType
         $this->zeiteinheit = $zeiteinheit;
         return $this;
     }
-
-
 }
 

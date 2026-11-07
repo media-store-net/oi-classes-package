@@ -11,7 +11,5 @@ use MediaStoreNet\OpenImmo\Classes\Vermarktungsart\VermarktungsartAnonymousPHPTy
  */
 class Vermarktungsart extends VermarktungsartAnonymousPHPType
 {
-
-
 }
 

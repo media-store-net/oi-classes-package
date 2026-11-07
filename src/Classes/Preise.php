@@ -9,7 +9,5 @@ use MediaStoreNet\OpenImmo\Classes\Preise\PreiseAnonymousPHPType;
  */
 class Preise extends PreiseAnonymousPHPType
 {
-
-
 }
 

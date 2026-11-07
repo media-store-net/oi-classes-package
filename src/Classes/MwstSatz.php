@@ -9,7 +9,6 @@ namespace MediaStoreNet\OpenImmo\Classes;
  */
 class MwstSatz
 {
-
     /**
      * @var float $__value
      */
@@ -48,7 +47,5 @@ class MwstSatz
     {
         return strval($this->__value);
     }
-
-
 }
 

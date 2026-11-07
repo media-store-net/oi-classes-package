@@ -7,7 +7,6 @@ namespace MediaStoreNet\OpenImmo\Classes\Fahrstuhl;
  */
 class FahrstuhlAnonymousPHPType
 {
-
     /**
      * @var bool $pERSONEN
      */
@@ -61,7 +60,5 @@ class FahrstuhlAnonymousPHPType
         $this->lASTEN = $lASTEN;
         return $this;
     }
-
-
 }
 

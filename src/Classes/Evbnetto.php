@@ -7,11 +7,9 @@ use MediaStoreNet\OpenImmo\Classes\Evbnetto\EvbnettoAnonymousPHPType;
 /**
  * Class representing Evbnetto
  *
- * Erhaltungs- und Verbesserungsbeitrag. Ähnlich Instanthaltungsrücklage, UmSt. im Attribut.
+ * Erhaltungs- und Verbesserungsbeitrag. Ãhnlich InstanthaltungsrÃ¼cklage, UmSt. im Attribut.
  */
 class Evbnetto extends EvbnettoAnonymousPHPType
 {
-
-
 }
 

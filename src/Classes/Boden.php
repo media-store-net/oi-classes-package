@@ -11,7 +11,5 @@ use MediaStoreNet\OpenImmo\Classes\Boden\BodenAnonymousPHPType;
  */
 class Boden extends BodenAnonymousPHPType
 {
-
-
 }
 

@@ -7,7 +7,6 @@ namespace MediaStoreNet\OpenImmo\Classes\Anhang;
  */
 class AnhangAnonymousPHPType
 {
-
     /**
      * @var string $location
      */
@@ -142,7 +141,7 @@ class AnhangAnonymousPHPType
      * @param \MediaStoreNet\OpenImmo\Classes\Check $check
      * @return self
      */
-    public function setCheck(\MediaStoreNet\OpenImmo\Classes\Check $check)
+    public function setCheck(?\MediaStoreNet\OpenImmo\Classes\Check $check = null)
     {
         $this->check = $check;
         return $this;
@@ -169,7 +168,5 @@ class AnhangAnonymousPHPType
         $this->daten = $daten;
         return $this;
     }
-
-
 }
 

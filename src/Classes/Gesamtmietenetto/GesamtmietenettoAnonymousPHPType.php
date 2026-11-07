@@ -7,7 +7,6 @@ namespace MediaStoreNet\OpenImmo\Classes\Gesamtmietenetto;
  */
 class GesamtmietenettoAnonymousPHPType
 {
-
     /**
      * @var float $__value
      */
@@ -73,7 +72,5 @@ class GesamtmietenettoAnonymousPHPType
         $this->gesamtmieteust = $gesamtmieteust;
         return $this;
     }
-
-
 }
 

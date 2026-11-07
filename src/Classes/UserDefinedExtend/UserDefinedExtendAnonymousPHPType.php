@@ -7,7 +7,6 @@ namespace MediaStoreNet\OpenImmo\Classes\UserDefinedExtend;
  */
 class UserDefinedExtendAnonymousPHPType
 {
-
     /**
      * @var \MediaStoreNet\OpenImmo\Classes\UserDefinedExtend\UserDefinedExtendAnonymousPHPType\FeldAnonymousPHPType[] $feld
      */
@@ -65,12 +64,10 @@ class UserDefinedExtendAnonymousPHPType
      * @param \MediaStoreNet\OpenImmo\Classes\UserDefinedExtend\UserDefinedExtendAnonymousPHPType\FeldAnonymousPHPType[] $feld
      * @return self
      */
-    public function setFeld(array $feld)
+    public function setFeld(?array $feld = null)
     {
         $this->feld = $feld;
         return $this;
     }
-
-
 }
 

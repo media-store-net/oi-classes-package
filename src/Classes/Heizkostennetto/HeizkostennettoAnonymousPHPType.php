@@ -7,7 +7,6 @@ namespace MediaStoreNet\OpenImmo\Classes\Heizkostennetto;
  */
 class HeizkostennettoAnonymousPHPType
 {
-
     /**
      * @var float $__value
      */
@@ -73,7 +72,5 @@ class HeizkostennettoAnonymousPHPType
         $this->heizkostenust = $heizkostenust;
         return $this;
     }
-
-
 }
 

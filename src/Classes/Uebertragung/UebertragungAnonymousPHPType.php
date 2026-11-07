@@ -7,7 +7,6 @@ namespace MediaStoreNet\OpenImmo\Classes\Uebertragung;
  */
 class UebertragungAnonymousPHPType
 {
-
     /**
      * @var string $art
      */
@@ -250,7 +249,5 @@ class UebertragungAnonymousPHPType
         $this->timestamp = $timestamp;
         return $this;
     }
-
-
 }
 

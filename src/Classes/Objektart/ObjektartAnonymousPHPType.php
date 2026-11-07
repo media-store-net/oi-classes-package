@@ -7,7 +7,6 @@ namespace MediaStoreNet\OpenImmo\Classes\Objektart;
  */
 class ObjektartAnonymousPHPType
 {
-
     /**
      * @var \MediaStoreNet\OpenImmo\Classes\Zimmer[] $zimmer
      */
@@ -156,7 +155,7 @@ class ObjektartAnonymousPHPType
      * @param \MediaStoreNet\OpenImmo\Classes\Zimmer[] $zimmer
      * @return self
      */
-    public function setZimmer(array $zimmer)
+    public function setZimmer(?array $zimmer = null)
     {
         $this->zimmer = $zimmer;
         return $this;
@@ -212,7 +211,7 @@ class ObjektartAnonymousPHPType
      * @param \MediaStoreNet\OpenImmo\Classes\Wohnung[] $wohnung
      * @return self
      */
-    public function setWohnung(array $wohnung)
+    public function setWohnung(?array $wohnung = null)
     {
         $this->wohnung = $wohnung;
         return $this;
@@ -268,7 +267,7 @@ class ObjektartAnonymousPHPType
      * @param \MediaStoreNet\OpenImmo\Classes\Haus[] $haus
      * @return self
      */
-    public function setHaus(array $haus)
+    public function setHaus(?array $haus = null)
     {
         $this->haus = $haus;
         return $this;
@@ -324,7 +323,7 @@ class ObjektartAnonymousPHPType
      * @param \MediaStoreNet\OpenImmo\Classes\Grundstueck[] $grundstueck
      * @return self
      */
-    public function setGrundstueck(array $grundstueck)
+    public function setGrundstueck(?array $grundstueck = null)
     {
         $this->grundstueck = $grundstueck;
         return $this;
@@ -380,7 +379,7 @@ class ObjektartAnonymousPHPType
      * @param \MediaStoreNet\OpenImmo\Classes\BueroPraxen[] $bueroPraxen
      * @return self
      */
-    public function setBueroPraxen(array $bueroPraxen)
+    public function setBueroPraxen(?array $bueroPraxen = null)
     {
         $this->bueroPraxen = $bueroPraxen;
         return $this;
@@ -436,7 +435,7 @@ class ObjektartAnonymousPHPType
      * @param \MediaStoreNet\OpenImmo\Classes\Einzelhandel[] $einzelhandel
      * @return self
      */
-    public function setEinzelhandel(array $einzelhandel)
+    public function setEinzelhandel(?array $einzelhandel = null)
     {
         $this->einzelhandel = $einzelhandel;
         return $this;
@@ -492,7 +491,7 @@ class ObjektartAnonymousPHPType
      * @param \MediaStoreNet\OpenImmo\Classes\Gastgewerbe[] $gastgewerbe
      * @return self
      */
-    public function setGastgewerbe(array $gastgewerbe)
+    public function setGastgewerbe(?array $gastgewerbe = null)
     {
         $this->gastgewerbe = $gastgewerbe;
         return $this;
@@ -548,7 +547,7 @@ class ObjektartAnonymousPHPType
      * @param \MediaStoreNet\OpenImmo\Classes\HallenLagerProd[] $hallenLagerProd
      * @return self
      */
-    public function setHallenLagerProd(array $hallenLagerProd)
+    public function setHallenLagerProd(?array $hallenLagerProd = null)
     {
         $this->hallenLagerProd = $hallenLagerProd;
         return $this;
@@ -604,7 +603,7 @@ class ObjektartAnonymousPHPType
      * @param \MediaStoreNet\OpenImmo\Classes\LandUndForstwirtschaft[] $landUndForstwirtschaft
      * @return self
      */
-    public function setLandUndForstwirtschaft(array $landUndForstwirtschaft)
+    public function setLandUndForstwirtschaft(?array $landUndForstwirtschaft = null)
     {
         $this->landUndForstwirtschaft = $landUndForstwirtschaft;
         return $this;
@@ -660,7 +659,7 @@ class ObjektartAnonymousPHPType
      * @param \MediaStoreNet\OpenImmo\Classes\Parken[] $parken
      * @return self
      */
-    public function setParken(array $parken)
+    public function setParken(?array $parken = null)
     {
         $this->parken = $parken;
         return $this;
@@ -716,7 +715,7 @@ class ObjektartAnonymousPHPType
      * @param \MediaStoreNet\OpenImmo\Classes\Sonstige[] $sonstige
      * @return self
      */
-    public function setSonstige(array $sonstige)
+    public function setSonstige(?array $sonstige = null)
     {
         $this->sonstige = $sonstige;
         return $this;
@@ -772,7 +771,7 @@ class ObjektartAnonymousPHPType
      * @param \MediaStoreNet\OpenImmo\Classes\FreizeitimmobilieGewerblich[] $freizeitimmobilieGewerblich
      * @return self
      */
-    public function setFreizeitimmobilieGewerblich(array $freizeitimmobilieGewerblich)
+    public function setFreizeitimmobilieGewerblich(?array $freizeitimmobilieGewerblich = null)
     {
         $this->freizeitimmobilieGewerblich = $freizeitimmobilieGewerblich;
         return $this;
@@ -828,7 +827,7 @@ class ObjektartAnonymousPHPType
      * @param \MediaStoreNet\OpenImmo\Classes\ZinshausRenditeobjekt[] $zinshausRenditeobjekt
      * @return self
      */
-    public function setZinshausRenditeobjekt(array $zinshausRenditeobjekt)
+    public function setZinshausRenditeobjekt(?array $zinshausRenditeobjekt = null)
     {
         $this->zinshausRenditeobjekt = $zinshausRenditeobjekt;
         return $this;
@@ -884,12 +883,10 @@ class ObjektartAnonymousPHPType
      * @param string[] $objektartZusatz
      * @return self
      */
-    public function setObjektartZusatz(array $objektartZusatz)
+    public function setObjektartZusatz(?array $objektartZusatz = null)
     {
         $this->objektartZusatz = $objektartZusatz;
         return $this;
     }
-
-
 }
 

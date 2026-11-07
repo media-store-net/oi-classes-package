@@ -60,6 +60,16 @@ MediaStoreNet\OpenImmo\Classes\Energiepass\EnergiepassAnonymousPHPType:
                 getter: getPrimaerenergietraeger
                 setter: setPrimaerenergietraeger
             type: string
+        primaerenergiebedarf:
+            expose: true
+            access_type: public_method
+            serialized_name: primaerenergiebedarf
+            xml_element:
+                cdata: false
+            accessor:
+                getter: getPrimaerenergiebedarf
+                setter: setPrimaerenergiebedarf
+            type: float
         stromwert:
             expose: true
             access_type: public_method

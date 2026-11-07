@@ -7,11 +7,9 @@ use MediaStoreNet\OpenImmo\Classes\BreitbandZugang\BreitbandZugangAnonymousPHPTy
 /**
  * Class representing BreitbandZugang
  *
- * Informationen über die Breitbandmöglichkeiten.
+ * Informationen Ã¼ber die BreitbandmÃ¶glichkeiten.
  */
 class BreitbandZugang extends BreitbandZugangAnonymousPHPType
 {
-
-
 }
 

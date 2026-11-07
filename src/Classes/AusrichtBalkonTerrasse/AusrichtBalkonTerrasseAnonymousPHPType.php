@@ -7,7 +7,6 @@ namespace MediaStoreNet\OpenImmo\Classes\AusrichtBalkonTerrasse;
  */
 class AusrichtBalkonTerrasseAnonymousPHPType
 {
-
     /**
      * @var bool $nORD
      */
@@ -223,7 +222,5 @@ class AusrichtBalkonTerrasseAnonymousPHPType
         $this->sUEDWEST = $sUEDWEST;
         return $this;
     }
-
-
 }
 

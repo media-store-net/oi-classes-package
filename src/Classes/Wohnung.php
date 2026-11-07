@@ -11,7 +11,5 @@ use MediaStoreNet\OpenImmo\Classes\Wohnung\WohnungAnonymousPHPType;
  */
 class Wohnung extends WohnungAnonymousPHPType
 {
-
-
 }
 

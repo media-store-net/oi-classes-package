@@ -7,7 +7,6 @@ namespace MediaStoreNet\OpenImmo\Classes\Sicherheitstechnik;
  */
 class SicherheitstechnikAnonymousPHPType
 {
-
     /**
      * @var bool $aLARMANLAGE
      */
@@ -88,7 +87,5 @@ class SicherheitstechnikAnonymousPHPType
         $this->pOLIZEIRUF = $pOLIZEIRUF;
         return $this;
     }
-
-
 }
 

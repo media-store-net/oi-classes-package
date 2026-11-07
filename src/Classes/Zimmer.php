@@ -11,7 +11,5 @@ use MediaStoreNet\OpenImmo\Classes\Zimmer\ZimmerAnonymousPHPType;
  */
 class Zimmer extends ZimmerAnonymousPHPType
 {
-
-
 }
 

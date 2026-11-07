@@ -7,7 +7,6 @@ namespace MediaStoreNet\OpenImmo\Classes\Check;
  */
 class CheckAnonymousPHPType
 {
-
     /**
      * @var \DateTime $__value
      */
@@ -73,7 +72,5 @@ class CheckAnonymousPHPType
         $this->ctype = $ctype;
         return $this;
     }
-
-
 }
 

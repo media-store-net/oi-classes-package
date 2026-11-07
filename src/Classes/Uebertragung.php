@@ -7,11 +7,9 @@ use MediaStoreNet\OpenImmo\Classes\Uebertragung\UebertragungAnonymousPHPType;
 /**
  * Class representing Uebertragung
  *
- * Übertragungsangaben
+ * Ãbertragungsangaben
  */
 class Uebertragung extends UebertragungAnonymousPHPType
 {
-
-
 }
 

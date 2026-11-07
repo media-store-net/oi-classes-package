@@ -11,7 +11,5 @@ use MediaStoreNet\OpenImmo\Classes\Gesamtkostenprom2von\Gesamtkostenprom2vonAnon
  */
 class Gesamtkostenprom2von extends Gesamtkostenprom2vonAnonymousPHPType
 {
-
-
 }
 

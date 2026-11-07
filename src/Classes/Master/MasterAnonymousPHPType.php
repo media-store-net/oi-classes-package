@@ -7,7 +7,6 @@ namespace MediaStoreNet\OpenImmo\Classes\Master;
  */
 class MasterAnonymousPHPType
 {
-
     /**
      * @var bool $visible
      */
@@ -34,7 +33,5 @@ class MasterAnonymousPHPType
         $this->visible = $visible;
         return $this;
     }
-
-
 }
 

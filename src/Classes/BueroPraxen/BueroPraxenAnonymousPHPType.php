@@ -7,7 +7,6 @@ namespace MediaStoreNet\OpenImmo\Classes\BueroPraxen;
  */
 class BueroPraxenAnonymousPHPType
 {
-
     /**
      * @var string $bueroTyp
      */
@@ -34,7 +33,5 @@ class BueroPraxenAnonymousPHPType
         $this->bueroTyp = $bueroTyp;
         return $this;
     }
-
-
 }
 

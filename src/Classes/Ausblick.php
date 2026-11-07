@@ -11,7 +11,5 @@ use MediaStoreNet\OpenImmo\Classes\Ausblick\AusblickAnonymousPHPType;
  */
 class Ausblick extends AusblickAnonymousPHPType
 {
-
-
 }
 

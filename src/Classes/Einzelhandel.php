@@ -11,7 +11,5 @@ use MediaStoreNet\OpenImmo\Classes\Einzelhandel\EinzelhandelAnonymousPHPType;
  */
 class Einzelhandel extends EinzelhandelAnonymousPHPType
 {
-
-
 }
 

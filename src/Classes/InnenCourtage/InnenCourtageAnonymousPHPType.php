@@ -7,7 +7,6 @@ namespace MediaStoreNet\OpenImmo\Classes\InnenCourtage;
  */
 class InnenCourtageAnonymousPHPType
 {
-
     /**
      * @var bool $mitMwst
      */
@@ -34,7 +33,5 @@ class InnenCourtageAnonymousPHPType
         $this->mitMwst = $mitMwst;
         return $this;
     }
-
-
 }
 

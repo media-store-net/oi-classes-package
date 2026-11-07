@@ -7,7 +7,6 @@ namespace MediaStoreNet\OpenImmo\Classes\Preise;
  */
 class PreiseAnonymousPHPType
 {
-
     /**
      * @var \MediaStoreNet\OpenImmo\Classes\Kaufpreis $kaufpreis
      */
@@ -385,7 +384,7 @@ class PreiseAnonymousPHPType
      * @param \MediaStoreNet\OpenImmo\Classes\Kaufpreis $kaufpreis
      * @return self
      */
-    public function setKaufpreis(\MediaStoreNet\OpenImmo\Classes\Kaufpreis $kaufpreis)
+    public function setKaufpreis(?\MediaStoreNet\OpenImmo\Classes\Kaufpreis $kaufpreis = null)
     {
         $this->kaufpreis = $kaufpreis;
         return $this;
@@ -407,7 +406,7 @@ class PreiseAnonymousPHPType
      * @param \MediaStoreNet\OpenImmo\Classes\Kaufpreisnetto $kaufpreisnetto
      * @return self
      */
-    public function setKaufpreisnetto(\MediaStoreNet\OpenImmo\Classes\Kaufpreisnetto $kaufpreisnetto)
+    public function setKaufpreisnetto(?\MediaStoreNet\OpenImmo\Classes\Kaufpreisnetto $kaufpreisnetto = null)
     {
         $this->kaufpreisnetto = $kaufpreisnetto;
         return $this;
@@ -627,7 +626,7 @@ class PreiseAnonymousPHPType
      * @param \MediaStoreNet\OpenImmo\Classes\Hauptmietzinsnetto $hauptmietzinsnetto
      * @return self
      */
-    public function setHauptmietzinsnetto(\MediaStoreNet\OpenImmo\Classes\Hauptmietzinsnetto $hauptmietzinsnetto)
+    public function setHauptmietzinsnetto(?\MediaStoreNet\OpenImmo\Classes\Hauptmietzinsnetto $hauptmietzinsnetto = null)
     {
         $this->hauptmietzinsnetto = $hauptmietzinsnetto;
         return $this;
@@ -671,7 +670,7 @@ class PreiseAnonymousPHPType
      * @param \MediaStoreNet\OpenImmo\Classes\Betriebskostennetto $betriebskostennetto
      * @return self
      */
-    public function setBetriebskostennetto(\MediaStoreNet\OpenImmo\Classes\Betriebskostennetto $betriebskostennetto)
+    public function setBetriebskostennetto(?\MediaStoreNet\OpenImmo\Classes\Betriebskostennetto $betriebskostennetto = null)
     {
         $this->betriebskostennetto = $betriebskostennetto;
         return $this;
@@ -693,7 +692,7 @@ class PreiseAnonymousPHPType
      * @param \MediaStoreNet\OpenImmo\Classes\Evbnetto $evbnetto
      * @return self
      */
-    public function setEvbnetto(\MediaStoreNet\OpenImmo\Classes\Evbnetto $evbnetto)
+    public function setEvbnetto(?\MediaStoreNet\OpenImmo\Classes\Evbnetto $evbnetto = null)
     {
         $this->evbnetto = $evbnetto;
         return $this;
@@ -715,7 +714,7 @@ class PreiseAnonymousPHPType
      * @param \MediaStoreNet\OpenImmo\Classes\Gesamtmietenetto $gesamtmietenetto
      * @return self
      */
-    public function setGesamtmietenetto(\MediaStoreNet\OpenImmo\Classes\Gesamtmietenetto $gesamtmietenetto)
+    public function setGesamtmietenetto(?\MediaStoreNet\OpenImmo\Classes\Gesamtmietenetto $gesamtmietenetto = null)
     {
         $this->gesamtmietenetto = $gesamtmietenetto;
         return $this;
@@ -759,7 +758,7 @@ class PreiseAnonymousPHPType
      * @param \MediaStoreNet\OpenImmo\Classes\Gesamtbelastungnetto $gesamtbelastungnetto
      * @return self
      */
-    public function setGesamtbelastungnetto(\MediaStoreNet\OpenImmo\Classes\Gesamtbelastungnetto $gesamtbelastungnetto)
+    public function setGesamtbelastungnetto(?\MediaStoreNet\OpenImmo\Classes\Gesamtbelastungnetto $gesamtbelastungnetto = null)
     {
         $this->gesamtbelastungnetto = $gesamtbelastungnetto;
         return $this;
@@ -803,7 +802,7 @@ class PreiseAnonymousPHPType
      * @param \MediaStoreNet\OpenImmo\Classes\Gesamtkostenprom2von $gesamtkostenprom2von
      * @return self
      */
-    public function setGesamtkostenprom2von(\MediaStoreNet\OpenImmo\Classes\Gesamtkostenprom2von $gesamtkostenprom2von)
+    public function setGesamtkostenprom2von(?\MediaStoreNet\OpenImmo\Classes\Gesamtkostenprom2von $gesamtkostenprom2von = null)
     {
         $this->gesamtkostenprom2von = $gesamtkostenprom2von;
         return $this;
@@ -825,7 +824,7 @@ class PreiseAnonymousPHPType
      * @param \MediaStoreNet\OpenImmo\Classes\Heizkostennetto $heizkostennetto
      * @return self
      */
-    public function setHeizkostennetto(\MediaStoreNet\OpenImmo\Classes\Heizkostennetto $heizkostennetto)
+    public function setHeizkostennetto(?\MediaStoreNet\OpenImmo\Classes\Heizkostennetto $heizkostennetto = null)
     {
         $this->heizkostennetto = $heizkostennetto;
         return $this;
@@ -847,7 +846,7 @@ class PreiseAnonymousPHPType
      * @param \MediaStoreNet\OpenImmo\Classes\Monatlichekostennetto $monatlichekostennetto
      * @return self
      */
-    public function setMonatlichekostennetto(\MediaStoreNet\OpenImmo\Classes\Monatlichekostennetto $monatlichekostennetto)
+    public function setMonatlichekostennetto(?\MediaStoreNet\OpenImmo\Classes\Monatlichekostennetto $monatlichekostennetto = null)
     {
         $this->monatlichekostennetto = $monatlichekostennetto;
         return $this;
@@ -891,7 +890,7 @@ class PreiseAnonymousPHPType
      * @param \MediaStoreNet\OpenImmo\Classes\Nebenkostenprom2von $nebenkostenprom2von
      * @return self
      */
-    public function setNebenkostenprom2von(\MediaStoreNet\OpenImmo\Classes\Nebenkostenprom2von $nebenkostenprom2von)
+    public function setNebenkostenprom2von(?\MediaStoreNet\OpenImmo\Classes\Nebenkostenprom2von $nebenkostenprom2von = null)
     {
         $this->nebenkostenprom2von = $nebenkostenprom2von;
         return $this;
@@ -913,7 +912,7 @@ class PreiseAnonymousPHPType
      * @param \MediaStoreNet\OpenImmo\Classes\Ruecklagenetto $ruecklagenetto
      * @return self
      */
-    public function setRuecklagenetto(\MediaStoreNet\OpenImmo\Classes\Ruecklagenetto $ruecklagenetto)
+    public function setRuecklagenetto(?\MediaStoreNet\OpenImmo\Classes\Ruecklagenetto $ruecklagenetto = null)
     {
         $this->ruecklagenetto = $ruecklagenetto;
         return $this;
@@ -935,7 +934,7 @@ class PreiseAnonymousPHPType
      * @param \MediaStoreNet\OpenImmo\Classes\Sonstigekostennetto $sonstigekostennetto
      * @return self
      */
-    public function setSonstigekostennetto(\MediaStoreNet\OpenImmo\Classes\Sonstigekostennetto $sonstigekostennetto)
+    public function setSonstigekostennetto(?\MediaStoreNet\OpenImmo\Classes\Sonstigekostennetto $sonstigekostennetto = null)
     {
         $this->sonstigekostennetto = $sonstigekostennetto;
         return $this;
@@ -957,7 +956,7 @@ class PreiseAnonymousPHPType
      * @param \MediaStoreNet\OpenImmo\Classes\Sonstigemietenetto $sonstigemietenetto
      * @return self
      */
-    public function setSonstigemietenetto(\MediaStoreNet\OpenImmo\Classes\Sonstigemietenetto $sonstigemietenetto)
+    public function setSonstigemietenetto(?\MediaStoreNet\OpenImmo\Classes\Sonstigemietenetto $sonstigemietenetto = null)
     {
         $this->sonstigemietenetto = $sonstigemietenetto;
         return $this;
@@ -979,7 +978,7 @@ class PreiseAnonymousPHPType
      * @param \MediaStoreNet\OpenImmo\Classes\Summemietenetto $summemietenetto
      * @return self
      */
-    public function setSummemietenetto(\MediaStoreNet\OpenImmo\Classes\Summemietenetto $summemietenetto)
+    public function setSummemietenetto(?\MediaStoreNet\OpenImmo\Classes\Summemietenetto $summemietenetto = null)
     {
         $this->summemietenetto = $summemietenetto;
         return $this;
@@ -1001,7 +1000,7 @@ class PreiseAnonymousPHPType
      * @param \MediaStoreNet\OpenImmo\Classes\Nettomieteprom2von $nettomieteprom2von
      * @return self
      */
-    public function setNettomieteprom2von(\MediaStoreNet\OpenImmo\Classes\Nettomieteprom2von $nettomieteprom2von)
+    public function setNettomieteprom2von(?\MediaStoreNet\OpenImmo\Classes\Nettomieteprom2von $nettomieteprom2von = null)
     {
         $this->nettomieteprom2von = $nettomieteprom2von;
         return $this;
@@ -1111,7 +1110,7 @@ class PreiseAnonymousPHPType
      * @param \DateTime $preisZeitraumVon
      * @return self
      */
-    public function setPreisZeitraumVon(\DateTime $preisZeitraumVon)
+    public function setPreisZeitraumVon(?\DateTime $preisZeitraumVon = null)
     {
         $this->preisZeitraumVon = $preisZeitraumVon;
         return $this;
@@ -1133,7 +1132,7 @@ class PreiseAnonymousPHPType
      * @param \DateTime $preisZeitraumBis
      * @return self
      */
-    public function setPreisZeitraumBis(\DateTime $preisZeitraumBis)
+    public function setPreisZeitraumBis(?\DateTime $preisZeitraumBis = null)
     {
         $this->preisZeitraumBis = $preisZeitraumBis;
         return $this;
@@ -1155,7 +1154,7 @@ class PreiseAnonymousPHPType
      * @param \MediaStoreNet\OpenImmo\Classes\PreisZeiteinheit $preisZeiteinheit
      * @return self
      */
-    public function setPreisZeiteinheit(\MediaStoreNet\OpenImmo\Classes\PreisZeiteinheit $preisZeiteinheit)
+    public function setPreisZeiteinheit(?\MediaStoreNet\OpenImmo\Classes\PreisZeiteinheit $preisZeiteinheit = null)
     {
         $this->preisZeiteinheit = $preisZeiteinheit;
         return $this;
@@ -1243,7 +1242,7 @@ class PreiseAnonymousPHPType
      * @param \MediaStoreNet\OpenImmo\Classes\ProvisionTeilen $provisionTeilen
      * @return self
      */
-    public function setProvisionTeilen(\MediaStoreNet\OpenImmo\Classes\ProvisionTeilen $provisionTeilen)
+    public function setProvisionTeilen(?\MediaStoreNet\OpenImmo\Classes\ProvisionTeilen $provisionTeilen = null)
     {
         $this->provisionTeilen = $provisionTeilen;
         return $this;
@@ -1265,7 +1264,7 @@ class PreiseAnonymousPHPType
      * @param \MediaStoreNet\OpenImmo\Classes\InnenCourtage $innenCourtage
      * @return self
      */
-    public function setInnenCourtage(\MediaStoreNet\OpenImmo\Classes\InnenCourtage $innenCourtage)
+    public function setInnenCourtage(?\MediaStoreNet\OpenImmo\Classes\InnenCourtage $innenCourtage = null)
     {
         $this->innenCourtage = $innenCourtage;
         return $this;
@@ -1287,7 +1286,7 @@ class PreiseAnonymousPHPType
      * @param \MediaStoreNet\OpenImmo\Classes\AussenCourtage $aussenCourtage
      * @return self
      */
-    public function setAussenCourtage(\MediaStoreNet\OpenImmo\Classes\AussenCourtage $aussenCourtage)
+    public function setAussenCourtage(?\MediaStoreNet\OpenImmo\Classes\AussenCourtage $aussenCourtage = null)
     {
         $this->aussenCourtage = $aussenCourtage;
         return $this;
@@ -1331,7 +1330,7 @@ class PreiseAnonymousPHPType
      * @param \MediaStoreNet\OpenImmo\Classes\Provisionnetto $provisionnetto
      * @return self
      */
-    public function setProvisionnetto(\MediaStoreNet\OpenImmo\Classes\Provisionnetto $provisionnetto)
+    public function setProvisionnetto(?\MediaStoreNet\OpenImmo\Classes\Provisionnetto $provisionnetto = null)
     {
         $this->provisionnetto = $provisionnetto;
         return $this;
@@ -1375,7 +1374,7 @@ class PreiseAnonymousPHPType
      * @param \MediaStoreNet\OpenImmo\Classes\Waehrung $waehrung
      * @return self
      */
-    public function setWaehrung(\MediaStoreNet\OpenImmo\Classes\Waehrung $waehrung)
+    public function setWaehrung(?\MediaStoreNet\OpenImmo\Classes\Waehrung $waehrung = null)
     {
         $this->waehrung = $waehrung;
         return $this;
@@ -1551,7 +1550,7 @@ class PreiseAnonymousPHPType
      * @param \MediaStoreNet\OpenImmo\Classes\MieteinnahmenIst $mieteinnahmenIst
      * @return self
      */
-    public function setMieteinnahmenIst(\MediaStoreNet\OpenImmo\Classes\MieteinnahmenIst $mieteinnahmenIst)
+    public function setMieteinnahmenIst(?\MediaStoreNet\OpenImmo\Classes\MieteinnahmenIst $mieteinnahmenIst = null)
     {
         $this->mieteinnahmenIst = $mieteinnahmenIst;
         return $this;
@@ -1573,7 +1572,7 @@ class PreiseAnonymousPHPType
      * @param \MediaStoreNet\OpenImmo\Classes\MieteinnahmenSoll $mieteinnahmenSoll
      * @return self
      */
-    public function setMieteinnahmenSoll(\MediaStoreNet\OpenImmo\Classes\MieteinnahmenSoll $mieteinnahmenSoll)
+    public function setMieteinnahmenSoll(?\MediaStoreNet\OpenImmo\Classes\MieteinnahmenSoll $mieteinnahmenSoll = null)
     {
         $this->mieteinnahmenSoll = $mieteinnahmenSoll;
         return $this;
@@ -1683,7 +1682,7 @@ class PreiseAnonymousPHPType
      * @param \MediaStoreNet\OpenImmo\Classes\StpCarport $stpCarport
      * @return self
      */
-    public function setStpCarport(\MediaStoreNet\OpenImmo\Classes\StpCarport $stpCarport)
+    public function setStpCarport(?\MediaStoreNet\OpenImmo\Classes\StpCarport $stpCarport = null)
     {
         $this->stpCarport = $stpCarport;
         return $this;
@@ -1705,7 +1704,7 @@ class PreiseAnonymousPHPType
      * @param \MediaStoreNet\OpenImmo\Classes\StpDuplex $stpDuplex
      * @return self
      */
-    public function setStpDuplex(\MediaStoreNet\OpenImmo\Classes\StpDuplex $stpDuplex)
+    public function setStpDuplex(?\MediaStoreNet\OpenImmo\Classes\StpDuplex $stpDuplex = null)
     {
         $this->stpDuplex = $stpDuplex;
         return $this;
@@ -1727,7 +1726,7 @@ class PreiseAnonymousPHPType
      * @param \MediaStoreNet\OpenImmo\Classes\StpFreiplatz $stpFreiplatz
      * @return self
      */
-    public function setStpFreiplatz(\MediaStoreNet\OpenImmo\Classes\StpFreiplatz $stpFreiplatz)
+    public function setStpFreiplatz(?\MediaStoreNet\OpenImmo\Classes\StpFreiplatz $stpFreiplatz = null)
     {
         $this->stpFreiplatz = $stpFreiplatz;
         return $this;
@@ -1749,7 +1748,7 @@ class PreiseAnonymousPHPType
      * @param \MediaStoreNet\OpenImmo\Classes\StpGarage $stpGarage
      * @return self
      */
-    public function setStpGarage(\MediaStoreNet\OpenImmo\Classes\StpGarage $stpGarage)
+    public function setStpGarage(?\MediaStoreNet\OpenImmo\Classes\StpGarage $stpGarage = null)
     {
         $this->stpGarage = $stpGarage;
         return $this;
@@ -1771,7 +1770,7 @@ class PreiseAnonymousPHPType
      * @param \MediaStoreNet\OpenImmo\Classes\StpParkhaus $stpParkhaus
      * @return self
      */
-    public function setStpParkhaus(\MediaStoreNet\OpenImmo\Classes\StpParkhaus $stpParkhaus)
+    public function setStpParkhaus(?\MediaStoreNet\OpenImmo\Classes\StpParkhaus $stpParkhaus = null)
     {
         $this->stpParkhaus = $stpParkhaus;
         return $this;
@@ -1793,7 +1792,7 @@ class PreiseAnonymousPHPType
      * @param \MediaStoreNet\OpenImmo\Classes\StpTiefgarage $stpTiefgarage
      * @return self
      */
-    public function setStpTiefgarage(\MediaStoreNet\OpenImmo\Classes\StpTiefgarage $stpTiefgarage)
+    public function setStpTiefgarage(?\MediaStoreNet\OpenImmo\Classes\StpTiefgarage $stpTiefgarage = null)
     {
         $this->stpTiefgarage = $stpTiefgarage;
         return $this;
@@ -1849,7 +1848,7 @@ class PreiseAnonymousPHPType
      * @param \MediaStoreNet\OpenImmo\Classes\StpSonstige[] $stpSonstige
      * @return self
      */
-    public function setStpSonstige(array $stpSonstige)
+    public function setStpSonstige(?array $stpSonstige = null)
     {
         $this->stpSonstige = $stpSonstige;
         return $this;
@@ -1949,7 +1948,7 @@ class PreiseAnonymousPHPType
      * @param \MediaStoreNet\OpenImmo\Classes\UserDefinedSimplefield[] $userDefinedSimplefield
      * @return self
      */
-    public function setUserDefinedSimplefield(array $userDefinedSimplefield)
+    public function setUserDefinedSimplefield(?array $userDefinedSimplefield = null)
     {
         $this->userDefinedSimplefield = $userDefinedSimplefield;
         return $this;
@@ -2005,7 +2004,7 @@ class PreiseAnonymousPHPType
      * @param \MediaStoreNet\OpenImmo\Classes\UserDefinedAnyfield[] $userDefinedAnyfield
      * @return self
      */
-    public function setUserDefinedAnyfield(array $userDefinedAnyfield)
+    public function setUserDefinedAnyfield(?array $userDefinedAnyfield = null)
     {
         $this->userDefinedAnyfield = $userDefinedAnyfield;
         return $this;
@@ -2061,12 +2060,10 @@ class PreiseAnonymousPHPType
      * @param \MediaStoreNet\OpenImmo\Classes\UserDefinedExtend\UserDefinedExtendAnonymousPHPType\FeldAnonymousPHPType[] $userDefinedExtend
      * @return self
      */
-    public function setUserDefinedExtend(array $userDefinedExtend)
+    public function setUserDefinedExtend(?array $userDefinedExtend = null)
     {
         $this->userDefinedExtend = $userDefinedExtend;
         return $this;
     }
-
-
 }
 

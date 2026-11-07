@@ -11,7 +11,5 @@ use MediaStoreNet\OpenImmo\Classes\Stellplatzart\StellplatzartAnonymousPHPType;
  */
 class Stellplatzart extends StellplatzartAnonymousPHPType
 {
-
-
 }
 

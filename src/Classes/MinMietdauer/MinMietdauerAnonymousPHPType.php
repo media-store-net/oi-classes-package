@@ -7,7 +7,6 @@ namespace MediaStoreNet\OpenImmo\Classes\MinMietdauer;
  */
 class MinMietdauerAnonymousPHPType
 {
-
     /**
      * @var string $minDauer
      */
@@ -34,7 +33,5 @@ class MinMietdauerAnonymousPHPType
         $this->minDauer = $minDauer;
         return $this;
     }
-
-
 }
 

@@ -7,7 +7,6 @@ namespace MediaStoreNet\OpenImmo\Classes\Waehrung;
  */
 class WaehrungAnonymousPHPType
 {
-
     /**
      * @var string $isoWaehrung
      */
@@ -34,7 +33,5 @@ class WaehrungAnonymousPHPType
         $this->isoWaehrung = $isoWaehrung;
         return $this;
     }
-
-
 }
 

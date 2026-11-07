@@ -7,11 +7,9 @@ use MediaStoreNet\OpenImmo\Classes\ProvisionTeilen\ProvisionTeilenAnonymousPHPTy
 /**
  * Class representing ProvisionTeilen
  *
- * Aufteilen der provision bei Partnergeschäften. Auch "A Meta" Geschäft. Attribut zeigt, wie der Wert angegeben wird: fester wert, prozent, oder Text Information
+ * Aufteilen der provision bei PartnergeschÃ¤ften. Auch "A Meta" GeschÃ¤ft. Attribut zeigt, wie der Wert angegeben wird: fester wert, prozent, oder Text Information
  */
 class ProvisionTeilen extends ProvisionTeilenAnonymousPHPType
 {
-
-
 }
 

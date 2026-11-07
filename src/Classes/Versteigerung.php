@@ -11,7 +11,5 @@ use MediaStoreNet\OpenImmo\Classes\Versteigerung\VersteigerungAnonymousPHPType;
  */
 class Versteigerung extends VersteigerungAnonymousPHPType
 {
-
-
 }
 

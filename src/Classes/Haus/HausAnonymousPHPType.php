@@ -7,7 +7,6 @@ namespace MediaStoreNet\OpenImmo\Classes\Haus;
  */
 class HausAnonymousPHPType
 {
-
     /**
      * @var string $haustyp
      */
@@ -34,7 +33,5 @@ class HausAnonymousPHPType
         $this->haustyp = $haustyp;
         return $this;
     }
-
-
 }
 

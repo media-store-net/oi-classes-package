@@ -7,7 +7,6 @@ namespace MediaStoreNet\OpenImmo\Classes\AussenCourtage;
  */
 class AussenCourtageAnonymousPHPType
 {
-
     /**
      * @var bool $mitMwst
      */
@@ -34,7 +33,5 @@ class AussenCourtageAnonymousPHPType
         $this->mitMwst = $mitMwst;
         return $this;
     }
-
-
 }
 

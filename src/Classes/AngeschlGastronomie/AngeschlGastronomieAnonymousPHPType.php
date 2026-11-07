@@ -7,7 +7,6 @@ namespace MediaStoreNet\OpenImmo\Classes\AngeschlGastronomie;
  */
 class AngeschlGastronomieAnonymousPHPType
 {
-
     /**
      * @var bool $hOTELRESTAURANT
      */
@@ -61,7 +60,5 @@ class AngeschlGastronomieAnonymousPHPType
         $this->bAR = $bAR;
         return $this;
     }
-
-
 }
 

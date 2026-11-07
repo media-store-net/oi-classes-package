@@ -7,7 +7,6 @@ namespace MediaStoreNet\OpenImmo\Classes\BreitbandZugang;
  */
 class BreitbandZugangAnonymousPHPType
 {
-
     /**
      * @var string $art
      */
@@ -61,7 +60,5 @@ class BreitbandZugangAnonymousPHPType
         $this->speed = $speed;
         return $this;
     }
-
-
 }
 

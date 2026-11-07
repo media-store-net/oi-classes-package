@@ -11,7 +11,5 @@ use MediaStoreNet\OpenImmo\Classes\MieteinnahmenIst\MieteinnahmenIstAnonymousPHP
  */
 class MieteinnahmenIst extends MieteinnahmenIstAnonymousPHPType
 {
-
-
 }
 

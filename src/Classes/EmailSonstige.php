@@ -9,7 +9,5 @@ use MediaStoreNet\OpenImmo\Classes\EmailSonstige\EmailSonstigeAnonymousPHPType;
  */
 class EmailSonstige extends EmailSonstigeAnonymousPHPType
 {
-
-
 }
 

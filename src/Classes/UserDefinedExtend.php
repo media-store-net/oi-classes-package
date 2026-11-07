@@ -9,7 +9,5 @@ use MediaStoreNet\OpenImmo\Classes\UserDefinedExtend\UserDefinedExtendAnonymousP
  */
 class UserDefinedExtend extends UserDefinedExtendAnonymousPHPType
 {
-
-
 }
 

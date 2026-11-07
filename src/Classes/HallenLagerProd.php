@@ -11,7 +11,5 @@ use MediaStoreNet\OpenImmo\Classes\HallenLagerProd\HallenLagerProdAnonymousPHPTy
  */
 class HallenLagerProd extends HallenLagerProdAnonymousPHPType
 {
-
-
 }
 

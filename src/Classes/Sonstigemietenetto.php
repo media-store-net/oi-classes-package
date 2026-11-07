@@ -7,11 +7,9 @@ use MediaStoreNet\OpenImmo\Classes\Sonstigemietenetto\SonstigemietenettoAnonymou
 /**
  * Class representing Sonstigemietenetto
  *
- * Ergänzenden Mietkosten, UmSt. im Attribut.
+ * ErgÃ¤nzenden Mietkosten, UmSt. im Attribut.
  */
 class Sonstigemietenetto extends SonstigemietenettoAnonymousPHPType
 {
-
-
 }
 

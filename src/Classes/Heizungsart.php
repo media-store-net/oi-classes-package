@@ -11,7 +11,5 @@ use MediaStoreNet\OpenImmo\Classes\Heizungsart\HeizungsartAnonymousPHPType;
  */
 class Heizungsart extends HeizungsartAnonymousPHPType
 {
-
-
 }
 

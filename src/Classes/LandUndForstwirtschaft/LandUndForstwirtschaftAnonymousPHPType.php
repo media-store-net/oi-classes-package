@@ -7,7 +7,6 @@ namespace MediaStoreNet\OpenImmo\Classes\LandUndForstwirtschaft;
  */
 class LandUndForstwirtschaftAnonymousPHPType
 {
-
     /**
      * @var string $landTyp
      */
@@ -34,7 +33,5 @@ class LandUndForstwirtschaftAnonymousPHPType
         $this->landTyp = $landTyp;
         return $this;
     }
-
-
 }
 

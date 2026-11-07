@@ -11,7 +11,5 @@ use MediaStoreNet\OpenImmo\Classes\Geokoordinaten\GeokoordinatenAnonymousPHPType
  */
 class Geokoordinaten extends GeokoordinatenAnonymousPHPType
 {
-
-
 }
 

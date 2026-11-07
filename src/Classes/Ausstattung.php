@@ -9,7 +9,5 @@ use MediaStoreNet\OpenImmo\Classes\Ausstattung\AusstattungAnonymousPHPType;
  */
 class Ausstattung extends AusstattungAnonymousPHPType
 {
-
-
 }
 

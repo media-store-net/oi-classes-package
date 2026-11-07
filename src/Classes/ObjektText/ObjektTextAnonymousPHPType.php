@@ -7,7 +7,6 @@ namespace MediaStoreNet\OpenImmo\Classes\ObjektText;
  */
 class ObjektTextAnonymousPHPType
 {
-
     /**
      * @var string $lang
      */
@@ -34,7 +33,5 @@ class ObjektTextAnonymousPHPType
         $this->lang = $lang;
         return $this;
     }
-
-
 }
 

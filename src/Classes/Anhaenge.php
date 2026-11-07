@@ -9,7 +9,5 @@ use MediaStoreNet\OpenImmo\Classes\Anhaenge\AnhaengeAnonymousPHPType;
  */
 class Anhaenge extends AnhaengeAnonymousPHPType
 {
-
-
 }
 

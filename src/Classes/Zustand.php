@@ -11,7 +11,5 @@ use MediaStoreNet\OpenImmo\Classes\Zustand\ZustandAnonymousPHPType;
  */
 class Zustand extends ZustandAnonymousPHPType
 {
-
-
 }
 

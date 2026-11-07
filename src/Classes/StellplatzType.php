@@ -10,7 +10,6 @@ namespace MediaStoreNet\OpenImmo\Classes;
  */
 class StellplatzType
 {
-
     /**
      * @var float $stellplatzmiete
      */
@@ -91,7 +90,5 @@ class StellplatzType
         $this->anzahl = $anzahl;
         return $this;
     }
-
-
 }
 

@@ -7,7 +7,6 @@ namespace MediaStoreNet\OpenImmo\Classes\Anhaenge;
  */
 class AnhaengeAnonymousPHPType
 {
-
     /**
      * @var \MediaStoreNet\OpenImmo\Classes\Anhang[] $anhang
      */
@@ -84,7 +83,7 @@ class AnhaengeAnonymousPHPType
      * @param \MediaStoreNet\OpenImmo\Classes\Anhang[] $anhang
      * @return self
      */
-    public function setAnhang(array $anhang)
+    public function setAnhang(?array $anhang = null)
     {
         $this->anhang = $anhang;
         return $this;
@@ -140,7 +139,7 @@ class AnhaengeAnonymousPHPType
      * @param \MediaStoreNet\OpenImmo\Classes\UserDefinedSimplefield[] $userDefinedSimplefield
      * @return self
      */
-    public function setUserDefinedSimplefield(array $userDefinedSimplefield)
+    public function setUserDefinedSimplefield(?array $userDefinedSimplefield = null)
     {
         $this->userDefinedSimplefield = $userDefinedSimplefield;
         return $this;
@@ -196,7 +195,7 @@ class AnhaengeAnonymousPHPType
      * @param \MediaStoreNet\OpenImmo\Classes\UserDefinedAnyfield[] $userDefinedAnyfield
      * @return self
      */
-    public function setUserDefinedAnyfield(array $userDefinedAnyfield)
+    public function setUserDefinedAnyfield(?array $userDefinedAnyfield = null)
     {
         $this->userDefinedAnyfield = $userDefinedAnyfield;
         return $this;
@@ -252,12 +251,10 @@ class AnhaengeAnonymousPHPType
      * @param \MediaStoreNet\OpenImmo\Classes\UserDefinedExtend\UserDefinedExtendAnonymousPHPType\FeldAnonymousPHPType[] $userDefinedExtend
      * @return self
      */
-    public function setUserDefinedExtend(array $userDefinedExtend)
+    public function setUserDefinedExtend(?array $userDefinedExtend = null)
     {
         $this->userDefinedExtend = $userDefinedExtend;
         return $this;
     }
-
-
 }
 

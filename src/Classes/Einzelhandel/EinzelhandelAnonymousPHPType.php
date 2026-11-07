@@ -7,7 +7,6 @@ namespace MediaStoreNet\OpenImmo\Classes\Einzelhandel;
  */
 class EinzelhandelAnonymousPHPType
 {
-
     /**
      * @var string $handelTyp
      */
@@ -34,7 +33,5 @@ class EinzelhandelAnonymousPHPType
         $this->handelTyp = $handelTyp;
         return $this;
     }
-
-
 }
 
